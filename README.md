@@ -1,5 +1,5 @@
 # WindFarmer Automation 
-A repository for to share some standard WindFarmer automation python examples and the dependencies required to run them.
+A repository sharing WindFarmer automation, examples and the dependencies required to run them.
 
 ## Clone this repository
 Download a local clone of this repository using Git. Git can be downloaded from [here](https://git-scm.com/download/win).
@@ -10,7 +10,7 @@ git clone https://github.com/dnv-opensource/WindFarmer-automation.git
 ```
 
 # Python setup
-To use the SDK, or Web API you will want to setup python. 
+To use the SDK, or Web API, and automate external WindFarmer you must install python and a development environment. 
 
 ## Install Miniconda Python
 Our demonstrations are built on top of miniconda. This is a minimal, free distribution of python:
