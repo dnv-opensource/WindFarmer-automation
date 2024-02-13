@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataLoaderSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProductName="WindFarmer - Analyst" ProductVersion="1.5.2 Beta">
+  <DataSourceSettings xsi:type="FlatFileDataSourceSettings">
+    <DataFileColumnCount>12</DataFileColumnCount>
+    <RawHeader>time,time,height,WS,WD,WD10,WS10,XLAT,XLON,crs,south_north,west_east
+</RawHeader>
+    <FlatFileParserSettings>
+      <Settings xsi:type="DelimitedFlatFileParserSettings">
+        <TextQualifier>None</TextQualifier>
+        <PaddingStrings />
+        <NumberFormat>CommaDot</NumberFormat>
+        <FieldDelimiter>Comma</FieldDelimiter>
+        <ConsecutiveDelimitersAsOne>false</ConsecutiveDelimitersAsOne>
+        <HeaderSettings xsi:type="DelimitedFixedLengthHeaderSettings">
+          <HeaderLength>1</HeaderLength>
+        </HeaderSettings>
+        <IsWDLSFormatSupported>false</IsWDLSFormatSupported>
+      </Settings>
+    </FlatFileParserSettings>
+    <FlatFileTimeStampSettings>
+      <Settings xsi:type="CombinedDateTime">
+        <TimeStampIntervalMinutes>10</TimeStampIntervalMinutes>
+        <TimeStampOffsetMinutes>0</TimeStampOffsetMinutes>
+        <Period>Start</Period>
+        <DateTimeColumn>1</DateTimeColumn>
+        <DateTimeFormat>Custom</DateTimeFormat>
+        <CustomDateTimeFormat>yyyy-MM-dd HH:mm:ss</CustomDateTimeFormat>
+        <IsMidnightMissing>true</IsMidnightMissing>
+      </Settings>
+    </FlatFileTimeStampSettings>
+  </DataSourceSettings>
+  <DataMappingSettings>
+    <DataMappings>
+      <DataMapping>
+        <ColumnNumber>4</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>NEWA_WS75</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>5</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>NEWA_WD75</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+    </DataMappings>
+  </DataMappingSettings>
+  <TargetProjectSettings>
+    <MeasurementSites>
+      <DataLoaderMeasurementSite>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <Notes />
+        <Guid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </Guid>
+        <Latitude>0</Latitude>
+        <Longitude>0</Longitude>
+      </DataLoaderMeasurementSite>
+    </MeasurementSites>
+    <Sensors>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>NEWA_WS75</SensorName>
+        <Height>75</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>4e7dfc26-40c4-4309-b521-9f087440eab4</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>Direction</MeasurementTypeName>
+        <SensorName>NEWA_WD75</SensorName>
+        <Height>75</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>7963f786-48f4-4267-a342-73146b279f85</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+    </Sensors>
+    <Signals>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>0df69577-c7da-4131-8e26-13d4b425be1c</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>4e7dfc26-40c4-4309-b521-9f087440eab4</Text>
+        </SensorGuid>
+        <SensorName>NEWA_WS75</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>b18cf6d4-b2b6-4c81-840f-8abd93448664</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>7963f786-48f4-4267-a342-73146b279f85</Text>
+        </SensorGuid>
+        <SensorName>NEWA_WD75</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+    </Signals>
+  </TargetProjectSettings>
+  <DataModelVersion>4.8.0.0</DataModelVersion>
+</DataLoaderSettings>

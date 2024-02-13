@@ -1,0 +1,20 @@
+name: wf_auto
+channels:
+  - conda-forge
+dependencies:
+  - python 3.9.*
+  - pip 
+  # for some examples
+  - numpy
+  - pandas
+  - matplotlib  
+  # For using the web API
+  - requests
+  - aiohttp
+  # for editing in VS code as jupyter notebooks
+  - ipython
+  - ipykernel 
+  - pip:
+    # to use the SDK
+    - pythonnet == 3.0.*
+    

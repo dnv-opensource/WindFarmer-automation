@@ -1,0 +1,13 @@
+Wind Speed	ws37N	37	334
+Wind Speed	ws48N	48	332
+Wind Speed	ws60N	60	332
+Pressure	P3	3	0
+Wind Speed	ws37S	37	198
+Wind Speed	ws48S	48	199
+Wind Speed	ws60S	60	199
+Temperature	T3	3	0
+Battery Voltage	V	0	0
+Direction	wd46	46	195
+Direction	wd57	57	196
+Temperature	Tlogger	2	0
+Pressure	Plogger	2	0

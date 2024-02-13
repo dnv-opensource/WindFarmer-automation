@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<!-- Style: Mast -->
+	<StyleMap id="msn_mast">			
+		<Pair>		
+			<key>normal</key>	
+			<styleUrl>#sn_mast</styleUrl>	
+		</Pair>		
+		<Pair>		
+			<key>highlight</key>	
+			<styleUrl>#sh_mast</styleUrl>	
+		</Pair>		
+	</StyleMap>			
+	<Style id="sn_mast">			
+		<IconStyle>		
+			<color>ffffaaaa</color>	
+			<scale>0.8</scale>	
+			<Icon>	
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>	
+		</IconStyle>		
+		<LabelStyle>		
+			<color>ffffaaaa</color>	
+			<scale>0.8</scale>	
+		</LabelStyle>		
+		<LineStyle>		
+			<color>ffffaaaa</color>	
+			<width>3</width>	
+		</LineStyle>		
+	</Style>			
+	<Style id="sh_mast">			
+		<IconStyle>		
+			<color>ffffdddd</color>	
+			<scale>0.8</scale>	
+			<Icon>	
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>	
+		</IconStyle>		
+		<LabelStyle>		
+			<color>ffffdddd</color>	
+			<scale>0.8</scale>	
+		</LabelStyle>		
+		<LineStyle>		
+			<color>ffffdddd</color>	
+			<width>3</width>	
+		</LineStyle>		
+	</Style>			
+	<!-- Style: Wind Rose-->
+	<StyleMap id="msn_wind-rose">					
+		<Pair>				
+			<key>normal</key>			
+			<styleUrl>#sn_wind-rose</styleUrl>			
+		</Pair>				
+		<Pair>				
+			<key>highlight</key>			
+			<styleUrl>#sh_wind-rose</styleUrl>			
+		</Pair>				
+	</StyleMap>	
+	<Style id="sn_wind-rose">				
+		<LineStyle>			
+			<color>70ffaa55</color>		
+			<width>2</width>		
+		</LineStyle>			
+		<PolyStyle>			
+			<color>70ffff55</color>		
+		</PolyStyle>			
+	</Style>				
+	<Style id="sh_wind-rose">				
+		<LineStyle>			
+			<color>ccffaa55</color>		
+			<width>2</width>		
+		</LineStyle>			
+		<PolyStyle>			
+			<color>ccffff55</color>		
+		</PolyStyle>			
+	</Style>								
+	<!-- Stype: Proposed Turbines -->
+	<StyleMap id="msn_proposed-turbine">			
+		<Pair>		
+			<key>normal</key>	
+			<styleUrl>#sn_proposed-turbine</styleUrl>	
+		</Pair>		
+		<Pair>		
+			<key>highlight</key>	
+			<styleUrl>#sh_proposed-turbine</styleUrl>	
+		</Pair>		
+	</StyleMap>			
+	<Style id="sn_proposed-turbine">			
+		<IconStyle>		
+			<color>ffd8d8d8</color>	
+			<scale>1.0</scale>	
+			<Icon>	
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>	
+		</IconStyle>		
+		<LabelStyle>		
+			<color>ffd8d8d8</color>	
+			<scale>0.8</scale>	
+		</LabelStyle>		
+		<LineStyle>		
+			<color>ffd8d8d8</color>	
+			<width>3</width>	
+		</LineStyle>		
+	</Style>			
+	<Style id="sh_proposed-turbine">			
+		<IconStyle>		
+			<color>ffffffff</color>	
+			<scale>1.0</scale>	
+			<Icon>	
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>	
+		</IconStyle>		
+		<LabelStyle>		
+			<color>ffffffff</color>	
+			<scale>0.8</scale>	
+		</LabelStyle>		
+		<LineStyle>		
+			<color>ffffffff</color>	
+			<width>3</width>	
+		</LineStyle>		
+	</Style>			
+	<!-- Style: Neighbouring Turbine -->
+	<StyleMap id="msn_neighbouring-turbine">			
+		<Pair>		
+			<key>normal</key>	
+			<styleUrl>#sn_neighbouring-turbine</styleUrl>	
+		</Pair>		
+		<Pair>		
+			<key>highlight</key>	
+			<styleUrl>#sh_neighbouring-turbine</styleUrl>	
+		</Pair>		
+	</StyleMap>			
+	<Style id="sn_neighbouring-turbine">			
+		<IconStyle>		
+			<color>ff00aaaa</color>	
+			<scale>1.0</scale>	
+			<Icon>	
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>	
+		</IconStyle>		
+		<LabelStyle>		
+			<color>ff00aaaa</color>	
+			<scale>0.8</scale>	
+		</LabelStyle>		
+		<LineStyle>		
+			<color>ff00aaaa</color>	
+			<width>3</width>	
+		</LineStyle>		
+	</Style>			
+	<Style id="sh_neighbouring-turbine">			
+		<IconStyle>		
+			<color>ff00e1e1</color>	
+			<scale>1.0</scale>	
+			<Icon>	
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>	
+		</IconStyle>		
+		<LabelStyle>		
+			<color>ff00e1e1</color>	
+			<scale>0.8</scale>	
+		</LabelStyle>		
+		<LineStyle>		
+			<color>ff00e1e1</color>	
+			<width>3</width>	
+		</LineStyle>		
+	</Style>			
+	<Folder>
+		<name>Project Template</name>
+		<Folder>
+			<name>Mast Template</name>
+			<Placemark>
+				<name>Wind Rose Template</name>
+				<description></description>
+				<styleUrl>#msn_wind-rose</styleUrl>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>Coordinates</coordinates>
+				</Point>
+				<Polygon>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>Coordinates</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Mast Node Template</name>
+				<description>Description</description>
+				<styleUrl>#msn_mast</styleUrl>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>Coordinates</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Turbines</name>				
+			<Placemark>				
+				<name>Proposed turbine template</name>
+				<!--<styleUrl>#msn_proposed-turbine</styleUrl> || <styleUrl>#msn_neighbouring-turbine</styleUrl>-->				
+				<styleUrl>Style</styleUrl>
+				<Point>			
+					<extrude>1</extrude>		
+					<altitudeMode>relativeToGround</altitudeMode>		
+					<coordinates>Coordinates</coordinates>		
+				</Point>
+				<Model>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<Location>
+						<longitude></longitude>
+						<latitude></latitude>
+						<altitude></altitude>
+					</Location>
+					<Orientation>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<roll>0</roll>
+					</Orientation>
+					<Scale>
+						<x>1.0</x>
+						<y>1.0</y>
+						<z>1.0</z>
+					</Scale>
+					<Link>
+						<href></href>
+					</Link>
+				</Model>
+			</Placemark>				
+		</Folder>					
+	</Folder>
+</Document>
+</kml>

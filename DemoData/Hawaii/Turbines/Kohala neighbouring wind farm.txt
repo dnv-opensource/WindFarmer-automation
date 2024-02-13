@@ -1,0 +1,12 @@
+Kohala 1	202059	2242844	Kohala wind farm	Generic Turbine 750kW
+Kohala 2	202180	2242688	Kohala wind farm	Generic Turbine 750kW
+Kohala 3	201850	2242676	Kohala wind farm	Generic Turbine 750kW
+Kohala 4	201902	2242497	Kohala wind farm	Generic Turbine 750kW
+Kohala 5	201907	2242323	Kohala wind farm	Generic Turbine 750kW
+Kohala 6	202216	2242499	Kohala wind farm	Generic Turbine 750kW
+Kohala 7	202422	2242838	Kohala wind farm	Generic Turbine 750kW
+Kohala 8	202546	2242605	Kohala wind farm	Generic Turbine 750kW
+Kohala 9	202352	2242226	Kohala wind farm	Generic Turbine 750kW
+Kohala 10	202008	2242174	Kohala wind farm	Generic Turbine 750kW
+Kohala 11	202424	2242012	Kohala wind farm	Generic Turbine 750kW
+Kohala 12	201751	2242842	Kohala wind farm	Generic Turbine 750kW

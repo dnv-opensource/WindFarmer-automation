@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataLoaderSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProductName="WindFarmer - Analyst" ProductVersion="1.3.5.1">
+  <DataSourceSettings xsi:type="FlatFileDataSourceSettings">
+    <DataFileColumnCount>6</DataFileColumnCount>
+    <RawHeader>Date/Time	MERRA C~ws50~Mean	MERRA E~ws50~Mean	MERRA N~ws50~Mean	MERRA S~ws50~Mean	MERRA W~ws50~Mean
+</RawHeader>
+    <FlatFileParserSettings>
+      <Settings xsi:type="DelimitedFlatFileParserSettings">
+        <TextQualifier>None</TextQualifier>
+        <PaddingStrings />
+        <NumberFormat>CommaDot</NumberFormat>
+        <FieldDelimiter>Tab</FieldDelimiter>
+        <ConsecutiveDelimitersAsOne>false</ConsecutiveDelimitersAsOne>
+        <HeaderSettings xsi:type="DelimitedFixedLengthHeaderSettings">
+          <HeaderLength>1</HeaderLength>
+        </HeaderSettings>
+        <IsWDLSFormatSupported>false</IsWDLSFormatSupported>
+      </Settings>
+    </FlatFileParserSettings>
+    <FlatFileTimeStampSettings>
+      <Settings xsi:type="CombinedDateTime">
+        <TimeStampIntervalMinutes>60</TimeStampIntervalMinutes>
+        <TimeStampOffsetMinutes>0</TimeStampOffsetMinutes>
+        <Period>Start</Period>
+        <DateTimeColumn>1</DateTimeColumn>
+        <DateTimeFormat>Custom</DateTimeFormat>
+        <CustomDateTimeFormat>dd/MM/yyyy HH:mm</CustomDateTimeFormat>
+        <IsMidnightMissing>true</IsMidnightMissing>
+      </Settings>
+    </FlatFileTimeStampSettings>
+  </DataSourceSettings>
+  <DataMappingSettings>
+    <DataMappings>
+      <DataMapping>
+        <ColumnNumber>2</ColumnNumber>
+        <MeasurementSiteName>MERRA C_Kohala</MeasurementSiteName>
+        <SensorName>ws50</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>3</ColumnNumber>
+        <MeasurementSiteName>MERRA E_Kohala</MeasurementSiteName>
+        <SensorName>ws50</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>4</ColumnNumber>
+        <MeasurementSiteName>MERRA N_Kohala</MeasurementSiteName>
+        <SensorName>ws50</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>5</ColumnNumber>
+        <MeasurementSiteName>MERRA S_Kohala</MeasurementSiteName>
+        <SensorName>ws50</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>6</ColumnNumber>
+        <MeasurementSiteName>MERRA W_Kohala</MeasurementSiteName>
+        <SensorName>ws50</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+    </DataMappings>
+  </DataMappingSettings>
+  <TargetProjectSettings>
+    <MeasurementSites>
+      <DataLoaderMeasurementSite>
+        <MeasurementSiteName>MERRA C_Kohala</MeasurementSiteName>
+        <Notes />
+        <Guid>
+          <Text>10e58729-66f9-49a4-a312-73bd96bf20bf</Text>
+        </Guid>
+        <Latitude>0</Latitude>
+        <Longitude>0</Longitude>
+      </DataLoaderMeasurementSite>
+      <DataLoaderMeasurementSite>
+        <MeasurementSiteName>MERRA E_Kohala</MeasurementSiteName>
+        <Notes />
+        <Guid>
+          <Text>17894d30-56f3-44b7-ac26-ec1eed017f10</Text>
+        </Guid>
+        <Latitude>0</Latitude>
+        <Longitude>0</Longitude>
+      </DataLoaderMeasurementSite>
+      <DataLoaderMeasurementSite>
+        <MeasurementSiteName>MERRA N_Kohala</MeasurementSiteName>
+        <Notes />
+        <Guid>
+          <Text>3a6ef3d6-9d71-44f8-9422-5f7756fa08e1</Text>
+        </Guid>
+        <Latitude>0</Latitude>
+        <Longitude>0</Longitude>
+      </DataLoaderMeasurementSite>
+      <DataLoaderMeasurementSite>
+        <MeasurementSiteName>MERRA S_Kohala</MeasurementSiteName>
+        <Notes />
+        <Guid>
+          <Text>08bc3c8d-22f6-430c-bf42-fee8cee0cc15</Text>
+        </Guid>
+        <Latitude>0</Latitude>
+        <Longitude>0</Longitude>
+      </DataLoaderMeasurementSite>
+      <DataLoaderMeasurementSite>
+        <MeasurementSiteName>MERRA W_Kohala</MeasurementSiteName>
+        <Notes />
+        <Guid>
+          <Text>3dda9a08-7392-484e-b840-783a0182abac</Text>
+        </Guid>
+        <Latitude>0</Latitude>
+        <Longitude>0</Longitude>
+      </DataLoaderMeasurementSite>
+    </MeasurementSites>
+    <Sensors>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>MERRA C_Kohala</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>ws50</SensorName>
+        <Height>50</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>c1df4c9d-6d19-4427-a3e5-4212fb3f5931</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>10e58729-66f9-49a4-a312-73bd96bf20bf</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>MERRA E_Kohala</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>ws50</SensorName>
+        <Height>50</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>2deb44cb-0d1b-4bd4-9506-5db727e95745</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>17894d30-56f3-44b7-ac26-ec1eed017f10</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>MERRA N_Kohala</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>ws50</SensorName>
+        <Height>50</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>19ef533f-94bf-4a0e-b0cc-97ee88f65b73</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>3a6ef3d6-9d71-44f8-9422-5f7756fa08e1</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>MERRA S_Kohala</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>ws50</SensorName>
+        <Height>50</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>f4b0da92-c21c-4daf-8272-fa4a354a47b7</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>08bc3c8d-22f6-430c-bf42-fee8cee0cc15</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>MERRA W_Kohala</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>ws50</SensorName>
+        <Height>50</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>46d2720b-b7fa-4317-95f9-bf140d3f5895</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>3dda9a08-7392-484e-b840-783a0182abac</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+    </Sensors>
+    <Signals>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>5ce26500-9072-4e19-8d4e-298b8f22e899</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>c1df4c9d-6d19-4427-a3e5-4212fb3f5931</Text>
+        </SensorGuid>
+        <SensorName>ws50</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>1b329f51-32f4-4c0d-8002-ca6e7acb1c42</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>2deb44cb-0d1b-4bd4-9506-5db727e95745</Text>
+        </SensorGuid>
+        <SensorName>ws50</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>1043f51e-6c17-42d0-ba7e-f171e40876a8</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>19ef533f-94bf-4a0e-b0cc-97ee88f65b73</Text>
+        </SensorGuid>
+        <SensorName>ws50</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>e363fa77-9d17-4d35-89f0-734237cd6574</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>f4b0da92-c21c-4daf-8272-fa4a354a47b7</Text>
+        </SensorGuid>
+        <SensorName>ws50</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>c2b6177f-da1a-4e4a-912f-65b476327d75</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>46d2720b-b7fa-4317-95f9-bf140d3f5895</Text>
+        </SensorGuid>
+        <SensorName>ws50</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+    </Signals>
+  </TargetProjectSettings>
+  <DataModelVersion>4.8.0.0</DataModelVersion>
+</DataLoaderSettings>

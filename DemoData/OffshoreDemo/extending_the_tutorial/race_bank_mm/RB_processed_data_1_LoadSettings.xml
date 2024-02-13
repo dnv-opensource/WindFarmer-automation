@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataLoaderSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProductName="WindFarmer - Analyst" ProductVersion="1.5.2 Beta">
+  <DataSourceSettings xsi:type="FlatFileDataSourceSettings">
+    <DataFileColumnCount>31</DataFileColumnCount>
+    <RawHeader>Date &amp; Time Stamp	90.2m Anemometer Mean	90.2m Anemometer Min	90.2m Anemometer Max	90.2m Anemometer Std Dev	90.2m Anemometer Max Gust	80.0m Anemometer Mean	80.0m Anemometer Min	80.0m Anemometer Max	80.0m Anemometer Std Dev	80.0m Anemometer Max Gust	70.0m Anemometer Mean	70.0m Anemometer Min	70.0m Anemometer Max	70.0m Anemometer Std Dev	70.0m Anemometer Max Gust	89.3m Windvane Mean	89.3m Windvane Std Dev	88.1m Windvane Mean	88.1m Windvane Std Dev	89.3m TemperatureSensor Mean	89.3m TemperatureSensor Min	89.3m TemperatureSensor Max	89.3m TemperatureSensor Std Dev	88.5m TemperatureSensor Mean	88.5m TemperatureSensor Min	88.5m TemperatureSensor Max	88.5m TemperatureSensor Std Dev	15.0m Battery Min	15.0m Other Mean	15.0m HumiditySensor Mean
+</RawHeader>
+    <FlatFileParserSettings>
+      <Settings xsi:type="DelimitedFlatFileParserSettings">
+        <TextQualifier>None</TextQualifier>
+        <PaddingStrings />
+        <NumberFormat>CommaDot</NumberFormat>
+        <FieldDelimiter>Tab</FieldDelimiter>
+        <ConsecutiveDelimitersAsOne>false</ConsecutiveDelimitersAsOne>
+        <HeaderSettings xsi:type="DelimitedFixedLengthHeaderSettings">
+          <HeaderLength>1</HeaderLength>
+        </HeaderSettings>
+        <IsWDLSFormatSupported>false</IsWDLSFormatSupported>
+      </Settings>
+    </FlatFileParserSettings>
+    <FlatFileTimeStampSettings>
+      <Settings xsi:type="CombinedDateTime">
+        <TimeStampIntervalMinutes>10</TimeStampIntervalMinutes>
+        <TimeStampOffsetMinutes>0</TimeStampOffsetMinutes>
+        <Period>Start</Period>
+        <DateTimeColumn>1</DateTimeColumn>
+        <DateTimeFormat>Custom</DateTimeFormat>
+        <CustomDateTimeFormat>dd/MM/yyyy HH:mm</CustomDateTimeFormat>
+        <IsMidnightMissing>true</IsMidnightMissing>
+      </Settings>
+    </FlatFileTimeStampSettings>
+  </DataSourceSettings>
+  <DataMappingSettings>
+    <DataMappings>
+      <DataMapping>
+        <ColumnNumber>2</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>WS90</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>7</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>WS80</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>12</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>WS70</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>17</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>WD89</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>19</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>WD81</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+      <DataMapping>
+        <ColumnNumber>21</ColumnNumber>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <SensorName>T89</SensorName>
+        <Signal>Mean</Signal>
+        <UserNotes />
+      </DataMapping>
+    </DataMappings>
+  </DataMappingSettings>
+  <TargetProjectSettings>
+    <MeasurementSites>
+      <DataLoaderMeasurementSite>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <Notes />
+        <Guid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </Guid>
+        <Latitude>0</Latitude>
+        <Longitude>0</Longitude>
+      </DataLoaderMeasurementSite>
+    </MeasurementSites>
+    <Sensors>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>WS90</SensorName>
+        <Height>90.2</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>0d0d8ec9-0670-42d4-b4ab-36188ebaa486</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>WS80</SensorName>
+        <Height>80</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>af54b325-0803-4ac6-9048-7eb2bf5045f9</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>WindSpeed</MeasurementTypeName>
+        <SensorName>WS70</SensorName>
+        <Height>70</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>4406e608-e6d4-40a9-b9db-f8d348055f30</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>Direction</MeasurementTypeName>
+        <SensorName>WD89</SensorName>
+        <Height>89.3</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>f6e814cb-ad3d-4fb9-aa8a-dcfdb44556c4</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>Temperature</MeasurementTypeName>
+        <SensorName>T89</SensorName>
+        <Height>89</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>41af1363-2d1e-4c5b-92b0-da34cbe44c04</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+      <DataLoaderMeasurementSiteSensor>
+        <MeasurementSiteName>RaceBankMM</MeasurementSiteName>
+        <MeasurementTypeName>Direction</MeasurementTypeName>
+        <SensorName>WD81</SensorName>
+        <Height>88.1</Height>
+        <Orientation>0</Orientation>
+        <Notes />
+        <Guid>
+          <Text>c312d8ca-c1cf-4c32-bcb4-361fc38f5423</Text>
+        </Guid>
+        <MeasurementSiteGuid>
+          <Text>ace6044d-6bc7-402b-8636-08abc60228ba</Text>
+        </MeasurementSiteGuid>
+        <MinimumValue>0</MinimumValue>
+        <MaximumValue>990</MaximumValue>
+      </DataLoaderMeasurementSiteSensor>
+    </Sensors>
+    <Signals>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>b296d3ae-bcee-4a4a-8ce4-327499937422</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>0d0d8ec9-0670-42d4-b4ab-36188ebaa486</Text>
+        </SensorGuid>
+        <SensorName>WS90</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>314240bd-0a39-4595-9ce4-ea0690952e34</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>af54b325-0803-4ac6-9048-7eb2bf5045f9</Text>
+        </SensorGuid>
+        <SensorName>WS80</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>5319953e-1718-45fd-b631-f8170768324d</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>4406e608-e6d4-40a9-b9db-f8d348055f30</Text>
+        </SensorGuid>
+        <SensorName>WS70</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>e6e92f2a-43fb-47e6-9383-f85acb6e8d64</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>f6e814cb-ad3d-4fb9-aa8a-dcfdb44556c4</Text>
+        </SensorGuid>
+        <SensorName>WD89</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>6e9608bc-abdb-48d4-9efc-8fde5a57e0bf</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>41af1363-2d1e-4c5b-92b0-da34cbe44c04</Text>
+        </SensorGuid>
+        <SensorName>T89</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+      <DataLoaderMeasurementSiteSignal>
+        <Guid>
+          <Text>2aac12cb-cab0-46cc-8ab3-f6c6fcfe9c39</Text>
+        </Guid>
+        <SensorGuid>
+          <Text>c312d8ca-c1cf-4c32-bcb4-361fc38f5423</Text>
+        </SensorGuid>
+        <SensorName>WD81</SensorName>
+        <SignalTypeName>Mean</SignalTypeName>
+      </DataLoaderMeasurementSiteSignal>
+    </Signals>
+  </TargetProjectSettings>
+  <DataModelVersion>4.8.0.0</DataModelVersion>
+</DataLoaderSettings>

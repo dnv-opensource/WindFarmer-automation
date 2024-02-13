@@ -1,0 +1,14 @@
+T01	199586	2242925	My Turbines	Hawaii 2.0 MW
+T02	199570	2242768	My Turbines	Hawaii 2.0 MW
+T03	199558	2242625	My Turbines	Hawaii 2.0 MW
+T04	199535	2242467	My Turbines	Hawaii 2.0 MW
+T05	200100	2243023	My Turbines	Hawaii 2.0 MW
+T06	200093	2242894	My Turbines	Hawaii 2.0 MW
+T07	200086	2242759	My Turbines	Hawaii 2.0 MW
+T08	200079	2242641	My Turbines	Hawaii 2.0 MW
+T10	200069	2242508	My Turbines	Hawaii 2.0 MW
+T11	200047	2242370	My Turbines	Hawaii 2.0 MW
+T12	200496	2243034	My Turbines	Hawaii 2.0 MW
+T13	200493	2242932	My Turbines	Hawaii 2.0 MW
+T14	200490	2242803	My Turbines	Hawaii 2.0 MW
+T15	200486	2242687	My Turbines	Hawaii 2.0 MW
