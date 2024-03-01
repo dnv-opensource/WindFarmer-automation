@@ -1,16 +1,15 @@
 # WindFarmer Automation 
-A repository sharing WindFarmer automation, examples and the dependencies required to run them.
+A repository for to share some standard WindFarmer automation python examples and the dependencies required to run them.
+
+# Setup your workspace to automate WindFarmer
 
 ## Clone this repository
 Download a local clone of this repository using Git. Git can be downloaded from [here](https://git-scm.com/download/win).
 
 Open a Git bash terminal where you would like the repository to be saved (e.g. ```C:\Repos```) then run:
 ```
-git clone https://github.com/dnv-opensource/WindFarmer-automation.git
+git clone http://tfs.stp.dnvgl.com:8080/tfs/DefaultCollection/PlanningTools/_git/WindFarmerAutomation
 ```
-
-# Python setup
-To use the SDK, or Web API, and automate external WindFarmer you must install python and a development environment. 
 
 ## Install Miniconda Python
 Our demonstrations are built on top of miniconda. This is a minimal, free distribution of python:
@@ -27,7 +26,7 @@ conda env create -f environment.yml
 ```
 
 ## Install the windfarmer python package
-Optional - The source folder contains the windfarmer python package code. Currently this only has one function to connect to the WindFarmer python SDK, you could also simply copy this module into your application. To run our python SDK examples as-is however you must build this package and install it. 
+The source folder contains the windfarmer python package code. Currently this only has one function to connect to the WindFarmer python SDK. To run our python SDK examples you must build this package and install it to use it within other scripts. 
 1. Open the file ```Source\build_and_install.bat``` and edit line 2 to be the location of the ```Source``` folder on your machine. 
 2. Copy-paste the contents of this file into a command prompt window (Start menu > type cmd.exe and open)
 3. Hit return and close cmd.exe
