@@ -1,0 +1,22 @@
+name: wf_auto_geopandas
+channels:
+  - conda-forge
+dependencies:
+  - python 3.9.*
+  - pip 
+  # for some examples
+  - numpy
+  - geopandas
+  - contextily
+  - matplotlib  
+  - seaborn
+  # For using the web API
+  - requests
+  - aiohttp
+  # for editing in VS code as jupyter notebooks
+  - ipython
+  - ipykernel 
+  - pip:
+    # to use the SDK
+    - pythonnet == 3.0.*
+    

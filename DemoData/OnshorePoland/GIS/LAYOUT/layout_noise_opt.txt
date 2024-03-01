@@ -1,0 +1,8 @@
+Turbine 4	389267.451788018	553385.631044072	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	96	
+Turbine 5	388880.36947524	550944.117235835	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	90	
+Turbine 6	389438.963906052	550101.269630708	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	93	
+Turbine 7	388559.454140922	551559.914221347	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	96	
+Turbine 8	388211.546337266	552260.809509961	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	90	
+Turbine 9	388547.146263228	552970.86967344	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	90	
+Turbine 10	387756.401914914	552621.084906146	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	95	
+Turbine 12	389568.231102426	549073.418850822	Subject	Bladed Concept Model 6.2-MW 162-D Onshore	False	140	100	

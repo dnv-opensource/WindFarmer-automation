@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CurtailmentsFile>
+	<FileVersion>0.0.0.3</FileVersion>
+	<TurbineCurtailments>
+		<TurbineCurtailment>
+			<WindFarmName/>
+			<TurbineName/>
+			<CurtailmentTypeName/>
+			<ActiveMode/>
+		</TurbineCurtailment>
+	</TurbineCurtailments>
+</CurtailmentsFile>
