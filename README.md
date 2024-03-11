@@ -8,7 +8,7 @@ Download a local clone of this repository using Git. Git can be downloaded from 
 
 Open a Git bash terminal where you would like the repository to be saved (e.g. ```C:\Repos```) then run:
 ```
-git clone http://tfs.stp.dnvgl.com:8080/tfs/DefaultCollection/PlanningTools/_git/WindFarmerAutomation
+git clone https://github.com/dnv-opensource/WindFarmer-automation.git
 ```
 
 ## Install Miniconda Python
