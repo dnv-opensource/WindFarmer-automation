@@ -3068,10 +3068,11 @@
       ]
     }
   ],
+  "weibullWindClimates": null,
   "referenceAirDensity": {
-    "airDensity_kg_per_m3": 1.2074659662421303,
+    "airDensity_kg_per_m3": 1.20805,
     "lapseRate_kg_per_m3_per_m": -0.000113,
-    "elevation_m": 155.16844033513027
+    "elevation_m": 150.0
   },
   "flowModel": {
     "referenceDirections_degrees": [
@@ -3673,7 +3674,6 @@
   },
   "energyEfficienciesSettings": {
     "calculateEfficiencies": false,
-    "calculateBlockage": true,
     "calculateIdealYield": false,
     "includeHysteresisEffect": true,
     "includeTurbineManagement": true,
@@ -3692,23 +3692,65 @@
       "outputOperationalMode": false,
       "localTurbineWindSpeedsOutputSettings": null
     },
-    "turbineInteractionModelSettings": {
-      "wakeModelType": "EddyViscosity",
-      "largeWindFarmCorrectionParameters": {
-        "baseRoughnessZ01": 0.0002,
-        "increasedRoughnessZ02": 0.0192,
-        "geometricWidthDiameters": 1.0,
-        "recoveryStartDiameters": 120.0,
-        "fiftyPercentRecoveryDiameters": 40.0
-      },
-      "useCloselySpacedTurbinesWakeModification": false,
-      "wakeProfileIntegrationMethod": "Analytical",
-      "extrapolationAmbientTurbulence": "ModelDefault"
-    },
-    "blockageSettings": {
-      "significantAtmosphericStability": false
-    },
     "numberOfDirectionSectorsForWakeCalculation": 180,
-    "maximumWindSpeedForEvaluation_m_per_s": 0.0
+    "maximumWindSpeedForEvaluation_m_per_s": 0.0,
+    "extrapolationAmbientTurbulence": "ModelDefault",
+    "wakeModel": {
+      "wakeModelType": "EddyViscosity",
+      "eddyViscosity": {
+        "useLargeWindFarmModel": true,
+        "largeWindFarmCorrectionParameters": {
+          "baseRoughnessZ01": 0.0002,
+          "increasedRoughnessZ02": 0.0192,
+          "geometricWidthDiameters": 1.0,
+          "recoveryStartDiameters": 120.0,
+          "fiftyPercentRecoveryDiameters": 40.0
+        },
+        "useCloselySpacedTurbinesWakeModification": false,
+        "wakeProfileIntegrationMethod": "Analytical"
+      },
+      "modifiedPark": {
+        "useLargeWindFarmModel": true,
+        "largeWindFarmCorrectionParameters": {
+          "baseRoughnessZ01": 0.0002,
+          "increasedRoughnessZ02": 0.0192,
+          "geometricWidthDiameters": 1.0,
+          "recoveryStartDiameters": 120.0,
+          "fiftyPercentRecoveryDiameters": 40.0
+        }
+      },
+      "turbOPark": {
+        "wakeExpansion": 0.04
+      },
+      "cfdml": {
+        "gnnType": "Offshore",
+        "gnnStabilityClass": "UnstableNeutral"
+      },
+      "noWakeModel": {
+        "useLargeWindFarmModel": true,
+        "largeWindFarmCorrectionParameters": {
+          "baseRoughnessZ01": 0.0002,
+          "increasedRoughnessZ02": 0.0192,
+          "geometricWidthDiameters": 1.0,
+          "recoveryStartDiameters": 120.0,
+          "fiftyPercentRecoveryDiameters": 40.0
+        }
+      }
+    },
+    "blockageModel": {
+      "blockageModelType": "BEET",
+      "beet": {
+        "significantAtmosphericStability": false,
+        "inclusionOfNeighborsBufferZoneInMeters": 1000.0,
+        "blockageCorrectionApplicationMethod": "OnEnergy"
+      },
+      "cfdml": {
+        "cfdmlSettings": {
+          "gnnType": "Offshore",
+          "gnnStabilityClass": "UnstableNeutral"
+        },
+        "blockageCorrectionApplicationMethod": "OnEnergy"
+      }
+    }
   }
 }

@@ -5613,8 +5613,10 @@
         "wakeExpansion": 0.04
       },
       "cfdml": {
-		    "gnnType": "Onshore"
-	    },
+		  "gnnType": "Onshore",
+		  "gnnStabilityType": "UnstableNeutral",
+		  "gnnVersion": "1.1"
+	  },
       "noWakeModel": {
         "useLargeWindFarmModel": true,
         "largeWindFarmCorrectionParameters": {
@@ -5633,12 +5635,11 @@
         "inclusionOfNeighborsBufferZoneInMeters": 1000.0,
         "blockageCorrectionApplicationMethod": "OnEnergy"
       },
-      "cfdml": {
-        "cfdmlSettings":{  
-          "gnnType": "Onshore"
-        },
+	  "cfdml": {
+		"cfdmlSettings":{		  
+		  "gnnType": "Onshore"},
         "blockageCorrectionApplicationMethod": "OnEnergy"
-      }
+	  }
     }
   }
 }

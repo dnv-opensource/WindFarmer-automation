@@ -3263,6 +3263,7 @@
       ]
     }
   ],
+  "weibullWindClimates": null,
   "referenceAirDensity": {
     "airDensity_kg_per_m3": 1.2074685102389866,
     "lapseRate_kg_per_m3_per_m": -0.000113,
@@ -4128,7 +4129,6 @@
   },
   "energyEfficienciesSettings": {
     "calculateEfficiencies": false,
-    "calculateBlockage": true,
     "calculateIdealYield": false,
     "includeHysteresisEffect": true,
     "includeTurbineManagement": true,
@@ -4177,7 +4177,10 @@
       "turbOPark": {
         "wakeExpansion": 0.04
       },
-      "cfdml": null,
+      "cfdml": {
+        "gnnType": "Offshore",
+        "gnnStabilityClass": "UnstableNeutral"
+      },
       "noWakeModel": {
         "useLargeWindFarmModel": true,
         "largeWindFarmCorrectionParameters": {
@@ -4194,6 +4197,13 @@
       "beet": {
         "significantAtmosphericStability": false,
         "inclusionOfNeighborsBufferZoneInMeters": 1000.0,
+        "blockageCorrectionApplicationMethod": "OnEnergy"
+      },
+      "cfdml": {
+        "cfdmlSettings": {
+          "gnnType": "Offshore",
+          "gnnStabilityClass": "UnstableNeutral"
+        },
         "blockageCorrectionApplicationMethod": "OnEnergy"
       }
     }
