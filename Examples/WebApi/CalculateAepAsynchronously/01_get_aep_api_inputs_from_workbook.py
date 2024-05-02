@@ -2,7 +2,7 @@
 #%% User inputs - Connect to the WindFarmer desktop SDK
 #  Identify the installation folder for the version of WindFarmer you wish to use. 
 import windfarmer.sdk
-windfarmer_installation_folder = r'C:\Program Files\DNV\WindFarmer - Analyst 1.3.7.1'
+windfarmer_installation_folder = r'C:\Program Files\DNV\WindFarmer - Analyst 1.5.4'
 wf = windfarmer.sdk.Sdk(windfarmer_installation_folder)
 print(' > SDK is now up and running!')
 

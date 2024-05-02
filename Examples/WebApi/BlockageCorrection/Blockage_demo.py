@@ -15,7 +15,7 @@ import time
 
 # To access the API you need a authorization token. This should be kept secure - and not added to source control, so I'm getting it from an environment variable.
 # The token should be passed as an Authorization header. We also need to set the `Content-Type` to let the API know that we're sending JSON data.
-api_url = 'https://windfarmer.dnv.com/api/v1/'
+api_url = 'https://windfarmer.dnv.com/api/v2/'
 auth_token = auth_token = os.environ['WINDFARMER_ACCESS_KEY']
 
 headers = {

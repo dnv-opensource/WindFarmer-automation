@@ -6,7 +6,7 @@
 		blockage_correction_application_method = "OnEnergy" # "OnWindSpeed" / "OnEnergy"
 		relative_results_folder_path = "10.Energy\\03.Losses\\CFDMLBlockage" # path to results relative to workbook 
 		envVariableName = "WINDFARMER_ACCESS_KEY" # See setup instructions for saving your access key as an environment variable: https://myworkspace.dnv.com/download/public/renewables/windfarmer/manuals/latest/WebAPI/Introduction/gettingStarted.html
-		baseUrl = 'https://windfarmer.uat.dnv.com/api/v2/' # CFD.ML currently only available on UAT
+		baseUrl = 'https://windfarmer.dnv.com/api/v2/' # CFD.ML available in v2
 		number_of_direction_steps = 180
 
 		# imports
