@@ -5583,7 +5583,7 @@
       "localTurbineWindSpeedsOutputSettings": null
     },
     "numberOfDirectionSectorsForWakeCalculation": 180,
-    "maximumWindSpeedForEvaluation_m_per_s": 0.0,
+    "maximumWindSpeedForEvaluation_m_per_s": 30.0,
     "extrapolationAmbientTurbulence": "ModelDefault",
     "wakeModel": {
       "wakeModelType": "EddyViscosity",
@@ -5614,7 +5614,6 @@
       },
       "cfdml": {
 		  "gnnType": "Onshore",
-		  "gnnStabilityType": "UnstableNeutral",
 		  "gnnVersion": "1.1"
 	  },
       "noWakeModel": {
@@ -5633,12 +5632,13 @@
       "beet": {
         "significantAtmosphericStability": false,
         "inclusionOfNeighborsBufferZoneInMeters": 1000.0,
-        "blockageCorrectionApplicationMethod": "OnEnergy"
+        "blockageCorrectionApplicationMethod": "OnWindSpeed"
       },
 	  "cfdml": {
 		"cfdmlSettings":{		  
 		  "gnnType": "Onshore"},
-        "blockageCorrectionApplicationMethod": "OnEnergy"
+        "blockageCorrectionApplicationMethod": "OnWindSpeed",
+        "cfdmlBlockageWindSpeedDependency": "FromBlockageExtrapolationCurve"
 	  }
     }
   }

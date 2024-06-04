@@ -4178,8 +4178,7 @@
         "wakeExpansion": 0.04
       },
       "cfdml": {
-        "gnnType": "Offshore",
-        "gnnStabilityClass": "UnstableNeutral"
+        "gnnType": "Offshore"
       },
       "noWakeModel": {
         "useLargeWindFarmModel": true,
