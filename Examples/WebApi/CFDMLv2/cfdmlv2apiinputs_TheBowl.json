@@ -5590,14 +5590,12 @@
             "eddyViscosity": {
                 "useLargeWindFarmModel": true,
                 "largeWindFarmCorrectionParameters": {
-                    "baseRoughnessZ01": 0.02,
-                    "increasedRoughnessZ02": 0.07,
+                    "baseRoughnessZ01": 0.03,
+                    "increasedRoughnessZ02": 0.06,
                     "geometricWidthDiameters": 1.0,
                     "recoveryStartDiameters": 120.0,
-                    "fiftyPercentRecoveryDiameters": 60.0
-                },
-                "useCloselySpacedTurbinesWakeModification": false,
-                "wakeProfileIntegrationMethod": "Analytical"
+                    "fiftyPercentRecoveryDiameters": 40.0
+                }
             },
             "modifiedPark": {
                 "useLargeWindFarmModel": true,
@@ -5615,7 +5613,7 @@
             "cfdml": {
                 "gnnType": "Offshore",
                 "gnnVersion": "2.2.0",
-                "extrapolationModel": "BasicFlat"
+                "extrapolationModel": "EddyViscosity"
             },
             "noWakeModel": {
                 "useLargeWindFarmModel": true,
@@ -5645,13 +5643,11 @@
             }
         }
     },
-    "boundaryLayerExtensionToWindClimates": {
-        "boundaryLayerClasses": [
+    "atmosphericConditions": {
+        "atmosphericConditionClasses": [
             {
                 "id": "onshore-unstable",
                 "parameters": {
-                    "referenceHubHeight_m": 98.0,
-                    "referenceTipHeight_m": 166.0,
                     "turbulenceIntensityAtHubHeight": 0.13822,
                     "turbulenceIntensityAtTipHeight": 0.13222,
                     "windSpeedVerticalGradientHubHeight_per_m": 0.00922,
@@ -5665,8 +5661,6 @@
             {
                 "id": "onshore-stable",
                 "parameters": {
-                    "referenceHubHeight_m": 98.0,
-                    "referenceTipHeight_m": 166.0,
                     "turbulenceIntensityAtHubHeight": 0.0649,
                     "turbulenceIntensityAtTipHeight": 0.0405,
                     "windSpeedVerticalGradientHubHeight_per_m": 0.023694,
@@ -5678,11 +5672,11 @@
                 }
             }
         ],
-        "boundaryLayerProbabilityDistribution": [
+        "atmosphericConditionProbabilityDistribution": [
             {
                 "fromDirection_degrees": 345,
                 "toDirection_degrees": 115,
-                "boundaryLayerClassIds": [
+                "atmosphericConditionClassIds": [
                     "onshore-stable",
                     "onshore-unstable"
                 ],
@@ -5694,7 +5688,7 @@
             {
                 "fromDirection_degrees": 115,
                 "toDirection_degrees": 285,
-                "boundaryLayerClassIds": [
+                "atmosphericConditionClassIds": [
                     "onshore-stable",
                     "onshore-unstable"
                 ],
@@ -5706,7 +5700,7 @@
             {
                 "fromDirection_degrees": 285,
                 "toDirection_degrees": 345,
-                "boundaryLayerClassIds": [
+                "atmosphericConditionClassIds": [
                     "onshore-stable",
                     "onshore-unstable"
                 ],
