@@ -1,6 +1,6 @@
-# Batch calculate Annual Energy Production using the web API
+# Calculate Annual Energy Production using the web API
 
-This batch of scripts demonstrates how you may go from a WindFarmer desktop setup through to using the WindFarmer web API. 
+This batch of scripts demonstrates how you may go from a WindFarmer desktop .wwx file workbook through to using the WindFarmer web API and making asynchronous API calls. 
 
 ## Demo summary
 1. Web API input json files are generated for every layout scenario in  every workbook in a folder of WindFarmer Workbooks using the windfarmer SDK. 

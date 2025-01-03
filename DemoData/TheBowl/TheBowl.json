@@ -5635,11 +5635,12 @@
         "blockageCorrectionApplicationMethod": "OnWindSpeed"
       },
 	  "cfdml": {
-		"cfdmlSettings":{		  
-		  "gnnType": "Onshore"},
+		  "cfdmlSettings":{
+        "gnnType": "Onshore"
+        },
         "blockageCorrectionApplicationMethod": "OnWindSpeed",
         "cfdmlBlockageWindSpeedDependency": "FromBlockageExtrapolationCurve"
-	  }
+	    }
     }
   }
 }

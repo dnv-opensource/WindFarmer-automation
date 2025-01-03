@@ -1,50 +1,24 @@
 # WindFarmer Automation 
-A repository for to share some standard WindFarmer automation python examples and the dependencies required to run them.
-
-# Setup your workspace to automate WindFarmer
+This repository shares some WindFarmer automation examples and the dependencies required to run them, including demo data. Examples are included for:
+1. Using the WindFarmer Automation module features that automate the WindFarmer desktop functions, either via
+  * python automations with the SDK: [Examples\Sdk](./Examples/Sdk/README.md)
+  * in-app automations using python or C#: [Examples\InApp](./Examples/InApp/README.md) 
+2. Examples for calling the Web API to compute AEP or Blockage Corrections using DNV's cloud compute, including how to run the CFD.ML turbine interaction model calculations: Examples\WebApi
 
 ## Clone this repository
-Download a local clone of this repository using Git. Git can be downloaded from [here](https://git-scm.com/download/win).
+You can download a local clone of this repository using Git. Git can be downloaded from [here](https://git-scm.com/download/win).
 
 Open a Git bash terminal where you would like the repository to be saved (e.g. ```C:\Repos```) then run:
 ```
 git clone https://github.com/dnv-opensource/WindFarmer-automation.git
 ```
 
-## Install Miniconda Python
-Our demonstrations are built on top of miniconda. This is a minimal, free distribution of python:
-Install for Windows from: https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe 
+## Setup required to run WindFarmer Desktop automations via the SDK
+First see [Python setup](https://mysoftware.dnv.com/download/public/renewables/windfarmer/manuals/latest/Automation/SDK/pythonSetup.html), if you haven't already set up python tools to run the web API, then [SDK introduction](https://mysoftware.dnv.com/download/public/renewables/windfarmer/manuals/latest/Automation/SDK/sdkIntro.html) for more information on using the SDK.
 
-## Create the WindFarmer automation python environment
-We will use a conda environment to ensure that you have all the necessary dependencies to run WindFarmer Automation examples.
-
-For a quick setup, run the ```Source\create_wf_auto_env.bat``` file (double click on it within file explorer) to create the wf_auto environment. 
-
-Alternatively open anaconda prompt, cd into the ```Source``` folder and create the environement defined in the ```environment.yml``` file with the following command:
-```
-conda env create -f environment.yml
-```
-
-## Install the windfarmer python package
-The source folder contains the windfarmer python package code. Currently this only has one function to connect to the WindFarmer python SDK. To run our python SDK examples you must build this package and install it to use it within other scripts. 
-1. Open the file ```Source\build_and_install.bat``` and edit line 2 to be the location of the ```Source``` folder on your machine. 
-2. Copy-paste the contents of this file into a command prompt window (Start menu > type cmd.exe and open)
-3. Hit return and close cmd.exe
-4. Now you should have the windfarmer package installed into the wf_auto environment. You can check this worked correctly by running a simple script to test importing the package: Tests\test_windfarmer_Sdk.py
-
-## Setup your python IDE: Visual studio code
-Feel free to use the IDE of your choice, but we will use Visual studio Code in our examples. 
-
-Install VS Code for free from: https://code.visualstudio.com/
-
-Next, install the Python extension for VS Code from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python). The Python extension is named Python and it's published by Microsoft.
-
-### Choose the Python environment
-In VS code use Ctrl+Shift+P to open the Command Pallete they type "Python: Select Interpreter". Select wf_auto to activate it for demos. 
-
-For notebooks you may be asked what environment to use first time you run, or you can select in the top right of the interpreter.  
- 
-For python scripts, the environment is shown bottom right of the UI.
- 
-### Set a default python environment
-If you'd like to set up a default interpreter in VS code to use at startup, you can edit the entry for ```python.defaultInterpreterPath``` manually inside your User Settings. To do so, open the Command Palette (Ctrl+Shift+P) and enter Preferences: Open User Settings. Find then set python.defaultInterpreterPath to the location of your prefered interpreter.
+## Setup required to run WindFarmer Web API automations
+See [WindFarmer Services API - getting started](https://mysoftware.dnv.com/download/public/renewables/windfarmer/manuals/latest/WebAPI/Introduction/gettingStarted.html) for guidance on how to install the toolchain required to run web API automations, including:
+a.	Software installation: an “IDE” for running Python scripts, and Python 
+b.  Aquiring your web API access key
+c.	Downloading the example scripts presented here
+d.  Checking your Web API connection
