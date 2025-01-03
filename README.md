@@ -1,8 +1,8 @@
 # WindFarmer Automation 
 This repository shares some WindFarmer automation examples and the dependencies required to run them, including demo data. Examples are included for:
 1. Using the WindFarmer Automation module features that automate the WindFarmer desktop functions, either via
-  * python automations with the SDK: [Examples\Sdk](./Examples/Sdk/README.md)
-  * in-app automations using python or C#: [Examples\InApp](./Examples/InApp/README.md) 
+  * python automations with the SDK: [Examples\Sdk](./Examples/Sdk)
+  * in-app automations using python or C#: [Examples\InApp](./Examples/InApp) 
 2. Examples for calling the Web API to compute AEP or Blockage Corrections using DNV's cloud compute, including how to run the CFD.ML turbine interaction model calculations: [Examples\WebApi](./Examples/WebApi) 
 
 ## Clone this repository
