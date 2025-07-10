@@ -18,7 +18,9 @@ class Sdk:
         try:
             runtime_config_path = os.path.join(windfarmer_binary_path, "GH.WindFarmer.runtimeconfig.json")
             rt = clr_loader.get_coreclr(runtime_config=str(runtime_config_path))
-            pythonnet.set_runtime(rt)
+            # in the case pythonnet has already been initialized, we can skip setting the runtime again, otherwise this throws an exception
+            if pythonnet.get_runtime_info() is None: 
+                pythonnet.set_runtime(rt)
             import clr
             if verbose:
                 print(f"Successfullt initialized .NET Core CLR runtime.")
