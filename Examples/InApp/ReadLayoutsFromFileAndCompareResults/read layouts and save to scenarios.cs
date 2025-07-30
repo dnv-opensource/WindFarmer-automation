@@ -160,8 +160,14 @@ public void Execute()
 		}
 	
 	    // Export wind farm results to excel
-		Toolbox.WriteRangeToExcel(windFarmResultsFilePath, "Results", "A1:J" + (numberOfWindFarms + 1).ToString(), windFarmResultsToExcel);			
-		Process.Start(windFarmResultsFilePath);
+		Toolbox.WriteRangeToExcel(windFarmResultsFilePath, "Results", "A1:J" + (numberOfWindFarms + 1).ToString(), windFarmResultsToExcel);
+		ProcessStartInfo startInfo = new ProcessStartInfo
+		{
+			FileName = "excel.exe",
+			UseShellExecute = true,
+			Arguments = windFarmResultsFilePath
+		};		
+		Process.Start(startInfo);
 		
 		Toolbox.Log( "Multi-layout comparisson complete");
 	}
