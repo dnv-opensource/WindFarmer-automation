@@ -10,6 +10,7 @@
 		number_of_direction_steps = 180
 
 		# imports
+		clr.AddReference('System')
 		clr.AddReference('System.Net.Http')
 		from System.Net.Http import HttpClient, Headers
 		from System import Uri
