@@ -1,4 +1,9 @@
 {
+    "projectInfo": {
+        "projectId": "TheBowl",
+        "siteLatitude": 36.5,
+        "siteLongitude": -75.1
+    },
     "windFarms": [
         {
             "name": "Farm",
@@ -349,21 +354,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T24",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95071.46056,
-                        "northing_m": 102954.606,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T25",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -454,21 +444,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T31",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95226.27882,
-                        "northing_m": 101980.8833,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T32",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -529,21 +504,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T36",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94109.57072,
-                        "northing_m": 102959.5232,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T37",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -568,21 +528,6 @@
                     "location": {
                         "easting_m": 105070.8503,
                         "northing_m": 101675.5023,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T39",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95581.83461,
-                        "northing_m": 101018.9576,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -628,21 +573,6 @@
                     "location": {
                         "easting_m": 104064.8956,
                         "northing_m": 100469.8368,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T43",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94287.48705,
-                        "northing_m": 101923.2894,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -709,21 +639,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T48",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 93194.31857,
-                        "northing_m": 103138.9609,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T49",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -748,21 +663,6 @@
                     "location": {
                         "easting_m": 105119.2495,
                         "northing_m": 100746.6327,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T51",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94660.75552,
-                        "northing_m": 100894.7398,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -829,21 +729,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T56",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 93367.55262,
-                        "northing_m": 102031.5079,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T57",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -874,21 +759,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T59",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95224.39096,
-                        "northing_m": 99906.84185,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T60",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -898,21 +768,6 @@
                     "location": {
                         "easting_m": 102365.333,
                         "northing_m": 98656.19306,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T61",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 92330.2663,
-                        "northing_m": 103470.2371,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -943,21 +798,6 @@
                     "location": {
                         "easting_m": 105010.4035,
                         "northing_m": 99827.44364,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T64",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 93735.55408,
-                        "northing_m": 100927.1578,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1024,21 +864,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T69",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 92476.20668,
-                        "northing_m": 102288.6478,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T70",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1063,21 +888,6 @@
                     "location": {
                         "easting_m": 106121.421,
                         "northing_m": 100288.1136,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T72",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94296.07591,
-                        "northing_m": 99858.44862,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1144,21 +954,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T77",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 92818.9186,
-                        "northing_m": 101104.3034,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T78",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1189,21 +984,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T80",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95042.3094,
-                        "northing_m": 98857.01687,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T81",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1213,21 +993,6 @@
                     "location": {
                         "easting_m": 103088.417,
                         "northing_m": 97879.38267,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T82",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 91623.91011,
-                        "northing_m": 102681.8861,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1258,21 +1023,6 @@
                     "location": {
                         "easting_m": 105952.27,
                         "northing_m": 99362.16939,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T85",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 93358.30084,
-                        "northing_m": 99949.46545,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1339,21 +1089,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T90",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 91923.34302,
-                        "northing_m": 101416.8502,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T91",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1384,21 +1119,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T93",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94089.51501,
-                        "northing_m": 98855.94823,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T94",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1408,21 +1128,6 @@
                     "location": {
                         "easting_m": 102504.8779,
                         "northing_m": 97124.10099,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T95",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 90821.21471,
-                        "northing_m": 103200.3293,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1474,21 +1179,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T99",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 92301.62217,
-                        "northing_m": 100070.5327,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T100",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1519,21 +1209,6 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
-                    "name": "T102",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94984.0706,
-                        "northing_m": 97821.55078,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
                     "name": "T103",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1543,21 +1218,6 @@
                     "location": {
                         "easting_m": 103857.9287,
                         "northing_m": 97250.19536,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T104",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 91094.53697,
-                        "northing_m": 101874.1503,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1588,21 +1248,6 @@
                     "location": {
                         "easting_m": 106806.6401,
                         "northing_m": 99136.60741,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.058844363888096704
-                },
-                {
-                    "name": "T107",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 93231.51925,
-                        "northing_m": 99101.65035,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1656,6 +1301,373 @@
             ],
             "isNeighbor": false,
             "includeInBlockageCalculation": true
+        },
+        {
+            "name": "Neighbour",
+            "turbines": [
+                {
+                    "name": "T24",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95071.46056,
+                        "northing_m": 102954.606,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T31",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95226.27882,
+                        "northing_m": 101980.8833,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T36",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94109.57072,
+                        "northing_m": 102959.5232,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T39",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95581.83461,
+                        "northing_m": 101018.9576,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T43",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94287.48705,
+                        "northing_m": 101923.2894,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T48",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 93194.31857,
+                        "northing_m": 103138.9609,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T51",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94660.75552,
+                        "northing_m": 100894.7398,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T56",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 93367.55262,
+                        "northing_m": 102031.5079,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T59",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95224.39096,
+                        "northing_m": 99906.84185,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T61",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 92330.2663,
+                        "northing_m": 103470.2371,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T64",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 93735.55408,
+                        "northing_m": 100927.1578,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T69",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 92476.20668,
+                        "northing_m": 102288.6478,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T72",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94296.07591,
+                        "northing_m": 99858.44862,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T77",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 92818.9186,
+                        "northing_m": 101104.3034,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T80",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95042.3094,
+                        "northing_m": 98857.01687,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T82",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 91623.91011,
+                        "northing_m": 102681.8861,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T85",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 93358.30084,
+                        "northing_m": 99949.46545,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T90",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 91923.34302,
+                        "northing_m": 101416.8502,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T93",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94089.51501,
+                        "northing_m": 98855.94823,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T95",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 90821.21471,
+                        "northing_m": 103200.3293,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T99",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 92301.62217,
+                        "northing_m": 100070.5327,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T102",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94984.0706,
+                        "northing_m": 97821.55078,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T104",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 91094.53697,
+                        "northing_m": 101874.1503,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                },
+                {
+                    "name": "T107",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 93231.51925,
+                        "northing_m": 99101.65035,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.061793046028579095
+                }
+            ],
+            "isNeighbor": true,
+            "includeInBlockageCalculation": false
         }
     ],
     "turbineModels": [
@@ -1671,7 +1683,6 @@
                     "adjustedLowSpeedCutIn_m_per_s": 0.0,
                     "lowSpeedCutIn_m_per_s": 0.0,
                     "highSpeedCutOut_m_per_s": 22.5,
-                    "turbulenceIntensity_percentage": 10.0,
                     "airDensity_kg_per_m3": 1.225,
                     "performanceDataPoints": [
                         {
@@ -2693,632 +2704,701 @@
             ],
             "turbulenceIntensity": [
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ],
                 [
-                    0.309982,
-                    0.178873,
-                    0.123325,
-                    0.099824,
-                    0.089974,
-                    0.086997,
-                    0.087253,
-                    0.088994,
-                    0.090201,
-                    0.091696,
-                    0.092008,
-                    0.091287,
-                    0.091363,
-                    0.091676,
-                    0.091907,
-                    0.091737,
-                    0.091438,
-                    0.089968,
-                    0.095552,
-                    0.095429,
-                    0.090511,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123,
-                    0.089123
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075,
+                    0.075
                 ]
             ]
         }
     ],
+    "weibullWindClimates": null,
+    "atmosphericConditions": {
+        "atmosphericConditionClasses": [
+            {
+                "id": "onshore_stable_idealized",
+                "parameters": {
+                    "turbulenceIntensityAtHubHeight": 0.046239999999999996,
+                    "turbulenceIntensityAtTipHeight": 0.02944,
+                    "windSpeedVerticalGradientHubHeight_per_m": 0.025816,
+                    "windSpeedVerticalGradientTipHeight_per_m": 0.024418,
+                    "boundaryLayerHeight_m": 306.2,
+                    "lapseRate_K_per_100m": 0.0054,
+                    "deltaThetaAcrossInversionLayer_K": 0.65,
+                    "heightInversionLayer_m": 945.3
+                }
+            },
+            {
+                "id": "onshore_unstable_idealized",
+                "parameters": {
+                    "turbulenceIntensityAtHubHeight": 0.07035999999999999,
+                    "turbulenceIntensityAtTipHeight": 0.06146,
+                    "windSpeedVerticalGradientHubHeight_per_m": 0.006,
+                    "windSpeedVerticalGradientTipHeight_per_m": 0.004414,
+                    "boundaryLayerHeight_m": 428.3,
+                    "lapseRate_K_per_100m": 0.0059,
+                    "deltaThetaAcrossInversionLayer_K": 9.35,
+                    "heightInversionLayer_m": 510.2
+                }
+            }
+        ],
+        "atmosphericConditionProbabilityDistribution": [
+            {
+                "fromDirection_degrees": 345,
+                "toDirection_degrees": 115,
+                "atmosphericConditionClassIds": [
+                    "onshore_stable_idealized",
+                    "onshore_unstable_idealized"
+                ],
+                "probabilityForClasses": [
+                    0.6,
+                    0.4
+                ]
+            },
+            {
+                "fromDirection_degrees": 115,
+                "toDirection_degrees": 285,
+                "atmosphericConditionClassIds": [
+                    "onshore_stable_idealized",
+                    "onshore_unstable_idealized"
+                ],
+                "probabilityForClasses": [
+                    0.45,
+                    0.55
+                ]
+            },
+            {
+                "fromDirection_degrees": 285,
+                "toDirection_degrees": 345,
+                "atmosphericConditionClassIds": [
+                    "onshore_stable_idealized",
+                    "onshore_unstable_idealized"
+                ],
+                "probabilityForClasses": [
+                    0.5,
+                    0.5
+                ]
+            }
+        ]
+    },
     "referenceAirDensity": {
         "airDensity_kg_per_m3": 1.225,
         "lapseRate_kg_per_m3_per_m": -0.000113,
@@ -3341,7 +3421,7 @@
         ],
         "speedsUps": [
             {
-                "locationDescription": "Farm T1",
+                "id": "Farm T1",
                 "easting_m": 100016.0532,
                 "northing_m": 103237.7459,
                 "heightAboveGround_m": 98.0,
@@ -3358,10 +3438,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T2",
+                "id": "Farm T2",
                 "easting_m": 101266.2733,
                 "northing_m": 103112.912,
                 "heightAboveGround_m": 98.0,
@@ -3378,10 +3459,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T3",
+                "id": "Farm T3",
                 "easting_m": 99192.44203,
                 "northing_m": 102767.8101,
                 "heightAboveGround_m": 98.0,
@@ -3398,10 +3480,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T4",
+                "id": "Farm T4",
                 "easting_m": 102569.0599,
                 "northing_m": 103510.2297,
                 "heightAboveGround_m": 98.0,
@@ -3418,10 +3501,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T5",
+                "id": "Farm T5",
                 "easting_m": 100573.6564,
                 "northing_m": 102416.78,
                 "heightAboveGround_m": 98.0,
@@ -3438,10 +3522,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T6",
+                "id": "Farm T6",
                 "easting_m": 98202.55229,
                 "northing_m": 102587.7236,
                 "heightAboveGround_m": 98.0,
@@ -3458,10 +3543,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T7",
+                "id": "Farm T7",
                 "easting_m": 102082.7525,
                 "northing_m": 102612.148,
                 "heightAboveGround_m": 98.0,
@@ -3478,10 +3564,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T8",
+                "id": "Farm T8",
                 "easting_m": 99642.22554,
                 "northing_m": 101937.973,
                 "heightAboveGround_m": 98.0,
@@ -3498,10 +3585,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T9",
+                "id": "Farm T9",
                 "easting_m": 103498.4825,
                 "northing_m": 103385.7941,
                 "heightAboveGround_m": 98.0,
@@ -3518,10 +3606,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T10",
+                "id": "Farm T10",
                 "easting_m": 97136.52048,
                 "northing_m": 102717.1223,
                 "heightAboveGround_m": 98.0,
@@ -3538,10 +3627,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T11",
+                "id": "Farm T11",
                 "easting_m": 101307.9995,
                 "northing_m": 101845.5047,
                 "heightAboveGround_m": 98.0,
@@ -3558,10 +3648,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T12",
+                "id": "Farm T12",
                 "easting_m": 98545.38632,
                 "northing_m": 101727.3917,
                 "heightAboveGround_m": 98.0,
@@ -3578,10 +3669,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T13",
+                "id": "Farm T13",
                 "easting_m": 102977.8019,
                 "northing_m": 102379.4845,
                 "heightAboveGround_m": 98.0,
@@ -3598,10 +3690,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T14",
+                "id": "Farm T14",
                 "easting_m": 96082.20695,
                 "northing_m": 103160.6269,
                 "heightAboveGround_m": 98.0,
@@ -3618,10 +3711,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T15",
+                "id": "Farm T15",
                 "easting_m": 100293.8949,
                 "northing_m": 101282.496,
                 "heightAboveGround_m": 98.0,
@@ -3638,10 +3732,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T16",
+                "id": "Farm T16",
                 "easting_m": 97362.33879,
                 "northing_m": 101819.4804,
                 "heightAboveGround_m": 98.0,
@@ -3658,10 +3753,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T17",
+                "id": "Farm T17",
                 "easting_m": 102165.4306,
                 "northing_m": 101492.8084,
                 "heightAboveGround_m": 98.0,
@@ -3678,10 +3774,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T18",
+                "id": "Farm T18",
                 "easting_m": 99102.36402,
                 "northing_m": 100981.7182,
                 "heightAboveGround_m": 98.0,
@@ -3698,10 +3795,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T19",
+                "id": "Farm T19",
                 "easting_m": 103911.2284,
                 "northing_m": 102382.4328,
                 "heightAboveGround_m": 98.0,
@@ -3718,10 +3816,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T20",
+                "id": "Farm T20",
                 "easting_m": 96176.3784,
                 "northing_m": 102229.9422,
                 "heightAboveGround_m": 98.0,
@@ -3738,10 +3837,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T21",
+                "id": "Farm T21",
                 "easting_m": 101099.7683,
                 "northing_m": 100801.0729,
                 "heightAboveGround_m": 98.0,
@@ -3758,10 +3858,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T22",
+                "id": "Farm T22",
                 "easting_m": 97806.29082,
                 "northing_m": 100985.4174,
                 "heightAboveGround_m": 98.0,
@@ -3778,10 +3879,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T23",
+                "id": "Farm T23",
                 "easting_m": 103103.433,
                 "northing_m": 101349.5098,
                 "heightAboveGround_m": 98.0,
@@ -3798,10 +3900,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T24",
+                "id": "Neighbour T24",
                 "easting_m": 95071.46056,
                 "northing_m": 102954.606,
                 "heightAboveGround_m": 98.0,
@@ -3818,10 +3921,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T25",
+                "id": "Farm T25",
                 "easting_m": 99835.50973,
                 "northing_m": 100368.0236,
                 "heightAboveGround_m": 98.0,
@@ -3838,10 +3942,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T26",
+                "id": "Farm T26",
                 "easting_m": 104846.2036,
                 "northing_m": 102603.2199,
                 "heightAboveGround_m": 98.0,
@@ -3858,10 +3963,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T27",
+                "id": "Farm T27",
                 "easting_m": 96486.22663,
                 "northing_m": 101317.2539,
                 "heightAboveGround_m": 98.0,
@@ -3878,10 +3984,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T28",
+                "id": "Farm T28",
                 "easting_m": 102020.7131,
                 "northing_m": 100500.5984,
                 "heightAboveGround_m": 98.0,
@@ -3898,10 +4005,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T29",
+                "id": "Farm T29",
                 "easting_m": 98441.05445,
                 "northing_m": 100242.4989,
                 "heightAboveGround_m": 98.0,
@@ -3918,10 +4026,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T30",
+                "id": "Farm T30",
                 "easting_m": 104083.861,
                 "northing_m": 101411.7375,
                 "heightAboveGround_m": 98.0,
@@ -3938,10 +4047,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T31",
+                "id": "Neighbour T31",
                 "easting_m": 95226.27882,
                 "northing_m": 101980.8833,
                 "heightAboveGround_m": 98.0,
@@ -3958,10 +4068,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T32",
+                "id": "Farm T32",
                 "easting_m": 100711.8248,
                 "northing_m": 99904.4672,
                 "heightAboveGround_m": 98.0,
@@ -3978,10 +4089,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T33",
+                "id": "Farm T33",
                 "easting_m": 105748.2725,
                 "northing_m": 103027.5292,
                 "heightAboveGround_m": 98.0,
@@ -3998,10 +4110,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T34",
+                "id": "Farm T34",
                 "easting_m": 96994.98066,
                 "northing_m": 100455.6463,
                 "heightAboveGround_m": 98.0,
@@ -4018,10 +4131,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T35",
+                "id": "Farm T35",
                 "easting_m": 103020.6881,
                 "northing_m": 100388.4449,
                 "heightAboveGround_m": 98.0,
@@ -4038,10 +4152,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T36",
+                "id": "Neighbour T36",
                 "easting_m": 94109.57072,
                 "northing_m": 102959.5232,
                 "heightAboveGround_m": 98.0,
@@ -4058,10 +4173,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T37",
+                "id": "Farm T37",
                 "easting_m": 99241.13422,
                 "northing_m": 99616.60927,
                 "heightAboveGround_m": 98.0,
@@ -4078,10 +4194,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T38",
+                "id": "Farm T38",
                 "easting_m": 105070.8503,
                 "northing_m": 101675.5023,
                 "heightAboveGround_m": 98.0,
@@ -4098,10 +4215,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T39",
+                "id": "Neighbour T39",
                 "easting_m": 95581.83461,
                 "northing_m": 101018.9576,
                 "heightAboveGround_m": 98.0,
@@ -4118,10 +4236,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T40",
+                "id": "Farm T40",
                 "easting_m": 101699.5479,
                 "northing_m": 99607.37226,
                 "heightAboveGround_m": 98.0,
@@ -4138,10 +4257,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T41",
+                "id": "Farm T41",
                 "easting_m": 97685.26491,
                 "northing_m": 99675.93152,
                 "heightAboveGround_m": 98.0,
@@ -4158,10 +4278,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T42",
+                "id": "Farm T42",
                 "easting_m": 104064.8956,
                 "northing_m": 100469.8368,
                 "heightAboveGround_m": 98.0,
@@ -4178,10 +4299,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T43",
+                "id": "Neighbour T43",
                 "easting_m": 94287.48705,
                 "northing_m": 101923.2894,
                 "heightAboveGround_m": 98.0,
@@ -4198,10 +4320,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T44",
+                "id": "Farm T44",
                 "easting_m": 100180.4718,
                 "northing_m": 99130.96525,
                 "heightAboveGround_m": 98.0,
@@ -4218,10 +4341,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T45",
+                "id": "Farm T45",
                 "easting_m": 106030.2378,
                 "northing_m": 102134.4975,
                 "heightAboveGround_m": 98.0,
@@ -4238,10 +4362,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T46",
+                "id": "Farm T46",
                 "easting_m": 96129.01485,
                 "northing_m": 100102.2472,
                 "heightAboveGround_m": 98.0,
@@ -4258,10 +4383,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T47",
+                "id": "Farm T47",
                 "easting_m": 102766.8187,
                 "northing_m": 99489.95314,
                 "heightAboveGround_m": 98.0,
@@ -4278,10 +4404,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T48",
+                "id": "Neighbour T48",
                 "easting_m": 93194.31857,
                 "northing_m": 103138.9609,
                 "heightAboveGround_m": 98.0,
@@ -4298,10 +4425,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T49",
+                "id": "Farm T49",
                 "easting_m": 98537.63349,
                 "northing_m": 99006.3215,
                 "heightAboveGround_m": 98.0,
@@ -4318,10 +4446,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T50",
+                "id": "Farm T50",
                 "easting_m": 105119.2495,
                 "northing_m": 100746.6327,
                 "heightAboveGround_m": 98.0,
@@ -4338,10 +4467,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T51",
+                "id": "Neighbour T51",
                 "easting_m": 94660.75552,
                 "northing_m": 100894.7398,
                 "heightAboveGround_m": 98.0,
@@ -4358,10 +4488,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T52",
+                "id": "Farm T52",
                 "easting_m": 101231.5746,
                 "northing_m": 98805.46409,
                 "heightAboveGround_m": 98.0,
@@ -4378,10 +4509,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T53",
+                "id": "Farm T53",
                 "easting_m": 106929.5862,
                 "northing_m": 102779.1313,
                 "heightAboveGround_m": 98.0,
@@ -4398,10 +4530,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T54",
+                "id": "Farm T54",
                 "easting_m": 96855.50564,
                 "northing_m": 99262.17975,
                 "heightAboveGround_m": 98.0,
@@ -4418,10 +4551,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T55",
+                "id": "Farm T55",
                 "easting_m": 103881.3226,
                 "northing_m": 99561.59932,
                 "heightAboveGround_m": 98.0,
@@ -4438,10 +4572,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T56",
+                "id": "Neighbour T56",
                 "easting_m": 93367.55262,
                 "northing_m": 102031.5079,
                 "heightAboveGround_m": 98.0,
@@ -4458,10 +4593,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T57",
+                "id": "Farm T57",
                 "easting_m": 99530.03764,
                 "northing_m": 98472.02412,
                 "heightAboveGround_m": 98.0,
@@ -4478,10 +4614,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T58",
+                "id": "Farm T58",
                 "easting_m": 106150.4168,
                 "northing_m": 101216.7212,
                 "heightAboveGround_m": 98.0,
@@ -4498,10 +4635,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T59",
+                "id": "Neighbour T59",
                 "easting_m": 95224.39096,
                 "northing_m": 99906.84185,
                 "heightAboveGround_m": 98.0,
@@ -4518,10 +4656,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T60",
+                "id": "Farm T60",
                 "easting_m": 102365.333,
                 "northing_m": 98656.19306,
                 "heightAboveGround_m": 98.0,
@@ -4538,10 +4677,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T61",
+                "id": "Neighbour T61",
                 "easting_m": 92330.2663,
                 "northing_m": 103470.2371,
                 "heightAboveGround_m": 98.0,
@@ -4558,10 +4698,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T62",
+                "id": "Farm T62",
                 "easting_m": 97745.46882,
                 "northing_m": 98527.85377,
                 "heightAboveGround_m": 98.0,
@@ -4578,10 +4719,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T63",
+                "id": "Farm T63",
                 "easting_m": 105010.4035,
                 "northing_m": 99827.44364,
                 "heightAboveGround_m": 98.0,
@@ -4598,10 +4740,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T64",
+                "id": "Neighbour T64",
                 "easting_m": 93735.55408,
                 "northing_m": 100927.1578,
                 "heightAboveGround_m": 98.0,
@@ -4618,10 +4761,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T65",
+                "id": "Farm T65",
                 "easting_m": 100637.7633,
                 "northing_m": 98094.82353,
                 "heightAboveGround_m": 98.0,
@@ -4638,10 +4782,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T66",
+                "id": "Farm T66",
                 "easting_m": 107126.1357,
                 "northing_m": 101873.7482,
                 "heightAboveGround_m": 98.0,
@@ -4658,10 +4803,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T67",
+                "id": "Farm T67",
                 "easting_m": 95969.24665,
                 "northing_m": 98991.13746,
                 "heightAboveGround_m": 98.0,
@@ -4678,10 +4824,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T68",
+                "id": "Farm T68",
                 "easting_m": 103551.1977,
                 "northing_m": 98695.04888,
                 "heightAboveGround_m": 98.0,
@@ -4698,10 +4845,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T69",
+                "id": "Neighbour T69",
                 "easting_m": 92476.20668,
                 "northing_m": 102288.6478,
                 "heightAboveGround_m": 98.0,
@@ -4718,10 +4866,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T70",
+                "id": "Farm T70",
                 "easting_m": 98779.53596,
                 "northing_m": 97925.6106,
                 "heightAboveGround_m": 98.0,
@@ -4738,10 +4887,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T71",
+                "id": "Farm T71",
                 "easting_m": 106121.421,
                 "northing_m": 100288.1136,
                 "heightAboveGround_m": 98.0,
@@ -4758,10 +4908,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T72",
+                "id": "Neighbour T72",
                 "easting_m": 94296.07591,
                 "northing_m": 99858.44862,
                 "heightAboveGround_m": 98.0,
@@ -4778,10 +4929,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T73",
+                "id": "Farm T73",
                 "easting_m": 101833.6391,
                 "northing_m": 97892.68103,
                 "heightAboveGround_m": 98.0,
@@ -4798,10 +4950,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T74",
+                "id": "Farm T74",
                 "easting_m": 108015.6716,
                 "northing_m": 102707.0572,
                 "heightAboveGround_m": 98.0,
@@ -4818,10 +4971,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T75",
+                "id": "Farm T75",
                 "easting_m": 96882.00611,
                 "northing_m": 98177.27719,
                 "heightAboveGround_m": 98.0,
@@ -4838,10 +4992,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T76",
+                "id": "Farm T76",
                 "easting_m": 104757.5621,
                 "northing_m": 98929.45422,
                 "heightAboveGround_m": 98.0,
@@ -4858,10 +5013,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T77",
+                "id": "Neighbour T77",
                 "easting_m": 92818.9186,
                 "northing_m": 101104.3034,
                 "heightAboveGround_m": 98.0,
@@ -4878,10 +5034,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T78",
+                "id": "Farm T78",
                 "easting_m": 99935.007,
                 "northing_m": 97478.58334,
                 "heightAboveGround_m": 98.0,
@@ -4898,10 +5055,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T79",
+                "id": "Farm T79",
                 "easting_m": 107182.2411,
                 "northing_m": 100939.6241,
                 "heightAboveGround_m": 98.0,
@@ -4918,10 +5076,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T80",
+                "id": "Neighbour T80",
                 "easting_m": 95042.3094,
                 "northing_m": 98857.01687,
                 "heightAboveGround_m": 98.0,
@@ -4938,10 +5097,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T81",
+                "id": "Farm T81",
                 "easting_m": 103088.417,
                 "northing_m": 97879.38267,
                 "heightAboveGround_m": 98.0,
@@ -4958,10 +5118,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T82",
+                "id": "Neighbour T82",
                 "easting_m": 91623.91011,
                 "northing_m": 102681.8861,
                 "heightAboveGround_m": 98.0,
@@ -4978,10 +5139,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T83",
+                "id": "Farm T83",
                 "easting_m": 97945.33288,
                 "northing_m": 97492.5084,
                 "heightAboveGround_m": 98.0,
@@ -4998,10 +5160,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T84",
+                "id": "Farm T84",
                 "easting_m": 105952.27,
                 "northing_m": 99362.16939,
                 "heightAboveGround_m": 98.0,
@@ -5018,10 +5181,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T85",
+                "id": "Neighbour T85",
                 "easting_m": 93358.30084,
                 "northing_m": 99949.46545,
                 "heightAboveGround_m": 98.0,
@@ -5038,10 +5202,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T86",
+                "id": "Farm T86",
                 "easting_m": 101186.1946,
                 "northing_m": 97206.26188,
                 "heightAboveGround_m": 98.0,
@@ -5058,10 +5223,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T87",
+                "id": "Farm T87",
                 "easting_m": 108161.7989,
                 "northing_m": 101773.3921,
                 "heightAboveGround_m": 98.0,
@@ -5078,10 +5244,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T88",
+                "id": "Farm T88",
                 "easting_m": 95962.95203,
                 "northing_m": 97953.03495,
                 "heightAboveGround_m": 98.0,
@@ -5098,10 +5265,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T89",
+                "id": "Farm T89",
                 "easting_m": 104371.2681,
                 "northing_m": 98064.25164,
                 "heightAboveGround_m": 98.0,
@@ -5118,10 +5286,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T90",
+                "id": "Neighbour T90",
                 "easting_m": 91923.34302,
                 "northing_m": 101416.8502,
                 "heightAboveGround_m": 98.0,
@@ -5138,10 +5307,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T91",
+                "id": "Farm T91",
                 "easting_m": 99138.14647,
                 "northing_m": 96961.16011,
                 "heightAboveGround_m": 98.0,
@@ -5158,10 +5328,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T92",
+                "id": "Farm T92",
                 "easting_m": 107103.1992,
                 "northing_m": 99991.20092,
                 "heightAboveGround_m": 98.0,
@@ -5178,10 +5349,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T93",
+                "id": "Neighbour T93",
                 "easting_m": 94089.51501,
                 "northing_m": 98855.94823,
                 "heightAboveGround_m": 98.0,
@@ -5198,10 +5370,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T94",
+                "id": "Farm T94",
                 "easting_m": 102504.8779,
                 "northing_m": 97124.10099,
                 "heightAboveGround_m": 98.0,
@@ -5218,10 +5391,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T95",
+                "id": "Neighbour T95",
                 "easting_m": 90821.21471,
                 "northing_m": 103200.3293,
                 "heightAboveGround_m": 98.0,
@@ -5238,10 +5412,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T96",
+                "id": "Farm T96",
                 "easting_m": 109279.3198,
                 "northing_m": 102673.0606,
                 "heightAboveGround_m": 98.0,
@@ -5258,10 +5433,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T97",
+                "id": "Farm T97",
                 "easting_m": 96970.6073,
                 "northing_m": 96947.61536,
                 "heightAboveGround_m": 98.0,
@@ -5278,10 +5454,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T98",
+                "id": "Farm T98",
                 "easting_m": 105760.1706,
                 "northing_m": 98294.97611,
                 "heightAboveGround_m": 98.0,
@@ -5298,10 +5475,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T99",
+                "id": "Neighbour T99",
                 "easting_m": 92301.62217,
                 "northing_m": 100070.5327,
                 "heightAboveGround_m": 98.0,
@@ -5318,10 +5496,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T100",
+                "id": "Farm T100",
                 "easting_m": 100441.0291,
                 "northing_m": 96489.77027,
                 "heightAboveGround_m": 98.0,
@@ -5338,10 +5517,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T101",
+                "id": "Farm T101",
                 "easting_m": 108235.0563,
                 "northing_m": 100770.5347,
                 "heightAboveGround_m": 98.0,
@@ -5358,10 +5538,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T102",
+                "id": "Neighbour T102",
                 "easting_m": 94984.0706,
                 "northing_m": 97821.55078,
                 "heightAboveGround_m": 98.0,
@@ -5378,10 +5559,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T103",
+                "id": "Farm T103",
                 "easting_m": 103857.9287,
                 "northing_m": 97250.19536,
                 "heightAboveGround_m": 98.0,
@@ -5398,10 +5580,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T104",
+                "id": "Neighbour T104",
                 "easting_m": 91094.53697,
                 "northing_m": 101874.1503,
                 "heightAboveGround_m": 98.0,
@@ -5418,10 +5601,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T105",
+                "id": "Farm T105",
                 "easting_m": 98275.23922,
                 "northing_m": 96629.2176,
                 "heightAboveGround_m": 98.0,
@@ -5438,10 +5622,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T106",
+                "id": "Farm T106",
                 "easting_m": 106806.6401,
                 "northing_m": 99136.60741,
                 "heightAboveGround_m": 98.0,
@@ -5458,10 +5643,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T107",
+                "id": "Neighbour T107",
                 "easting_m": 93231.51925,
                 "northing_m": 99101.65035,
                 "heightAboveGround_m": 98.0,
@@ -5478,10 +5664,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T108",
+                "id": "Farm T108",
                 "easting_m": 101775.7203,
                 "northing_m": 96638.23162,
                 "heightAboveGround_m": 98.0,
@@ -5498,10 +5685,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T109",
+                "id": "Farm T109",
                 "easting_m": 108929.3153,
                 "northing_m": 101920.0763,
                 "heightAboveGround_m": 98.0,
@@ -5518,10 +5706,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "Farm T110",
+                "id": "Farm T110",
                 "easting_m": 96189.90681,
                 "northing_m": 97230.44957,
                 "heightAboveGround_m": 98.0,
@@ -5538,10 +5727,11 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": true
             },
             {
-                "locationDescription": "M1 98m",
+                "id": "M1 98m",
                 "easting_m": 89451.4,
                 "northing_m": 96107.2,
                 "heightAboveGround_m": 98.0,
@@ -5558,7 +5748,8 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "isTarget": false
             }
         ]
     },
@@ -5583,15 +5774,15 @@
             "localTurbineWindSpeedsOutputSettings": null
         },
         "numberOfDirectionSectorsForWakeCalculation": 180,
-        "maximumWindSpeedForEvaluation_m_per_s": 30.0,
+        "maximumWindSpeedForEvaluation_m_per_s": 0.0,
         "extrapolationAmbientTurbulence": "ModelDefault",
         "wakeModel": {
             "wakeModelType": "CFDML",
             "eddyViscosity": {
                 "useLargeWindFarmModel": true,
                 "largeWindFarmCorrectionParameters": {
-                    "baseRoughnessZ01": 0.03,
-                    "increasedRoughnessZ02": 0.06,
+                    "baseRoughnessZ01": 0.0004,
+                    "increasedRoughnessZ02": 0.0192,
                     "geometricWidthDiameters": 1.0,
                     "recoveryStartDiameters": 120.0,
                     "fiftyPercentRecoveryDiameters": 40.0
@@ -5612,7 +5803,7 @@
             },
             "cfdml": {
                 "gnnType": "Offshore",
-                "gnnVersion": "2.2.0",
+                "gnnVersion": "2.6.0",
                 "extrapolationModel": "EddyViscosity"
             },
             "noWakeModel": {
@@ -5630,90 +5821,18 @@
             "blockageModelType": "CFDML",
             "beet": {
                 "significantAtmosphericStability": false,
+                "includeIntermediateResults": false,
                 "inclusionOfNeighborsBufferZoneInMeters": 1000.0,
-                "blockageCorrectionApplicationMethod": "OnWindSpeed"
+                "blockageCorrectionApplicationMethod": "OnEnergy"
             },
             "cfdml": {
                 "cfdmlSettings": {
                     "gnnType": "Offshore",
-                    "gnnVersion": "2.2.0"
+                    "gnnVersion": "2.6.0"
                 },
                 "blockageCorrectionApplicationMethod": "OnWindSpeed",
                 "cfdmlBlockageWindSpeedDependency": "FromBlockageExtrapolationCurve"
             }
         }
-    },
-    "atmosphericConditions": {
-        "atmosphericConditionClasses": [
-            {
-                "id": "onshore-unstable",
-                "parameters": {
-                    "turbulenceIntensityAtHubHeight": 0.13822,
-                    "turbulenceIntensityAtTipHeight": 0.13222,
-                    "windSpeedVerticalGradientHubHeight_per_m": 0.00922,
-                    "windSpeedVerticalGradientTipHeight_per_m": 0.005372,
-                    "boundaryLayerHeight_m": 950.4,
-                    "lapseRate_K_per_100m": 0.0044,
-                    "deltaThetaAcrossInversionLayer_K": 2.6,
-                    "heightInversionLayer_m": 332.1
-                }
-            },
-            {
-                "id": "onshore-stable",
-                "parameters": {
-                    "turbulenceIntensityAtHubHeight": 0.0649,
-                    "turbulenceIntensityAtTipHeight": 0.0405,
-                    "windSpeedVerticalGradientHubHeight_per_m": 0.023694,
-                    "windSpeedVerticalGradientTipHeight_per_m": 0.022334,
-                    "boundaryLayerHeight_m": 338.1,
-                    "lapseRate_K_per_100m": 0.0051,
-                    "deltaThetaAcrossInversionLayer_K": 0.0,
-                    "heightInversionLayer_m": 1000.0
-                }
-            }
-        ],
-        "atmosphericConditionProbabilityDistribution": [
-            {
-                "fromDirection_degrees": 345,
-                "toDirection_degrees": 115,
-                "atmosphericConditionClassIds": [
-                    "onshore-stable",
-                    "onshore-unstable"
-                ],
-                "probabilityForClasses": [
-                    0.6,
-                    0.4
-                ]
-            },
-            {
-                "fromDirection_degrees": 115,
-                "toDirection_degrees": 285,
-                "atmosphericConditionClassIds": [
-                    "onshore-stable",
-                    "onshore-unstable"
-                ],
-                "probabilityForClasses": [
-                    0.45,
-                    0.55
-                ]
-            },
-            {
-                "fromDirection_degrees": 285,
-                "toDirection_degrees": 345,
-                "atmosphericConditionClassIds": [
-                    "onshore-stable",
-                    "onshore-unstable"
-                ],
-                "probabilityForClasses": [
-                    0.5,
-                    0.5
-                ]
-            }
-        ]
-    },
-    "projectInfo": {
-        "projectId": "TheBowl",
-        "siteLatitude": 36.5,
-        "siteLongitude": -75.1
     }
 }
