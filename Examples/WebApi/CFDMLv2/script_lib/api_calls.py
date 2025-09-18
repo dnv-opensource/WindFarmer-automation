@@ -22,7 +22,7 @@ class WindFarmerAPI:
         self.auth_token = auth_token
         self.get_status()
 
-    def print_errors(response):
+    def print_errors(self, response):
         response_json = json.loads(response.content)
         if (detail := response_json.get("detail")):
             print(f"Bad request: {detail}")
@@ -77,13 +77,13 @@ class WindFarmerAPI:
         # Get the status details from the response, if present
         message = result_json['message'] if 'message' in result_json else None
         stage_message = result_json['stageMessage'] if 'stageMessage' in result_json else None
-        progress = str(result_json['progress']) + '%' if 'progress' in result_json else None
+        progress = str(result_json['progress'] * 100) + '%' if 'progress' in result_json else None
 
         # Combine the status details into a single string
         progress_message = ' - '.join([x for x in [progress, stage_message, message] if x])
         return (result_json['status'], progress_message, result_json['results'] if 'results' in result_json else None)
 
-    async def poll_for_status(self, job_id: str, min_polling_interval_seconds = 20, start_time = None) -> Tuple[str, str, str]:
+    async def poll_for_status(self, job_id: str, min_polling_interval_seconds = 5, start_time = None) -> Tuple[str, str, str]:
             """Poll the WindFarmer API for the status of an asynchronous job.
             It will return PENDING, RUNNING, SUCCESS or FAILED.
             If success, it will return the results of the calculation.  
