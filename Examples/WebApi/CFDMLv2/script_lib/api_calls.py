@@ -77,7 +77,7 @@ class WindFarmerAPI:
         # Get the status details from the response, if present
         message = result_json['message'] if 'message' in result_json else None
         stage_message = result_json['stageMessage'] if 'stageMessage' in result_json else None
-        progress = str(result_json['progress'] * 100) + '%' if 'progress' in result_json else None
+        progress = str(result_json['progress']) + '%' if 'progress' in result_json else None
 
         # Combine the status details into a single string
         progress_message = ' - '.join([x for x in [progress, stage_message, message] if x])
