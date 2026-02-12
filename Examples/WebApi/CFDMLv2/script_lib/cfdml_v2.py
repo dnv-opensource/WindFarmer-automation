@@ -133,7 +133,6 @@ def _angle_difference(to_angle_in_radians, from_angle_in_radians):
 def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution):
     print("Atmospheric condition probability distribution:")
     # Helper functions for angle calculations (from cfdml_v2.py)
-    import math
 
     def format_class_name(class_id):
         """Convert class ID to human-readable format"""
