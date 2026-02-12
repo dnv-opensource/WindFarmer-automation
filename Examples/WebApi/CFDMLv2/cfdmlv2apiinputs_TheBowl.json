@@ -12,9 +12,6 @@
                     "name": "T1",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 100016.0532,
                         "northing_m": 103237.7459,
@@ -27,9 +24,6 @@
                     "name": "T2",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101266.2733,
                         "northing_m": 103112.912,
@@ -42,9 +36,6 @@
                     "name": "T3",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99192.44203,
                         "northing_m": 102767.8101,
@@ -57,9 +48,6 @@
                     "name": "T4",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102569.0599,
                         "northing_m": 103510.2297,
@@ -72,9 +60,6 @@
                     "name": "T5",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 100573.6564,
                         "northing_m": 102416.78,
@@ -87,9 +72,6 @@
                     "name": "T6",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 98202.55229,
                         "northing_m": 102587.7236,
@@ -102,9 +84,6 @@
                     "name": "T7",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102082.7525,
                         "northing_m": 102612.148,
@@ -117,9 +96,6 @@
                     "name": "T8",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99642.22554,
                         "northing_m": 101937.973,
@@ -132,9 +108,6 @@
                     "name": "T9",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103498.4825,
                         "northing_m": 103385.7941,
@@ -147,9 +120,6 @@
                     "name": "T10",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 97136.52048,
                         "northing_m": 102717.1223,
@@ -162,9 +132,6 @@
                     "name": "T11",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101307.9995,
                         "northing_m": 101845.5047,
@@ -177,9 +144,6 @@
                     "name": "T12",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 98545.38632,
                         "northing_m": 101727.3917,
@@ -192,9 +156,6 @@
                     "name": "T13",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102977.8019,
                         "northing_m": 102379.4845,
@@ -207,9 +168,6 @@
                     "name": "T14",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96082.20695,
                         "northing_m": 103160.6269,
@@ -222,9 +180,6 @@
                     "name": "T15",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 100293.8949,
                         "northing_m": 101282.496,
@@ -237,9 +192,6 @@
                     "name": "T16",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 97362.33879,
                         "northing_m": 101819.4804,
@@ -252,9 +204,6 @@
                     "name": "T17",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102165.4306,
                         "northing_m": 101492.8084,
@@ -267,9 +216,6 @@
                     "name": "T18",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99102.36402,
                         "northing_m": 100981.7182,
@@ -282,9 +228,6 @@
                     "name": "T19",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103911.2284,
                         "northing_m": 102382.4328,
@@ -297,9 +240,6 @@
                     "name": "T20",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96176.3784,
                         "northing_m": 102229.9422,
@@ -312,9 +252,6 @@
                     "name": "T21",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101099.7683,
                         "northing_m": 100801.0729,
@@ -327,9 +264,6 @@
                     "name": "T22",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 97806.29082,
                         "northing_m": 100985.4174,
@@ -342,9 +276,6 @@
                     "name": "T23",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103103.433,
                         "northing_m": 101349.5098,
@@ -357,9 +288,6 @@
                     "name": "T25",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99835.50973,
                         "northing_m": 100368.0236,
@@ -372,9 +300,6 @@
                     "name": "T26",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 104846.2036,
                         "northing_m": 102603.2199,
@@ -387,9 +312,6 @@
                     "name": "T27",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96486.22663,
                         "northing_m": 101317.2539,
@@ -402,9 +324,6 @@
                     "name": "T28",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102020.7131,
                         "northing_m": 100500.5984,
@@ -417,9 +336,6 @@
                     "name": "T29",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 98441.05445,
                         "northing_m": 100242.4989,
@@ -432,9 +348,6 @@
                     "name": "T30",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 104083.861,
                         "northing_m": 101411.7375,
@@ -447,9 +360,6 @@
                     "name": "T31",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 95226.27882,
                         "northing_m": 101980.8833,
@@ -462,9 +372,6 @@
                     "name": "T32",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 100711.8248,
                         "northing_m": 99904.4672,
@@ -477,9 +384,6 @@
                     "name": "T33",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 105748.2725,
                         "northing_m": 103027.5292,
@@ -492,9 +396,6 @@
                     "name": "T34",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96994.98066,
                         "northing_m": 100455.6463,
@@ -507,9 +408,6 @@
                     "name": "T35",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103020.6881,
                         "northing_m": 100388.4449,
@@ -522,9 +420,6 @@
                     "name": "T37",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99241.13422,
                         "northing_m": 99616.60927,
@@ -537,9 +432,6 @@
                     "name": "T38",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 105070.8503,
                         "northing_m": 101675.5023,
@@ -552,9 +444,6 @@
                     "name": "T39",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 95581.83461,
                         "northing_m": 101018.9576,
@@ -567,9 +456,6 @@
                     "name": "T40",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101699.5479,
                         "northing_m": 99607.37226,
@@ -582,9 +468,6 @@
                     "name": "T41",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 97685.26491,
                         "northing_m": 99675.93152,
@@ -597,9 +480,6 @@
                     "name": "T42",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 104064.8956,
                         "northing_m": 100469.8368,
@@ -612,9 +492,6 @@
                     "name": "T44",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 100180.4718,
                         "northing_m": 99130.96525,
@@ -627,9 +504,6 @@
                     "name": "T45",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 106030.2378,
                         "northing_m": 102134.4975,
@@ -642,9 +516,6 @@
                     "name": "T46",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96129.01485,
                         "northing_m": 100102.2472,
@@ -657,9 +528,6 @@
                     "name": "T47",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102766.8187,
                         "northing_m": 99489.95314,
@@ -672,9 +540,6 @@
                     "name": "T49",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 98537.63349,
                         "northing_m": 99006.3215,
@@ -687,9 +552,6 @@
                     "name": "T50",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 105119.2495,
                         "northing_m": 100746.6327,
@@ -702,9 +564,6 @@
                     "name": "T51",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 94660.75552,
                         "northing_m": 100894.7398,
@@ -717,9 +576,6 @@
                     "name": "T52",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101231.5746,
                         "northing_m": 98805.46409,
@@ -732,9 +588,6 @@
                     "name": "T53",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 106929.5862,
                         "northing_m": 102779.1313,
@@ -747,9 +600,6 @@
                     "name": "T54",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96855.50564,
                         "northing_m": 99262.17975,
@@ -762,9 +612,6 @@
                     "name": "T55",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103881.3226,
                         "northing_m": 99561.59932,
@@ -777,9 +624,6 @@
                     "name": "T57",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99530.03764,
                         "northing_m": 98472.02412,
@@ -792,9 +636,6 @@
                     "name": "T58",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 106150.4168,
                         "northing_m": 101216.7212,
@@ -807,9 +648,6 @@
                     "name": "T59",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 95224.39096,
                         "northing_m": 99906.84185,
@@ -822,9 +660,6 @@
                     "name": "T60",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102365.333,
                         "northing_m": 98656.19306,
@@ -837,9 +672,6 @@
                     "name": "T62",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 97745.46882,
                         "northing_m": 98527.85377,
@@ -852,9 +684,6 @@
                     "name": "T63",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 105010.4035,
                         "northing_m": 99827.44364,
@@ -867,9 +696,6 @@
                     "name": "T65",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 100637.7633,
                         "northing_m": 98094.82353,
@@ -882,9 +708,6 @@
                     "name": "T66",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 107126.1357,
                         "northing_m": 101873.7482,
@@ -897,9 +720,6 @@
                     "name": "T67",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 95969.24665,
                         "northing_m": 98991.13746,
@@ -912,9 +732,6 @@
                     "name": "T68",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103551.1977,
                         "northing_m": 98695.04888,
@@ -927,9 +744,6 @@
                     "name": "T70",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 98779.53596,
                         "northing_m": 97925.6106,
@@ -942,9 +756,6 @@
                     "name": "T71",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 106121.421,
                         "northing_m": 100288.1136,
@@ -957,9 +768,6 @@
                     "name": "T72",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 94296.07591,
                         "northing_m": 99858.44862,
@@ -972,9 +780,6 @@
                     "name": "T73",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101833.6391,
                         "northing_m": 97892.68103,
@@ -987,9 +792,6 @@
                     "name": "T74",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 108015.6716,
                         "northing_m": 102707.0572,
@@ -1002,9 +804,6 @@
                     "name": "T75",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96882.00611,
                         "northing_m": 98177.27719,
@@ -1017,9 +816,6 @@
                     "name": "T76",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 104757.5621,
                         "northing_m": 98929.45422,
@@ -1032,9 +828,6 @@
                     "name": "T78",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99935.007,
                         "northing_m": 97478.58334,
@@ -1047,9 +840,6 @@
                     "name": "T79",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 107182.2411,
                         "northing_m": 100939.6241,
@@ -1062,9 +852,6 @@
                     "name": "T80",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 95042.3094,
                         "northing_m": 98857.01687,
@@ -1077,9 +864,6 @@
                     "name": "T81",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103088.417,
                         "northing_m": 97879.38267,
@@ -1092,9 +876,6 @@
                     "name": "T83",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 97945.33288,
                         "northing_m": 97492.5084,
@@ -1107,9 +888,6 @@
                     "name": "T84",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 105952.27,
                         "northing_m": 99362.16939,
@@ -1122,9 +900,6 @@
                     "name": "T86",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101186.1946,
                         "northing_m": 97206.26188,
@@ -1137,9 +912,6 @@
                     "name": "T87",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 108161.7989,
                         "northing_m": 101773.3921,
@@ -1152,9 +924,6 @@
                     "name": "T88",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 95962.95203,
                         "northing_m": 97953.03495,
@@ -1167,9 +936,6 @@
                     "name": "T89",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 104371.2681,
                         "northing_m": 98064.25164,
@@ -1182,9 +948,6 @@
                     "name": "T91",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 99138.14647,
                         "northing_m": 96961.16011,
@@ -1197,9 +960,6 @@
                     "name": "T92",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 107103.1992,
                         "northing_m": 99991.20092,
@@ -1212,9 +972,6 @@
                     "name": "T93",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 94089.51501,
                         "northing_m": 98855.94823,
@@ -1227,9 +984,6 @@
                     "name": "T94",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 102504.8779,
                         "northing_m": 97124.10099,
@@ -1242,9 +996,6 @@
                     "name": "T96",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 109279.3198,
                         "northing_m": 102673.0606,
@@ -1257,9 +1008,6 @@
                     "name": "T97",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96970.6073,
                         "northing_m": 96947.61536,
@@ -1272,9 +1020,6 @@
                     "name": "T98",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 105760.1706,
                         "northing_m": 98294.97611,
@@ -1287,9 +1032,6 @@
                     "name": "T100",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 100441.0291,
                         "northing_m": 96489.77027,
@@ -1302,9 +1044,6 @@
                     "name": "T101",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 108235.0563,
                         "northing_m": 100770.5347,
@@ -1317,9 +1056,6 @@
                     "name": "T102",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 94984.0706,
                         "northing_m": 97821.55078,
@@ -1332,9 +1068,6 @@
                     "name": "T103",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 103857.9287,
                         "northing_m": 97250.19536,
@@ -1347,9 +1080,6 @@
                     "name": "T105",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 98275.23922,
                         "northing_m": 96629.2176,
@@ -1362,9 +1092,6 @@
                     "name": "T106",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 106806.6401,
                         "northing_m": 99136.60741,
@@ -1377,9 +1104,6 @@
                     "name": "T108",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 101775.7203,
                         "northing_m": 96638.23162,
@@ -1392,9 +1116,6 @@
                     "name": "T109",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 108929.3153,
                         "northing_m": 101920.0763,
@@ -1407,9 +1128,6 @@
                     "name": "T110",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 96189.90681,
                         "northing_m": 97230.44957,
@@ -1429,9 +1147,6 @@
                     "name": "T24",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 95071.46056,
                         "northing_m": 102954.606,
@@ -1444,9 +1159,6 @@
                     "name": "T36",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 94109.57072,
                         "northing_m": 102959.5232,
@@ -1459,9 +1171,6 @@
                     "name": "T43",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 94287.48705,
                         "northing_m": 101923.2894,
@@ -1474,9 +1183,6 @@
                     "name": "T48",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 93194.31857,
                         "northing_m": 103138.9609,
@@ -1489,9 +1195,6 @@
                     "name": "T56",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 93367.55262,
                         "northing_m": 102031.5079,
@@ -1504,9 +1207,6 @@
                     "name": "T61",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 92330.2663,
                         "northing_m": 103470.2371,
@@ -1519,9 +1219,6 @@
                     "name": "T64",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 93735.55408,
                         "northing_m": 100927.1578,
@@ -1534,9 +1231,6 @@
                     "name": "T69",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 92476.20668,
                         "northing_m": 102288.6478,
@@ -1549,9 +1243,6 @@
                     "name": "T77",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 92818.9186,
                         "northing_m": 101104.3034,
@@ -1564,9 +1255,6 @@
                     "name": "T82",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 91623.91011,
                         "northing_m": 102681.8861,
@@ -1579,9 +1267,6 @@
                     "name": "T85",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 93358.30084,
                         "northing_m": 99949.46545,
@@ -1594,9 +1279,6 @@
                     "name": "T90",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 91923.34302,
                         "northing_m": 101416.8502,
@@ -1609,9 +1291,6 @@
                     "name": "T95",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 90821.21471,
                         "northing_m": 103200.3293,
@@ -1624,9 +1303,6 @@
                     "name": "T99",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 92301.62217,
                         "northing_m": 100070.5327,
@@ -1639,9 +1315,6 @@
                     "name": "T104",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 91094.53697,
                         "northing_m": 101874.1503,
@@ -1654,9 +1327,6 @@
                     "name": "T107",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
                     "location": {
                         "easting_m": 93231.51925,
                         "northing_m": 99101.65035,
