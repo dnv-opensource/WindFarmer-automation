@@ -1,8 +1,8 @@
 {
     "projectInfo": {
         "projectId": "TheBowl",
-        "siteLatitude": 36.5,
-        "siteLongitude": -75.1
+        "siteLatitude": 51.5,
+        "siteLongitude": 1.3
     },
     "windFarms": [
         {
@@ -444,6 +444,21 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
+                    "name": "T31",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95226.27882,
+                        "northing_m": 101980.8833,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
                     "name": "T32",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -528,6 +543,21 @@
                     "location": {
                         "easting_m": 105070.8503,
                         "northing_m": 101675.5023,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
+                    "name": "T39",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95581.83461,
+                        "northing_m": 101018.9576,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -669,6 +699,21 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
+                    "name": "T51",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94660.75552,
+                        "northing_m": 100894.7398,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
                     "name": "T52",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -753,6 +798,21 @@
                     "location": {
                         "easting_m": 106150.4168,
                         "northing_m": 101216.7212,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
+                    "name": "T59",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95224.39096,
+                        "northing_m": 99906.84185,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -894,6 +954,21 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
+                    "name": "T72",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94296.07591,
+                        "northing_m": 99858.44862,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
                     "name": "T73",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -978,6 +1053,21 @@
                     "location": {
                         "easting_m": 107182.2411,
                         "northing_m": 100939.6241,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
+                    "name": "T80",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 95042.3094,
+                        "northing_m": 98857.01687,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1119,6 +1209,21 @@
                     "parkWakeDecayConstant": 0.058844363888096704
                 },
                 {
+                    "name": "T93",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94089.51501,
+                        "northing_m": 98855.94823,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
                     "name": "T94",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1203,6 +1308,21 @@
                     "location": {
                         "easting_m": 108235.0563,
                         "northing_m": 100770.5347,
+                        "terrainHeightAboveSeaLevel_m": 0.0
+                    },
+                    "curtailmentRules": [],
+                    "parkWakeDecayConstant": 0.058844363888096704
+                },
+                {
+                    "name": "T102",
+                    "associatedWindClimateId": "M1 98m",
+                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+                    "isInstalled": false,
+                    "productionYield": 0.0,
+                    "confidenceWeighting": 0.0,
+                    "location": {
+                        "easting_m": 94984.0706,
+                        "northing_m": 97821.55078,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1321,21 +1441,6 @@
                     "parkWakeDecayConstant": 0.061793046028579095
                 },
                 {
-                    "name": "T31",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95226.27882,
-                        "northing_m": 101980.8833,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
                     "name": "T36",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1345,21 +1450,6 @@
                     "location": {
                         "easting_m": 94109.57072,
                         "northing_m": 102959.5232,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
-                    "name": "T39",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95581.83461,
-                        "northing_m": 101018.9576,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1396,21 +1486,6 @@
                     "parkWakeDecayConstant": 0.061793046028579095
                 },
                 {
-                    "name": "T51",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94660.75552,
-                        "northing_m": 100894.7398,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
                     "name": "T56",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1420,21 +1495,6 @@
                     "location": {
                         "easting_m": 93367.55262,
                         "northing_m": 102031.5079,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
-                    "name": "T59",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95224.39096,
-                        "northing_m": 99906.84185,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1486,21 +1546,6 @@
                     "parkWakeDecayConstant": 0.061793046028579095
                 },
                 {
-                    "name": "T72",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94296.07591,
-                        "northing_m": 99858.44862,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
                     "name": "T77",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1510,21 +1555,6 @@
                     "location": {
                         "easting_m": 92818.9186,
                         "northing_m": 101104.3034,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
-                    "name": "T80",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 95042.3094,
-                        "northing_m": 98857.01687,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1576,21 +1606,6 @@
                     "parkWakeDecayConstant": 0.061793046028579095
                 },
                 {
-                    "name": "T93",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94089.51501,
-                        "northing_m": 98855.94823,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
                     "name": "T95",
                     "associatedWindClimateId": "M1 98m",
                     "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1615,21 +1630,6 @@
                     "location": {
                         "easting_m": 92301.62217,
                         "northing_m": 100070.5327,
-                        "terrainHeightAboveSeaLevel_m": 0.0
-                    },
-                    "curtailmentRules": [],
-                    "parkWakeDecayConstant": 0.061793046028579095
-                },
-                {
-                    "name": "T102",
-                    "associatedWindClimateId": "M1 98m",
-                    "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-                    "isInstalled": false,
-                    "productionYield": 0.0,
-                    "confidenceWeighting": 0.0,
-                    "location": {
-                        "easting_m": 94984.0706,
-                        "northing_m": 97821.55078,
                         "terrainHeightAboveSeaLevel_m": 0.0
                     },
                     "curtailmentRules": [],
@@ -1667,7 +1667,7 @@
                 }
             ],
             "isNeighbor": true,
-            "includeInBlockageCalculation": false
+            "includeInBlockageCalculation": true
         }
     ],
     "turbineModels": [
@@ -3334,67 +3334,729 @@
     "atmosphericConditions": {
         "atmosphericConditionClasses": [
             {
-                "id": "onshore_stable_idealized",
-                "parameters": {
-                    "turbulenceIntensityAtHubHeight": 0.046239999999999996,
-                    "turbulenceIntensityAtTipHeight": 0.02944,
-                    "windSpeedVerticalGradientHubHeight_per_m": 0.025816,
-                    "windSpeedVerticalGradientTipHeight_per_m": 0.024418,
-                    "boundaryLayerHeight_m": 306.2,
-                    "lapseRate_K_per_100m": 0.0054,
-                    "deltaThetaAcrossInversionLayer_K": 0.65,
-                    "heightInversionLayer_m": 945.3
-                }
+                "id": "north_sea_stable_offland_wrf",
+                "boundaryLayerHeight_m": 230,
+                "lapseRate_K_per_100m": 0.003,
+                "deltaThetaAcrossInversionLayer_K": 0,
+                "thicknessInversionLayer_m": 1000,
+                "heightsAboveSurface_m": [
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110,
+                    120,
+                    130,
+                    140,
+                    150,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    220,
+                    240,
+                    260,
+                    280,
+                    300,
+                    320,
+                    340,
+                    360,
+                    380,
+                    400,
+                    420,
+                    440,
+                    460,
+                    480,
+                    500,
+                    550,
+                    600,
+                    650,
+                    700,
+                    750,
+                    800,
+                    850,
+                    900,
+                    950
+                ],
+                "turbulenceIntensityProfile": [
+                    0.0739,
+                    0.0637,
+                    0.0574,
+                    0.0534,
+                    0.0498,
+                    0.0464,
+                    0.0432,
+                    0.0402,
+                    0.0373,
+                    0.0345,
+                    0.0319,
+                    0.0293,
+                    0.0268,
+                    0.0244,
+                    0.0221,
+                    0.02,
+                    0.0182,
+                    0.0167,
+                    0.0154,
+                    0.0143,
+                    0.0124,
+                    0.0114,
+                    0.0113,
+                    0.0113,
+                    0.0113,
+                    0.0118,
+                    0.0121,
+                    0.0122,
+                    0.0122,
+                    0.0122,
+                    0.0122,
+                    0.0121,
+                    0.0118,
+                    0.0119,
+                    0.012,
+                    0.0122,
+                    0.0121,
+                    0.012,
+                    0.0122,
+                    0.0121,
+                    0.0119,
+                    0.0121,
+                    0.0119,
+                    0.0119
+                ],
+                "windSpeedVerticalGradientProfile_per_s_m": [
+                    0.06803,
+                    0.04699,
+                    0.02076,
+                    0.02669,
+                    0.02121,
+                    0.01952,
+                    0.0188,
+                    0.01852,
+                    0.01846,
+                    0.01844,
+                    0.01839,
+                    0.0183,
+                    0.01808,
+                    0.01773,
+                    0.01712,
+                    0.0157,
+                    0.0129,
+                    0.0086,
+                    0.00346,
+                    -0.00157,
+                    -0.00941,
+                    -0.01232,
+                    -0.00896,
+                    -0.00189,
+                    -0.00073,
+                    -0.00065,
+                    -4e-05,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1e-05,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             },
             {
-                "id": "onshore_unstable_idealized",
-                "parameters": {
-                    "turbulenceIntensityAtHubHeight": 0.07035999999999999,
-                    "turbulenceIntensityAtTipHeight": 0.06146,
-                    "windSpeedVerticalGradientHubHeight_per_m": 0.006,
-                    "windSpeedVerticalGradientTipHeight_per_m": 0.004414,
-                    "boundaryLayerHeight_m": 428.3,
-                    "lapseRate_K_per_100m": 0.0059,
-                    "deltaThetaAcrossInversionLayer_K": 9.35,
-                    "heightInversionLayer_m": 510.2
-                }
+                "id": "north_sea_stable_wrf",
+                "boundaryLayerHeight_m": 213.8,
+                "lapseRate_K_per_100m": 0.0044,
+                "deltaThetaAcrossInversionLayer_K": 0,
+                "thicknessInversionLayer_m": 1000,
+                "heightsAboveSurface_m": [
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110,
+                    120,
+                    130,
+                    140,
+                    150,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    220,
+                    240,
+                    260,
+                    280,
+                    300,
+                    320,
+                    340,
+                    360,
+                    380,
+                    400,
+                    420,
+                    440,
+                    460,
+                    480,
+                    500,
+                    550,
+                    600,
+                    650,
+                    700,
+                    750,
+                    800,
+                    850,
+                    900,
+                    950
+                ],
+                "turbulenceIntensityProfile": [
+                    0.0735,
+                    0.0631,
+                    0.0565,
+                    0.0523,
+                    0.0485,
+                    0.0449,
+                    0.0416,
+                    0.0383,
+                    0.0352,
+                    0.0322,
+                    0.0293,
+                    0.0266,
+                    0.024,
+                    0.0216,
+                    0.0194,
+                    0.0174,
+                    0.0157,
+                    0.0145,
+                    0.0136,
+                    0.0127,
+                    0.0113,
+                    0.0107,
+                    0.0108,
+                    0.011,
+                    0.0111,
+                    0.0114,
+                    0.0114,
+                    0.0114,
+                    0.0114,
+                    0.0113,
+                    0.0114,
+                    0.0114,
+                    0.0112,
+                    0.0113,
+                    0.0115,
+                    0.0116,
+                    0.0115,
+                    0.0116,
+                    0.0116,
+                    0.0116,
+                    0.0115,
+                    0.0117,
+                    0.0116,
+                    0.0116
+                ],
+                "windSpeedVerticalGradientProfile_per_s_m": [
+                    0.06655,
+                    0.04658,
+                    0.02087,
+                    0.02718,
+                    0.02187,
+                    0.02033,
+                    0.01976,
+                    0.01963,
+                    0.01968,
+                    0.01969,
+                    0.01956,
+                    0.01925,
+                    0.01855,
+                    0.0173,
+                    0.01523,
+                    0.01185,
+                    0.0071,
+                    0.00165,
+                    -0.00353,
+                    -0.00773,
+                    -0.01211,
+                    -0.00957,
+                    -0.00453,
+                    -0.00068,
+                    -0.00017,
+                    -0.00013,
+                    0,
+                    0,
+                    0,
+                    -1e-05,
+                    0,
+                    0,
+                    2e-05,
+                    1e-05,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "id": "north_sea_unstable_offland_wrf",
+                "boundaryLayerHeight_m": 189.3,
+                "lapseRate_K_per_100m": 0.0044,
+                "deltaThetaAcrossInversionLayer_K": 1.93,
+                "thicknessInversionLayer_m": 135,
+                "heightsAboveSurface_m": [
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110,
+                    120,
+                    130,
+                    140,
+                    150,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    220,
+                    240,
+                    260,
+                    280,
+                    300,
+                    320,
+                    340,
+                    360,
+                    380,
+                    400,
+                    420,
+                    440,
+                    460,
+                    480,
+                    500,
+                    550,
+                    600,
+                    650,
+                    700,
+                    750,
+                    800,
+                    850,
+                    900,
+                    950
+                ],
+                "turbulenceIntensityProfile": [
+                    0.0825,
+                    0.0742,
+                    0.0693,
+                    0.0662,
+                    0.0636,
+                    0.0612,
+                    0.059,
+                    0.0568,
+                    0.0546,
+                    0.0524,
+                    0.0503,
+                    0.0483,
+                    0.0462,
+                    0.0442,
+                    0.0423,
+                    0.0408,
+                    0.0396,
+                    0.038,
+                    0.0349,
+                    0.0299,
+                    0.0172,
+                    0.0091,
+                    0.0078,
+                    0.0082,
+                    0.0082,
+                    0.0085,
+                    0.0091,
+                    0.0095,
+                    0.0097,
+                    0.0097,
+                    0.0097,
+                    0.0098,
+                    0.0098,
+                    0.0099,
+                    0.0099,
+                    0.01,
+                    0.0101,
+                    0.0102,
+                    0.0102,
+                    0.0103,
+                    0.0103,
+                    0.0103,
+                    0.0103,
+                    0.0103
+                ],
+                "windSpeedVerticalGradientProfile_per_s_m": [
+                    -0.01726,
+                    0.02562,
+                    0.02017,
+                    0.01754,
+                    0.01304,
+                    0.01153,
+                    0.01008,
+                    0.00903,
+                    0.00832,
+                    0.00773,
+                    0.00728,
+                    0.00695,
+                    0.00664,
+                    0.00632,
+                    0.00645,
+                    0.00759,
+                    0.00984,
+                    0.01231,
+                    0.01393,
+                    0.01379,
+                    0.00869,
+                    -0.00014,
+                    -0.00828,
+                    -0.01042,
+                    -0.00684,
+                    -0.00289,
+                    -0.00083,
+                    -1e-05,
+                    0.00015,
+                    0.00011,
+                    8e-05,
+                    5e-05,
+                    2e-05,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "id": "north_sea_unstable_wrf",
+                "boundaryLayerHeight_m": 440.1,
+                "lapseRate_K_per_100m": 0.0052,
+                "deltaThetaAcrossInversionLayer_K": 1.57,
+                "thicknessInversionLayer_m": 197.7,
+                "heightsAboveSurface_m": [
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110,
+                    120,
+                    130,
+                    140,
+                    150,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    220,
+                    240,
+                    260,
+                    280,
+                    300,
+                    320,
+                    340,
+                    360,
+                    380,
+                    400,
+                    420,
+                    440,
+                    460,
+                    480,
+                    500,
+                    550,
+                    600,
+                    650,
+                    700,
+                    750,
+                    800,
+                    850,
+                    900,
+                    950
+                ],
+                "turbulenceIntensityProfile": [
+                    0.0843,
+                    0.0774,
+                    0.0741,
+                    0.0723,
+                    0.071,
+                    0.0697,
+                    0.0686,
+                    0.0675,
+                    0.0665,
+                    0.0655,
+                    0.0644,
+                    0.0634,
+                    0.0623,
+                    0.0612,
+                    0.0601,
+                    0.0589,
+                    0.0577,
+                    0.0564,
+                    0.0551,
+                    0.0537,
+                    0.0508,
+                    0.0478,
+                    0.0448,
+                    0.0416,
+                    0.0385,
+                    0.0355,
+                    0.0323,
+                    0.0287,
+                    0.0248,
+                    0.0213,
+                    0.0184,
+                    0.0158,
+                    0.0137,
+                    0.0121,
+                    0.0111,
+                    0.0095,
+                    0.0093,
+                    0.0096,
+                    0.0098,
+                    0.0099,
+                    0.0099,
+                    0.0099,
+                    0.0099,
+                    0.0099
+                ],
+                "windSpeedVerticalGradientProfile_per_s_m": [
+                    -0.0176,
+                    0.02402,
+                    0.01829,
+                    0.01559,
+                    0.01123,
+                    0.00972,
+                    0.00827,
+                    0.00721,
+                    0.00649,
+                    0.00589,
+                    0.0054,
+                    0.00501,
+                    0.00471,
+                    0.00447,
+                    0.00427,
+                    0.00412,
+                    0.004,
+                    0.00391,
+                    0.00384,
+                    0.00379,
+                    0.00372,
+                    0.0037,
+                    0.00369,
+                    0.00367,
+                    0.00368,
+                    0.00381,
+                    0.00383,
+                    0.00329,
+                    0.00206,
+                    0.00032,
+                    -0.00154,
+                    -0.00298,
+                    -0.00373,
+                    -0.00377,
+                    -0.0033,
+                    -0.00189,
+                    -0.00091,
+                    1e-05,
+                    4e-05,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
             }
         ],
         "atmosphericConditionProbabilityDistribution": [
             {
                 "fromDirection_degrees": 345,
-                "toDirection_degrees": 115,
+                "toDirection_degrees": 15,
                 "atmosphericConditionClassIds": [
-                    "onshore_stable_idealized",
-                    "onshore_unstable_idealized"
+                    "north_sea_stable_wrf",
+                    "north_sea_unstable_wrf"
                 ],
                 "probabilityForClasses": [
-                    0.6,
-                    0.4
+                    0.071605,
+                    0.928395
                 ]
             },
             {
-                "fromDirection_degrees": 115,
-                "toDirection_degrees": 285,
+                "fromDirection_degrees": 15,
+                "toDirection_degrees": 45,
                 "atmosphericConditionClassIds": [
-                    "onshore_stable_idealized",
-                    "onshore_unstable_idealized"
+                    "north_sea_stable_wrf",
+                    "north_sea_unstable_wrf"
                 ],
                 "probabilityForClasses": [
-                    0.45,
-                    0.55
+                    0.117722,
+                    0.882278
+                ]
+            },
+            {
+                "fromDirection_degrees": 45,
+                "toDirection_degrees": 75,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_wrf",
+                    "north_sea_unstable_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.188679,
+                    0.811321
+                ]
+            },
+            {
+                "fromDirection_degrees": 75,
+                "toDirection_degrees": 105,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_wrf",
+                    "north_sea_unstable_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.216357,
+                    0.783643
+                ]
+            },
+            {
+                "fromDirection_degrees": 105,
+                "toDirection_degrees": 135,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_wrf",
+                    "north_sea_unstable_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.267937,
+                    0.732063
+                ]
+            },
+            {
+                "fromDirection_degrees": 135,
+                "toDirection_degrees": 165,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_wrf",
+                    "north_sea_unstable_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.300334,
+                    0.699666
+                ]
+            },
+            {
+                "fromDirection_degrees": 165,
+                "toDirection_degrees": 195,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_offland_wrf",
+                    "north_sea_unstable_offland_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.36918,
+                    0.6308199999999999
+                ]
+            },
+            {
+                "fromDirection_degrees": 195,
+                "toDirection_degrees": 225,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_offland_wrf",
+                    "north_sea_unstable_offland_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.364958,
+                    0.635042
+                ]
+            },
+            {
+                "fromDirection_degrees": 225,
+                "toDirection_degrees": 255,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_offland_wrf",
+                    "north_sea_unstable_offland_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.320439,
+                    0.6795610000000001
+                ]
+            },
+            {
+                "fromDirection_degrees": 255,
+                "toDirection_degrees": 285,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_offland_wrf",
+                    "north_sea_unstable_offland_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.230829,
+                    0.769171
                 ]
             },
             {
                 "fromDirection_degrees": 285,
-                "toDirection_degrees": 345,
+                "toDirection_degrees": 315,
                 "atmosphericConditionClassIds": [
-                    "onshore_stable_idealized",
-                    "onshore_unstable_idealized"
+                    "north_sea_stable_offland_wrf",
+                    "north_sea_unstable_offland_wrf"
                 ],
                 "probabilityForClasses": [
-                    0.5,
-                    0.5
+                    0.105842,
+                    0.894158
+                ]
+            },
+            {
+                "fromDirection_degrees": 315,
+                "toDirection_degrees": 345,
+                "atmosphericConditionClassIds": [
+                    "north_sea_stable_offland_wrf",
+                    "north_sea_unstable_offland_wrf"
+                ],
+                "probabilityForClasses": [
+                    0.06465,
+                    0.93535
                 ]
             }
         ]
@@ -4051,7 +4713,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T31",
+                "id": "Farm T31",
                 "easting_m": 95226.27882,
                 "northing_m": 101980.8833,
                 "heightAboveGround_m": 98.0,
@@ -4219,7 +4881,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T39",
+                "id": "Farm T39",
                 "easting_m": 95581.83461,
                 "northing_m": 101018.9576,
                 "heightAboveGround_m": 98.0,
@@ -4471,7 +5133,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T51",
+                "id": "Farm T51",
                 "easting_m": 94660.75552,
                 "northing_m": 100894.7398,
                 "heightAboveGround_m": 98.0,
@@ -4639,7 +5301,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T59",
+                "id": "Farm T59",
                 "easting_m": 95224.39096,
                 "northing_m": 99906.84185,
                 "heightAboveGround_m": 98.0,
@@ -4912,7 +5574,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T72",
+                "id": "Farm T72",
                 "easting_m": 94296.07591,
                 "northing_m": 99858.44862,
                 "heightAboveGround_m": 98.0,
@@ -5080,7 +5742,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T80",
+                "id": "Farm T80",
                 "easting_m": 95042.3094,
                 "northing_m": 98857.01687,
                 "heightAboveGround_m": 98.0,
@@ -5353,7 +6015,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T93",
+                "id": "Farm T93",
                 "easting_m": 94089.51501,
                 "northing_m": 98855.94823,
                 "heightAboveGround_m": 98.0,
@@ -5542,7 +6204,7 @@
                 "isTarget": true
             },
             {
-                "id": "Neighbour T102",
+                "id": "Farm T102",
                 "easting_m": 94984.0706,
                 "northing_m": 97821.55078,
                 "heightAboveGround_m": 98.0,
@@ -5756,6 +6418,7 @@
     "energyEfficienciesSettings": {
         "calculateEfficiencies": true,
         "calculateIdealYield": false,
+        "calculateSensitivityCurve": false,
         "includeHysteresisEffect": false,
         "includeTurbineManagement": false,
         "turbineFlowAndPerformanceMatrixOutputSettings": {

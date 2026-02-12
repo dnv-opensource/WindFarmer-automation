@@ -12,7 +12,7 @@ class WindFarmerAPI:
     """
     def __init__(self, 
                  auth_token: str,
-                 api_url: str = 'https://windfarmer.dnv.com/api/v2/'):
+                 api_url: str = 'https://windfarmer.dnv.com/api/v3/'):
         """
         Initialize the WindFarmerAPI class
         :param api_url: The base URL for the WindFarmer API

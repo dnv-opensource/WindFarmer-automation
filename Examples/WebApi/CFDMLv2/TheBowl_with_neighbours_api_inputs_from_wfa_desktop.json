@@ -1,5 +1,9 @@
 {
-  "projectInfo": null,
+  "projectInfo": {
+    "projectId": "The Bowl",
+    "siteLatitude": 53.935087,
+    "siteLongitude": 0.288388
+  },
   "windFarms": [
     {
       "name": "Farm",
@@ -440,6 +444,21 @@
           "parkWakeDecayConstant": 0.058844363888096704
         },
         {
+          "name": "T31",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 95226.27882,
+            "northing_m": 101980.8833,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
           "name": "T32",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -524,6 +543,21 @@
           "location": {
             "easting_m": 105070.8503,
             "northing_m": 101675.5023,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
+          "name": "T39",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 95581.83461,
+            "northing_m": 101018.9576,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -665,6 +699,21 @@
           "parkWakeDecayConstant": 0.058844363888096704
         },
         {
+          "name": "T51",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 94660.75552,
+            "northing_m": 100894.7398,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
           "name": "T52",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -749,6 +798,21 @@
           "location": {
             "easting_m": 106150.4168,
             "northing_m": 101216.7212,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
+          "name": "T59",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 95224.39096,
+            "northing_m": 99906.84185,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -890,6 +954,21 @@
           "parkWakeDecayConstant": 0.058844363888096704
         },
         {
+          "name": "T72",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 94296.07591,
+            "northing_m": 99858.44862,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
           "name": "T73",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -974,6 +1053,21 @@
           "location": {
             "easting_m": 107182.2411,
             "northing_m": 100939.6241,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
+          "name": "T80",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 95042.3094,
+            "northing_m": 98857.01687,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -1115,6 +1209,21 @@
           "parkWakeDecayConstant": 0.058844363888096704
         },
         {
+          "name": "T93",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 94089.51501,
+            "northing_m": 98855.94823,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
           "name": "T94",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1199,6 +1308,21 @@
           "location": {
             "easting_m": 108235.0563,
             "northing_m": 100770.5347,
+            "terrainHeightAboveSeaLevel_m": 0.0
+          },
+          "curtailmentRules": [],
+          "parkWakeDecayConstant": 0.058844363888096704
+        },
+        {
+          "name": "T102",
+          "associatedWindClimateId": "M1 98m",
+          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
+          "isInstalled": false,
+          "productionYield": 0.0,
+          "confidenceWeighting": 0.0,
+          "location": {
+            "easting_m": 94984.0706,
+            "northing_m": 97821.55078,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -1317,21 +1441,6 @@
           "parkWakeDecayConstant": 0.061793046028579095
         },
         {
-          "name": "T31",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 95226.27882,
-            "northing_m": 101980.8833,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
           "name": "T36",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1341,21 +1450,6 @@
           "location": {
             "easting_m": 94109.57072,
             "northing_m": 102959.5232,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
-          "name": "T39",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 95581.83461,
-            "northing_m": 101018.9576,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -1392,21 +1486,6 @@
           "parkWakeDecayConstant": 0.061793046028579095
         },
         {
-          "name": "T51",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 94660.75552,
-            "northing_m": 100894.7398,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
           "name": "T56",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1416,21 +1495,6 @@
           "location": {
             "easting_m": 93367.55262,
             "northing_m": 102031.5079,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
-          "name": "T59",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 95224.39096,
-            "northing_m": 99906.84185,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -1482,21 +1546,6 @@
           "parkWakeDecayConstant": 0.061793046028579095
         },
         {
-          "name": "T72",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 94296.07591,
-            "northing_m": 99858.44862,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
           "name": "T77",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1506,21 +1555,6 @@
           "location": {
             "easting_m": 92818.9186,
             "northing_m": 101104.3034,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
-          "name": "T80",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 95042.3094,
-            "northing_m": 98857.01687,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -1572,21 +1606,6 @@
           "parkWakeDecayConstant": 0.061793046028579095
         },
         {
-          "name": "T93",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 94089.51501,
-            "northing_m": 98855.94823,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
           "name": "T95",
           "associatedWindClimateId": "M1 98m",
           "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
@@ -1611,21 +1630,6 @@
           "location": {
             "easting_m": 92301.62217,
             "northing_m": 100070.5327,
-            "terrainHeightAboveSeaLevel_m": 0.0
-          },
-          "curtailmentRules": [],
-          "parkWakeDecayConstant": 0.061793046028579095
-        },
-        {
-          "name": "T102",
-          "associatedWindClimateId": "M1 98m",
-          "turbineModelId": "Vestas V136-3.45 1.225 kgm3",
-          "isInstalled": false,
-          "productionYield": 0.0,
-          "confidenceWeighting": 0.0,
-          "location": {
-            "easting_m": 94984.0706,
-            "northing_m": 97821.55078,
             "terrainHeightAboveSeaLevel_m": 0.0
           },
           "curtailmentRules": [],
@@ -1663,7 +1667,7 @@
         }
       ],
       "isNeighbor": true,
-      "includeInBlockageCalculation": false
+      "includeInBlockageCalculation": true
     }
   ],
   "turbineModels": [
@@ -3980,7 +3984,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T31",
+        "id": "Farm T31",
         "easting_m": 95226.27882,
         "northing_m": 101980.8833,
         "heightAboveGround_m": 98.0,
@@ -4148,7 +4152,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T39",
+        "id": "Farm T39",
         "easting_m": 95581.83461,
         "northing_m": 101018.9576,
         "heightAboveGround_m": 98.0,
@@ -4400,7 +4404,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T51",
+        "id": "Farm T51",
         "easting_m": 94660.75552,
         "northing_m": 100894.7398,
         "heightAboveGround_m": 98.0,
@@ -4568,7 +4572,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T59",
+        "id": "Farm T59",
         "easting_m": 95224.39096,
         "northing_m": 99906.84185,
         "heightAboveGround_m": 98.0,
@@ -4841,7 +4845,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T72",
+        "id": "Farm T72",
         "easting_m": 94296.07591,
         "northing_m": 99858.44862,
         "heightAboveGround_m": 98.0,
@@ -5009,7 +5013,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T80",
+        "id": "Farm T80",
         "easting_m": 95042.3094,
         "northing_m": 98857.01687,
         "heightAboveGround_m": 98.0,
@@ -5282,7 +5286,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T93",
+        "id": "Farm T93",
         "easting_m": 94089.51501,
         "northing_m": 98855.94823,
         "heightAboveGround_m": 98.0,
@@ -5471,7 +5475,7 @@
         "isTarget": true
       },
       {
-        "id": "Neighbour T102",
+        "id": "Farm T102",
         "easting_m": 94984.0706,
         "northing_m": 97821.55078,
         "heightAboveGround_m": 98.0,
@@ -5685,6 +5689,7 @@
   "energyEfficienciesSettings": {
     "calculateEfficiencies": false,
     "calculateIdealYield": false,
+    "calculateSensitivityCurve": false,
     "includeHysteresisEffect": true,
     "includeTurbineManagement": true,
     "turbineFlowAndPerformanceMatrixOutputSettings": {

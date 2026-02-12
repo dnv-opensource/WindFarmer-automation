@@ -97,41 +97,6 @@ def construct_atmospheric_conditions(atmosphericConditionProbabilityDistribution
     }
     return atmosphericConditions
 
-def plot_atmoshperic_conditions_rose(atmosphericConditionProbabilityDistribution):
-    """ 
-    Plot the atmospheric conditions class rose to visualise the directional frequency of atmospheric stability.
-    """
-    # Plot the frequency distribution of atmospheric conditions
-    all_atmos_classes = []
-    for sector in atmosphericConditionProbabilityDistribution:
-        for class_id in sector["atmosphericConditionClassIds"]:
-            if class_id not in all_atmos_classes:
-                all_atmos_classes.append(class_id)
-    print(f'Distinct atmospheric conditions classes to simulate:\n {all_atmos_classes}')
-
-    temp = pd.DataFrame(atmosphericConditionProbabilityDistribution)
-    df_for_stability_rose_plot = pd.DataFrame()
-    for i in range(0,2):
-        temp2 = temp.copy()
-        temp2['atmosphericConditionClassIds'] = temp2['atmosphericConditionClassIds'].apply(lambda x: x[i])
-        temp2['probabilityForClasses'] = temp2['probabilityForClasses'].apply(lambda x: x[i])
-        df_for_stability_rose_plot = pd.concat([df_for_stability_rose_plot, temp2], axis=0)
-    df_for_stability_rose_plot['angular_bin_center'] = pd.Series([_average_angles([math.radians(x["toDirection_degrees"]), math.radians(x["fromDirection_degrees"])]) for x in atmosphericConditionProbabilityDistribution])#  pd.Series([50, 200, 315, 40, 130, 315])
-    df_for_stability_rose_plot['angular_bin_center_degrees'] = df_for_stability_rose_plot['angular_bin_center'].map(lambda x: math.degrees(x))
-    df_for_stability_rose_plot['angular_bin_width'] = pd.Series([_angle_difference(math.radians(x["toDirection_degrees"]),math.radians(x["fromDirection_degrees"])) for x in atmosphericConditionProbabilityDistribution])#  pd.Series([50, 200, 315, 40, 130, 315])
-    df_for_stability_rose_plot['angular_bin_width_degrees'] = df_for_stability_rose_plot['angular_bin_width'].map(lambda x: math.degrees(x))
-    df_for_stability_rose_plot['cumulative_probability'] = df_for_stability_rose_plot.groupby('angular_bin_center')['probabilityForClasses'].cumsum()
-
-    df_for_stability_rose_plot
-
-    fig, ax = plt.subplots(subplot_kw={'projection':'polar','theta_offset': np.pi / 2, 'theta_direction': -1})
-    for key in all_atmos_classes:
-        group = df_for_stability_rose_plot[df_for_stability_rose_plot['atmosphericConditionClassIds']==key]
-        ax.bar(group['angular_bin_center'], group['probabilityForClasses'], bottom=group['cumulative_probability']-group['probabilityForClasses'],  width=group['angular_bin_width'], label=f'Class {key}', edgecolor='black')
-    ax.set_ylim([-0.2, 1.0])
-    fig.suptitle("Frequency of atmospheric conditions by wind direction")
-    fig.legend(loc='lower center')
-
 def check_if_neighbours(input_aep_json):
     neighbour_farms = [w for w in input_aep_json["windFarms"] if w["isNeighbor"]==True]
     return len(neighbour_farms) > 0
@@ -163,3 +128,134 @@ def _angle_difference(to_angle_in_radians, from_angle_in_radians):
         from_angle_in_radians = from_angle_in_radians - 2*math.pi
     angle_difference = to_angle_in_radians - from_angle_in_radians
     return  angle_difference 
+
+
+def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution):
+    print("Atmospheric condition probability distribution:")
+    # Helper functions for angle calculations (from cfdml_v2.py)
+    import math
+
+    def format_class_name(class_id):
+        """Convert class ID to human-readable format"""
+        # Replace underscores with spaces and capitalize words
+        readable = class_id.replace('_', ' ').title()
+        # Handle specific abbreviations
+        readable = readable.replace('Usa', 'USA')
+        readable = readable.replace('Cfd', 'CFD')
+        # Remove WRF and clean up extra spaces
+        readable = readable.replace('Wrf', '').replace('WRF', '')
+        readable = ' '.join(readable.split())  # Remove extra spaces
+        return readable
+
+    def get_color_for_class(class_id):
+        """Assign colors based on offshore/onshore and stable/unstable"""
+        class_lower = class_id.lower()
+        
+        # Determine if stable or unstable
+        is_stable = 'stable' in class_lower and 'unstable' not in class_lower
+        
+        # Determine if offshore or onshore (priority to explicit keywords)
+        # "offland" or "onshore" or "land" explicitly means onshore/land
+        # "offshore" or mentions of water bodies without "land" means offshore
+        is_onshore = ('offland' in class_lower or 'onshore' in class_lower or 
+                    ('land' in class_lower and 'offland' not in class_lower))
+        is_offshore = (('offshore' in class_lower or 'sea' in class_lower or 
+                    'atlantic' in class_lower or 'ocean' in class_lower) and 
+                    not is_onshore)
+        
+        # Color scheme: Blue for offshore, Orange/Brown for onshore
+        # Darker/more saturated for stable, lighter for unstable
+        if is_offshore:
+            return '#0066cc' if is_stable else '#66b3ff'  # Deep blue for stable, light blue for unstable
+        elif is_onshore:
+            return '#cc6600' if is_stable else '#ffaa66'  # Deep orange for stable, light orange for unstable
+        else:
+            # Fallback for unclassified conditions (gray scale)
+            return '#555555' if is_stable else '#999999'  # Dark gray for stable, light gray for unstable
+
+    # Get all distinct atmospheric condition classes
+    all_atmos_classes = []
+    for sector in atmosphericConditionProbabilityDistribution:
+        for class_id in sector["atmosphericConditionClassIds"]:
+            if class_id not in all_atmos_classes:
+                all_atmos_classes.append(class_id)
+    print(f'\nDistinct atmospheric conditions classes to simulate:\n {all_atmos_classes}')
+
+    # Prepare data for plotting - matching the working cfdml_v2.py implementation
+    temp = pd.DataFrame(atmosphericConditionProbabilityDistribution)
+    df_for_stability_rose_plot = pd.DataFrame()
+
+    # Expand data for each atmospheric class
+    for i in range(0, 2):
+        temp2 = temp.copy()
+        temp2['atmosphericConditionClassIds'] = temp2['atmosphericConditionClassIds'].apply(lambda x: x[i])
+        temp2['probabilityForClasses'] = temp2['probabilityForClasses'].apply(lambda x: x[i])
+        df_for_stability_rose_plot = pd.concat([df_for_stability_rose_plot, temp2], axis=0)
+
+    # Calculate angular bin centers and widths
+    df_for_stability_rose_plot['angular_bin_center'] = pd.Series([
+        _average_angles([math.radians(x["toDirection_degrees"]), math.radians(x["fromDirection_degrees"])]) 
+        for x in atmosphericConditionProbabilityDistribution
+    ] * 2)
+
+    df_for_stability_rose_plot['angular_bin_center_degrees'] = df_for_stability_rose_plot['angular_bin_center'].map(lambda x: math.degrees(x))
+
+    df_for_stability_rose_plot['angular_bin_width'] = pd.Series([
+        _angle_difference(math.radians(x["toDirection_degrees"]), math.radians(x["fromDirection_degrees"])) 
+        for x in atmosphericConditionProbabilityDistribution
+    ] * 2)
+
+    df_for_stability_rose_plot['angular_bin_width_degrees'] = df_for_stability_rose_plot['angular_bin_width'].map(lambda x: math.degrees(x))
+
+    # Calculate cumulative probability for stacking
+    df_for_stability_rose_plot['cumulative_probability'] = df_for_stability_rose_plot.groupby('angular_bin_center')['probabilityForClasses'].cumsum()
+
+    # Set font sizes globally
+    plt.rcParams.update({
+        'font.size': 9,
+        'axes.titlesize': 11,
+        'axes.labelsize': 9,
+        'xtick.labelsize': 9,
+        'ytick.labelsize': 9,
+        'legend.fontsize': 9
+    })
+
+    # Create the polar plot - size appropriate for 1/4 of A4 page
+    # A4 is 8.27 x 11.69 inches, so 1/4 page is approximately 4 x 3 inches
+    fig, ax = plt.subplots(figsize=(5, 4), subplot_kw={'projection':'polar','theta_offset': np.pi / 2, 'theta_direction': -1})
+
+    for key in all_atmos_classes:
+        group = df_for_stability_rose_plot[df_for_stability_rose_plot['atmosphericConditionClassIds']==key]
+        color = get_color_for_class(key)
+        label = format_class_name(key)
+        
+        ax.bar(group['angular_bin_center'], 
+            group['probabilityForClasses'], 
+            bottom=group['cumulative_probability']-group['probabilityForClasses'],  
+            width=group['angular_bin_width'], 
+            label=label, 
+            edgecolor='black',
+            linewidth=0.5,
+            color=color)
+
+    ax.set_ylim([0, 1.0])
+    ax.set_title("Atmospheric Conditions at an exemplary North Sea site off the UK coast", fontsize=11, pad=15)
+
+    # Position legend outside plot area to avoid overlap
+    ax.legend(loc='upper left', bbox_to_anchor=(1.15, 1.0), frameon=True, fontsize=9)
+
+    plt.tight_layout()
+
+    # Save to PNG file with high resolution
+    output_filename = 'atmospheric_stability_rose.png'
+    plt.savefig(output_filename, dpi=300, bbox_inches='tight')
+    print(f"✓ Plot saved to {output_filename} (300 DPI)")
+
+    plt.show()
+
+    print("\n✓ Stability rose plot created successfully")
+
+    # Display as DataFrame
+    df_display = pd.DataFrame(atmosphericConditionProbabilityDistribution)
+    print("\nAtmospheric Condition Distribution Table:")
+    df_display
