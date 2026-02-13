@@ -46,6 +46,29 @@ class WindFarmerAPI:
             print(response.text)
             print('Check your access key is saved in the environment variable specified above, and up to date')
 
+    def get_atmospheric_conditions(self, lat, lon, radiusKm = 50.0, landFractionThreshold = 0.2) -> dict:
+        """ 
+        Performs site classification of atmospheric conditions for a given location, using the WindFarmer API.
+        :return: Atmospheric Conditions classes and a stablity rose, with the proportion of conditions in each class for each 12 direction sectors
+        """
+        response = requests.get(self.api_url + 'AtmosphericConditions', headers = self._get_call_header(), params={
+            "lat": lat,
+            "lon": lon,
+            "radiusKm": radiusKm,
+            "landFractionThreshold": landFractionThreshold
+        })
+        site_classification = response.json()
+
+        print(f'Response from AtmosphericConditions: {response.status_code}')
+        if response.status_code == 200:
+            print("Site Classification Results:")
+            print(json.dumps(site_classification, indent=2))
+            return site_classification
+        else:
+            print(response.status_code)
+            print(response.text)
+            return None
+
     async def call_aep_api(self, input_data: dict) -> dict:
         """
         Call the WindFarmer API to get the annual energy production.
