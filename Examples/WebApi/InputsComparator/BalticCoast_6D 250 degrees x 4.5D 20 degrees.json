@@ -1,4 +1,9 @@
 {
+  "projectInfo": {
+    "projectId": "BalticCoast",
+    "siteLatitude": 54.54,
+    "siteLongitude": 12.82
+  },
   "windFarms": [
     {
       "name": "Farm",

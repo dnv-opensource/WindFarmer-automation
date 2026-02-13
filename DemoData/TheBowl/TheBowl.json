@@ -1,4 +1,9 @@
 {
+    "projectInfo": {
+        "projectId": "The Bowl",
+        "siteLatitude": 53.935087,
+        "siteLongitude": 0.288388
+    },
     "windFarms": [
         {
             "name": "Farm",
