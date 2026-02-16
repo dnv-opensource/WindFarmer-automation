@@ -3597,7 +3597,7 @@
         "calculateEfficiencies": false,
         "calculateIdealYield": false,
         "includeHysteresisEffect": true,
-        "includeTurbineManagement": true,
+        "includeCurtailmentRules": true,
         "turbineFlowAndPerformanceMatrixOutputSettings": {
             "outputMastToTurbineSpeedUp": false,
             "outputAmbientWindSpeed": false,

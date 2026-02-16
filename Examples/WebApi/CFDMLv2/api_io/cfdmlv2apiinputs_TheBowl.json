@@ -6090,7 +6090,7 @@
         "calculateIdealYield": false,
         "calculateSensitivityCurve": false,
         "includeHysteresisEffect": false,
-        "includeTurbineManagement": false,
+        "includeCurtailmentRules": false,
         "turbineFlowAndPerformanceMatrixOutputSettings": {
             "outputMastToTurbineSpeedUp": false,
             "outputAmbientWindSpeed": true,

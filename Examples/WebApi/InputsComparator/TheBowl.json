@@ -3341,7 +3341,7 @@
     ],
     "speedsUps": [
       {
-        "locationDescription": "Farm T1",
+        "id": "Farm T1",
         "easting_m": 100016.0532,
         "northing_m": 103237.7459,
         "heightAboveGround_m": 98.0,
@@ -3361,7 +3361,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T2",
+        "id": "Farm T2",
         "easting_m": 101266.2733,
         "northing_m": 103112.912,
         "heightAboveGround_m": 98.0,
@@ -3381,7 +3381,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T3",
+        "id": "Farm T3",
         "easting_m": 99192.44203,
         "northing_m": 102767.8101,
         "heightAboveGround_m": 98.0,
@@ -3401,7 +3401,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T4",
+        "id": "Farm T4",
         "easting_m": 102569.0599,
         "northing_m": 103510.2297,
         "heightAboveGround_m": 98.0,
@@ -3421,7 +3421,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T5",
+        "id": "Farm T5",
         "easting_m": 100573.6564,
         "northing_m": 102416.78,
         "heightAboveGround_m": 98.0,
@@ -3441,7 +3441,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T6",
+        "id": "Farm T6",
         "easting_m": 98202.55229,
         "northing_m": 102587.7236,
         "heightAboveGround_m": 98.0,
@@ -3461,7 +3461,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T7",
+        "id": "Farm T7",
         "easting_m": 102082.7525,
         "northing_m": 102612.148,
         "heightAboveGround_m": 98.0,
@@ -3481,7 +3481,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T8",
+        "id": "Farm T8",
         "easting_m": 99642.22554,
         "northing_m": 101937.973,
         "heightAboveGround_m": 98.0,
@@ -3501,7 +3501,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T9",
+        "id": "Farm T9",
         "easting_m": 103498.4825,
         "northing_m": 103385.7941,
         "heightAboveGround_m": 98.0,
@@ -3521,7 +3521,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T10",
+        "id": "Farm T10",
         "easting_m": 97136.52048,
         "northing_m": 102717.1223,
         "heightAboveGround_m": 98.0,
@@ -3541,7 +3541,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T11",
+        "id": "Farm T11",
         "easting_m": 101307.9995,
         "northing_m": 101845.5047,
         "heightAboveGround_m": 98.0,
@@ -3561,7 +3561,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T12",
+        "id": "Farm T12",
         "easting_m": 98545.38632,
         "northing_m": 101727.3917,
         "heightAboveGround_m": 98.0,
@@ -3581,7 +3581,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T13",
+        "id": "Farm T13",
         "easting_m": 102977.8019,
         "northing_m": 102379.4845,
         "heightAboveGround_m": 98.0,
@@ -3601,7 +3601,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T14",
+        "id": "Farm T14",
         "easting_m": 96082.20695,
         "northing_m": 103160.6269,
         "heightAboveGround_m": 98.0,
@@ -3621,7 +3621,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T15",
+        "id": "Farm T15",
         "easting_m": 100293.8949,
         "northing_m": 101282.496,
         "heightAboveGround_m": 98.0,
@@ -3641,7 +3641,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T16",
+        "id": "Farm T16",
         "easting_m": 97362.33879,
         "northing_m": 101819.4804,
         "heightAboveGround_m": 98.0,
@@ -3661,7 +3661,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T17",
+        "id": "Farm T17",
         "easting_m": 102165.4306,
         "northing_m": 101492.8084,
         "heightAboveGround_m": 98.0,
@@ -3681,7 +3681,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T18",
+        "id": "Farm T18",
         "easting_m": 99102.36402,
         "northing_m": 100981.7182,
         "heightAboveGround_m": 98.0,
@@ -3701,7 +3701,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T19",
+        "id": "Farm T19",
         "easting_m": 103911.2284,
         "northing_m": 102382.4328,
         "heightAboveGround_m": 98.0,
@@ -3721,7 +3721,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T20",
+        "id": "Farm T20",
         "easting_m": 96176.3784,
         "northing_m": 102229.9422,
         "heightAboveGround_m": 98.0,
@@ -3741,7 +3741,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T21",
+        "id": "Farm T21",
         "easting_m": 101099.7683,
         "northing_m": 100801.0729,
         "heightAboveGround_m": 98.0,
@@ -3761,7 +3761,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T22",
+        "id": "Farm T22",
         "easting_m": 97806.29082,
         "northing_m": 100985.4174,
         "heightAboveGround_m": 98.0,
@@ -3781,7 +3781,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T23",
+        "id": "Farm T23",
         "easting_m": 103103.433,
         "northing_m": 101349.5098,
         "heightAboveGround_m": 98.0,
@@ -3801,7 +3801,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T24",
+        "id": "Farm T24",
         "easting_m": 95071.46056,
         "northing_m": 102954.606,
         "heightAboveGround_m": 98.0,
@@ -3821,7 +3821,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T25",
+        "id": "Farm T25",
         "easting_m": 99835.50973,
         "northing_m": 100368.0236,
         "heightAboveGround_m": 98.0,
@@ -3841,7 +3841,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T26",
+        "id": "Farm T26",
         "easting_m": 104846.2036,
         "northing_m": 102603.2199,
         "heightAboveGround_m": 98.0,
@@ -3861,7 +3861,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T27",
+        "id": "Farm T27",
         "easting_m": 96486.22663,
         "northing_m": 101317.2539,
         "heightAboveGround_m": 98.0,
@@ -3881,7 +3881,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T28",
+        "id": "Farm T28",
         "easting_m": 102020.7131,
         "northing_m": 100500.5984,
         "heightAboveGround_m": 98.0,
@@ -3901,7 +3901,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T29",
+        "id": "Farm T29",
         "easting_m": 98441.05445,
         "northing_m": 100242.4989,
         "heightAboveGround_m": 98.0,
@@ -3921,7 +3921,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T30",
+        "id": "Farm T30",
         "easting_m": 104083.861,
         "northing_m": 101411.7375,
         "heightAboveGround_m": 98.0,
@@ -3941,7 +3941,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T31",
+        "id": "Farm T31",
         "easting_m": 95226.27882,
         "northing_m": 101980.8833,
         "heightAboveGround_m": 98.0,
@@ -3961,7 +3961,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T32",
+        "id": "Farm T32",
         "easting_m": 100711.8248,
         "northing_m": 99904.4672,
         "heightAboveGround_m": 98.0,
@@ -3981,7 +3981,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T33",
+        "id": "Farm T33",
         "easting_m": 105748.2725,
         "northing_m": 103027.5292,
         "heightAboveGround_m": 98.0,
@@ -4001,7 +4001,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T34",
+        "id": "Farm T34",
         "easting_m": 96994.98066,
         "northing_m": 100455.6463,
         "heightAboveGround_m": 98.0,
@@ -4021,7 +4021,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T35",
+        "id": "Farm T35",
         "easting_m": 103020.6881,
         "northing_m": 100388.4449,
         "heightAboveGround_m": 98.0,
@@ -4041,7 +4041,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T36",
+        "id": "Farm T36",
         "easting_m": 94109.57072,
         "northing_m": 102959.5232,
         "heightAboveGround_m": 98.0,
@@ -4061,7 +4061,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T37",
+        "id": "Farm T37",
         "easting_m": 99241.13422,
         "northing_m": 99616.60927,
         "heightAboveGround_m": 98.0,
@@ -4081,7 +4081,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T38",
+        "id": "Farm T38",
         "easting_m": 105070.8503,
         "northing_m": 101675.5023,
         "heightAboveGround_m": 98.0,
@@ -4101,7 +4101,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T39",
+        "id": "Farm T39",
         "easting_m": 95581.83461,
         "northing_m": 101018.9576,
         "heightAboveGround_m": 98.0,
@@ -4121,7 +4121,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T40",
+        "id": "Farm T40",
         "easting_m": 101699.5479,
         "northing_m": 99607.37226,
         "heightAboveGround_m": 98.0,
@@ -4141,7 +4141,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T41",
+        "id": "Farm T41",
         "easting_m": 97685.26491,
         "northing_m": 99675.93152,
         "heightAboveGround_m": 98.0,
@@ -4161,7 +4161,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T42",
+        "id": "Farm T42",
         "easting_m": 104064.8956,
         "northing_m": 100469.8368,
         "heightAboveGround_m": 98.0,
@@ -4181,7 +4181,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T43",
+        "id": "Farm T43",
         "easting_m": 94287.48705,
         "northing_m": 101923.2894,
         "heightAboveGround_m": 98.0,
@@ -4201,7 +4201,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T44",
+        "id": "Farm T44",
         "easting_m": 100180.4718,
         "northing_m": 99130.96525,
         "heightAboveGround_m": 98.0,
@@ -4221,7 +4221,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T45",
+        "id": "Farm T45",
         "easting_m": 106030.2378,
         "northing_m": 102134.4975,
         "heightAboveGround_m": 98.0,
@@ -4241,7 +4241,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T46",
+        "id": "Farm T46",
         "easting_m": 96129.01485,
         "northing_m": 100102.2472,
         "heightAboveGround_m": 98.0,
@@ -4261,7 +4261,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T47",
+        "id": "Farm T47",
         "easting_m": 102766.8187,
         "northing_m": 99489.95314,
         "heightAboveGround_m": 98.0,
@@ -4281,7 +4281,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T48",
+        "id": "Farm T48",
         "easting_m": 93194.31857,
         "northing_m": 103138.9609,
         "heightAboveGround_m": 98.0,
@@ -4301,7 +4301,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T49",
+        "id": "Farm T49",
         "easting_m": 98537.63349,
         "northing_m": 99006.3215,
         "heightAboveGround_m": 98.0,
@@ -4321,7 +4321,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T50",
+        "id": "Farm T50",
         "easting_m": 105119.2495,
         "northing_m": 100746.6327,
         "heightAboveGround_m": 98.0,
@@ -4341,7 +4341,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T51",
+        "id": "Farm T51",
         "easting_m": 94660.75552,
         "northing_m": 100894.7398,
         "heightAboveGround_m": 98.0,
@@ -4361,7 +4361,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T52",
+        "id": "Farm T52",
         "easting_m": 101231.5746,
         "northing_m": 98805.46409,
         "heightAboveGround_m": 98.0,
@@ -4381,7 +4381,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T53",
+        "id": "Farm T53",
         "easting_m": 106929.5862,
         "northing_m": 102779.1313,
         "heightAboveGround_m": 98.0,
@@ -4401,7 +4401,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T54",
+        "id": "Farm T54",
         "easting_m": 96855.50564,
         "northing_m": 99262.17975,
         "heightAboveGround_m": 98.0,
@@ -4421,7 +4421,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T55",
+        "id": "Farm T55",
         "easting_m": 103881.3226,
         "northing_m": 99561.59932,
         "heightAboveGround_m": 98.0,
@@ -4441,7 +4441,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T56",
+        "id": "Farm T56",
         "easting_m": 93367.55262,
         "northing_m": 102031.5079,
         "heightAboveGround_m": 98.0,
@@ -4461,7 +4461,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T57",
+        "id": "Farm T57",
         "easting_m": 99530.03764,
         "northing_m": 98472.02412,
         "heightAboveGround_m": 98.0,
@@ -4481,7 +4481,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T58",
+        "id": "Farm T58",
         "easting_m": 106150.4168,
         "northing_m": 101216.7212,
         "heightAboveGround_m": 98.0,
@@ -4501,7 +4501,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T59",
+        "id": "Farm T59",
         "easting_m": 95224.39096,
         "northing_m": 99906.84185,
         "heightAboveGround_m": 98.0,
@@ -4521,7 +4521,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T60",
+        "id": "Farm T60",
         "easting_m": 102365.333,
         "northing_m": 98656.19306,
         "heightAboveGround_m": 98.0,
@@ -4541,7 +4541,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T61",
+        "id": "Farm T61",
         "easting_m": 92330.2663,
         "northing_m": 103470.2371,
         "heightAboveGround_m": 98.0,
@@ -4561,7 +4561,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T62",
+        "id": "Farm T62",
         "easting_m": 97745.46882,
         "northing_m": 98527.85377,
         "heightAboveGround_m": 98.0,
@@ -4581,7 +4581,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T63",
+        "id": "Farm T63",
         "easting_m": 105010.4035,
         "northing_m": 99827.44364,
         "heightAboveGround_m": 98.0,
@@ -4601,7 +4601,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T64",
+        "id": "Farm T64",
         "easting_m": 93735.55408,
         "northing_m": 100927.1578,
         "heightAboveGround_m": 98.0,
@@ -4621,7 +4621,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T65",
+        "id": "Farm T65",
         "easting_m": 100637.7633,
         "northing_m": 98094.82353,
         "heightAboveGround_m": 98.0,
@@ -4641,7 +4641,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T66",
+        "id": "Farm T66",
         "easting_m": 107126.1357,
         "northing_m": 101873.7482,
         "heightAboveGround_m": 98.0,
@@ -4661,7 +4661,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T67",
+        "id": "Farm T67",
         "easting_m": 95969.24665,
         "northing_m": 98991.13746,
         "heightAboveGround_m": 98.0,
@@ -4681,7 +4681,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T68",
+        "id": "Farm T68",
         "easting_m": 103551.1977,
         "northing_m": 98695.04888,
         "heightAboveGround_m": 98.0,
@@ -4701,7 +4701,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T69",
+        "id": "Farm T69",
         "easting_m": 92476.20668,
         "northing_m": 102288.6478,
         "heightAboveGround_m": 98.0,
@@ -4721,7 +4721,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T70",
+        "id": "Farm T70",
         "easting_m": 98779.53596,
         "northing_m": 97925.6106,
         "heightAboveGround_m": 98.0,
@@ -4741,7 +4741,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T71",
+        "id": "Farm T71",
         "easting_m": 106121.421,
         "northing_m": 100288.1136,
         "heightAboveGround_m": 98.0,
@@ -4761,7 +4761,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T72",
+        "id": "Farm T72",
         "easting_m": 94296.07591,
         "northing_m": 99858.44862,
         "heightAboveGround_m": 98.0,
@@ -4781,7 +4781,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T73",
+        "id": "Farm T73",
         "easting_m": 101833.6391,
         "northing_m": 97892.68103,
         "heightAboveGround_m": 98.0,
@@ -4801,7 +4801,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T74",
+        "id": "Farm T74",
         "easting_m": 108015.6716,
         "northing_m": 102707.0572,
         "heightAboveGround_m": 98.0,
@@ -4821,7 +4821,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T75",
+        "id": "Farm T75",
         "easting_m": 96882.00611,
         "northing_m": 98177.27719,
         "heightAboveGround_m": 98.0,
@@ -4841,7 +4841,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T76",
+        "id": "Farm T76",
         "easting_m": 104757.5621,
         "northing_m": 98929.45422,
         "heightAboveGround_m": 98.0,
@@ -4861,7 +4861,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T77",
+        "id": "Farm T77",
         "easting_m": 92818.9186,
         "northing_m": 101104.3034,
         "heightAboveGround_m": 98.0,
@@ -4881,7 +4881,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T78",
+        "id": "Farm T78",
         "easting_m": 99935.007,
         "northing_m": 97478.58334,
         "heightAboveGround_m": 98.0,
@@ -4901,7 +4901,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T79",
+        "id": "Farm T79",
         "easting_m": 107182.2411,
         "northing_m": 100939.6241,
         "heightAboveGround_m": 98.0,
@@ -4921,7 +4921,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T80",
+        "id": "Farm T80",
         "easting_m": 95042.3094,
         "northing_m": 98857.01687,
         "heightAboveGround_m": 98.0,
@@ -4941,7 +4941,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T81",
+        "id": "Farm T81",
         "easting_m": 103088.417,
         "northing_m": 97879.38267,
         "heightAboveGround_m": 98.0,
@@ -4961,7 +4961,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T82",
+        "id": "Farm T82",
         "easting_m": 91623.91011,
         "northing_m": 102681.8861,
         "heightAboveGround_m": 98.0,
@@ -4981,7 +4981,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T83",
+        "id": "Farm T83",
         "easting_m": 97945.33288,
         "northing_m": 97492.5084,
         "heightAboveGround_m": 98.0,
@@ -5001,7 +5001,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T84",
+        "id": "Farm T84",
         "easting_m": 105952.27,
         "northing_m": 99362.16939,
         "heightAboveGround_m": 98.0,
@@ -5021,7 +5021,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T85",
+        "id": "Farm T85",
         "easting_m": 93358.30084,
         "northing_m": 99949.46545,
         "heightAboveGround_m": 98.0,
@@ -5041,7 +5041,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T86",
+        "id": "Farm T86",
         "easting_m": 101186.1946,
         "northing_m": 97206.26188,
         "heightAboveGround_m": 98.0,
@@ -5061,7 +5061,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T87",
+        "id": "Farm T87",
         "easting_m": 108161.7989,
         "northing_m": 101773.3921,
         "heightAboveGround_m": 98.0,
@@ -5081,7 +5081,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T88",
+        "id": "Farm T88",
         "easting_m": 95962.95203,
         "northing_m": 97953.03495,
         "heightAboveGround_m": 98.0,
@@ -5101,7 +5101,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T89",
+        "id": "Farm T89",
         "easting_m": 104371.2681,
         "northing_m": 98064.25164,
         "heightAboveGround_m": 98.0,
@@ -5121,7 +5121,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T90",
+        "id": "Farm T90",
         "easting_m": 91923.34302,
         "northing_m": 101416.8502,
         "heightAboveGround_m": 98.0,
@@ -5141,7 +5141,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T91",
+        "id": "Farm T91",
         "easting_m": 99138.14647,
         "northing_m": 96961.16011,
         "heightAboveGround_m": 98.0,
@@ -5161,7 +5161,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T92",
+        "id": "Farm T92",
         "easting_m": 107103.1992,
         "northing_m": 99991.20092,
         "heightAboveGround_m": 98.0,
@@ -5181,7 +5181,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T93",
+        "id": "Farm T93",
         "easting_m": 94089.51501,
         "northing_m": 98855.94823,
         "heightAboveGround_m": 98.0,
@@ -5201,7 +5201,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T94",
+        "id": "Farm T94",
         "easting_m": 102504.8779,
         "northing_m": 97124.10099,
         "heightAboveGround_m": 98.0,
@@ -5221,7 +5221,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T95",
+        "id": "Farm T95",
         "easting_m": 90821.21471,
         "northing_m": 103200.3293,
         "heightAboveGround_m": 98.0,
@@ -5241,7 +5241,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T96",
+        "id": "Farm T96",
         "easting_m": 109279.3198,
         "northing_m": 102673.0606,
         "heightAboveGround_m": 98.0,
@@ -5261,7 +5261,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T97",
+        "id": "Farm T97",
         "easting_m": 96970.6073,
         "northing_m": 96947.61536,
         "heightAboveGround_m": 98.0,
@@ -5281,7 +5281,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T98",
+        "id": "Farm T98",
         "easting_m": 105760.1706,
         "northing_m": 98294.97611,
         "heightAboveGround_m": 98.0,
@@ -5301,7 +5301,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T99",
+        "id": "Farm T99",
         "easting_m": 92301.62217,
         "northing_m": 100070.5327,
         "heightAboveGround_m": 98.0,
@@ -5321,7 +5321,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T100",
+        "id": "Farm T100",
         "easting_m": 100441.0291,
         "northing_m": 96489.77027,
         "heightAboveGround_m": 98.0,
@@ -5341,7 +5341,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T101",
+        "id": "Farm T101",
         "easting_m": 108235.0563,
         "northing_m": 100770.5347,
         "heightAboveGround_m": 98.0,
@@ -5361,7 +5361,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T102",
+        "id": "Farm T102",
         "easting_m": 94984.0706,
         "northing_m": 97821.55078,
         "heightAboveGround_m": 98.0,
@@ -5381,7 +5381,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T103",
+        "id": "Farm T103",
         "easting_m": 103857.9287,
         "northing_m": 97250.19536,
         "heightAboveGround_m": 98.0,
@@ -5401,7 +5401,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T104",
+        "id": "Farm T104",
         "easting_m": 91094.53697,
         "northing_m": 101874.1503,
         "heightAboveGround_m": 98.0,
@@ -5421,7 +5421,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T105",
+        "id": "Farm T105",
         "easting_m": 98275.23922,
         "northing_m": 96629.2176,
         "heightAboveGround_m": 98.0,
@@ -5441,7 +5441,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T106",
+        "id": "Farm T106",
         "easting_m": 106806.6401,
         "northing_m": 99136.60741,
         "heightAboveGround_m": 98.0,
@@ -5461,7 +5461,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T107",
+        "id": "Farm T107",
         "easting_m": 93231.51925,
         "northing_m": 99101.65035,
         "heightAboveGround_m": 98.0,
@@ -5481,7 +5481,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T108",
+        "id": "Farm T108",
         "easting_m": 101775.7203,
         "northing_m": 96638.23162,
         "heightAboveGround_m": 98.0,
@@ -5501,7 +5501,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T109",
+        "id": "Farm T109",
         "easting_m": 108929.3153,
         "northing_m": 101920.0763,
         "heightAboveGround_m": 98.0,
@@ -5521,7 +5521,7 @@
         ]
       },
       {
-        "locationDescription": "Farm T110",
+        "id": "Farm T110",
         "easting_m": 96189.90681,
         "northing_m": 97230.44957,
         "heightAboveGround_m": 98.0,
@@ -5541,7 +5541,7 @@
         ]
       },
       {
-        "locationDescription": "M1 98m",
+        "id": "M1 98m",
         "easting_m": 89451.4,
         "northing_m": 96107.2,
         "heightAboveGround_m": 98.0,
@@ -5566,7 +5566,7 @@
     "calculateEfficiencies": false,
     "calculateIdealYield": false,
     "includeHysteresisEffect": true,
-    "includeTurbineManagement": true,
+    "includeCurtailmentRules": true,
     "turbineFlowAndPerformanceMatrixOutputSettings": {
       "outputMastToTurbineSpeedUp": false,
       "outputAmbientWindSpeed": false,

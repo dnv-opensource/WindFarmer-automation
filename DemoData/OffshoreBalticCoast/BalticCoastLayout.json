@@ -3286,7 +3286,7 @@
     ],
     "speedsUps": [
       {
-        "locationDescription": "Farm Turbine 1",
+        "id": "Farm Turbine 1",
         "id": "Farm Turbine 1",
         "easting_m": 4574986.191871113,
         "northing_m": 6057717.212971707,
@@ -3308,7 +3308,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 2",
+        "id": "Farm Turbine 2",
         "id": "Farm Turbine 2",
         "easting_m": 4573727.191697785,
         "northing_m": 6057258.974383679,
@@ -3330,7 +3330,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 3",
+        "id": "Farm Turbine 3",
         "id": "Farm Turbine 3",
         "easting_m": 4576560.433641377,
         "northing_m": 6059351.949216154,
@@ -3352,7 +3352,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 4",
+        "id": "Farm Turbine 4",
         "id": "Farm Turbine 4",
         "easting_m": 4575301.433468048,
         "northing_m": 6058893.710628127,
@@ -3374,7 +3374,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 5",
+        "id": "Farm Turbine 5",
         "id": "Farm Turbine 5",
         "easting_m": 4574042.433294719,
         "northing_m": 6058435.472040099,
@@ -3396,7 +3396,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 6",
+        "id": "Farm Turbine 6",
         "id": "Farm Turbine 6",
         "easting_m": 4572783.433121391,
         "northing_m": 6057977.233452071,
@@ -3418,7 +3418,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 7",
+        "id": "Farm Turbine 7",
         "id": "Farm Turbine 7",
         "easting_m": 4571524.432948061,
         "northing_m": 6057518.994864044,
@@ -3440,7 +3440,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 8",
+        "id": "Farm Turbine 8",
         "id": "Farm Turbine 8",
         "easting_m": 4575616.675064983,
         "northing_m": 6060070.208284547,
@@ -3462,7 +3462,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 9",
+        "id": "Farm Turbine 9",
         "id": "Farm Turbine 9",
         "easting_m": 4574357.674891654,
         "northing_m": 6059611.969696519,
@@ -3484,7 +3484,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 10",
+        "id": "Farm Turbine 10",
         "id": "Farm Turbine 10",
         "easting_m": 4573098.674718325,
         "northing_m": 6059153.731108491,
@@ -3506,7 +3506,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 11",
+        "id": "Farm Turbine 11",
         "id": "Farm Turbine 11",
         "easting_m": 4571839.674544997,
         "northing_m": 6058695.492520464,
@@ -3528,7 +3528,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 12",
+        "id": "Farm Turbine 12",
         "id": "Farm Turbine 12",
         "easting_m": 4570580.674371667,
         "northing_m": 6058237.253932436,
@@ -3550,7 +3550,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 13",
+        "id": "Farm Turbine 13",
         "id": "Farm Turbine 13",
         "easting_m": 4569321.674198339,
         "northing_m": 6057779.015344408,
@@ -3572,7 +3572,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 14",
+        "id": "Farm Turbine 14",
         "id": "Farm Turbine 14",
         "easting_m": 4568062.674025009,
         "northing_m": 6057320.776756381,
@@ -3594,7 +3594,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 15",
+        "id": "Farm Turbine 15",
         "id": "Farm Turbine 15",
         "easting_m": 4566803.67385168,
         "northing_m": 6056862.538168353,
@@ -3616,7 +3616,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 16",
+        "id": "Farm Turbine 16",
         "id": "Farm Turbine 16",
         "easting_m": 4575931.916661918,
         "northing_m": 6061246.705940967,
@@ -3638,7 +3638,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 17",
+        "id": "Farm Turbine 17",
         "id": "Farm Turbine 17",
         "easting_m": 4574672.916488589,
         "northing_m": 6060788.46735294,
@@ -3660,7 +3660,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 18",
+        "id": "Farm Turbine 18",
         "id": "Farm Turbine 18",
         "easting_m": 4573413.91631526,
         "northing_m": 6060330.228764911,
@@ -3682,7 +3682,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 19",
+        "id": "Farm Turbine 19",
         "id": "Farm Turbine 19",
         "easting_m": 4572154.916141931,
         "northing_m": 6059871.9901768835,
@@ -3704,7 +3704,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 20",
+        "id": "Farm Turbine 20",
         "id": "Farm Turbine 20",
         "easting_m": 4570895.9159686025,
         "northing_m": 6059413.751588856,
@@ -3726,7 +3726,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 21",
+        "id": "Farm Turbine 21",
         "id": "Farm Turbine 21",
         "easting_m": 4569636.915795273,
         "northing_m": 6058955.513000828,
@@ -3748,7 +3748,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 22",
+        "id": "Farm Turbine 22",
         "id": "Farm Turbine 22",
         "easting_m": 4568377.915621945,
         "northing_m": 6058497.274412801,
@@ -3770,7 +3770,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 23",
+        "id": "Farm Turbine 23",
         "id": "Farm Turbine 23",
         "easting_m": 4567118.915448615,
         "northing_m": 6058039.035824773,
@@ -3792,7 +3792,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 24",
+        "id": "Farm Turbine 24",
         "id": "Farm Turbine 24",
         "easting_m": 4574988.158085524,
         "northing_m": 6061964.96500936,
@@ -3814,7 +3814,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 25",
+        "id": "Farm Turbine 25",
         "id": "Farm Turbine 25",
         "easting_m": 4573729.157912195,
         "northing_m": 6061506.726421332,
@@ -3836,7 +3836,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 26",
+        "id": "Farm Turbine 26",
         "id": "Farm Turbine 26",
         "easting_m": 4572470.157738866,
         "northing_m": 6061048.487833304,
@@ -3858,7 +3858,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 27",
+        "id": "Farm Turbine 27",
         "id": "Farm Turbine 27",
         "easting_m": 4571211.157565537,
         "northing_m": 6060590.249245277,
@@ -3880,7 +3880,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 28",
+        "id": "Farm Turbine 28",
         "id": "Farm Turbine 28",
         "easting_m": 4569952.157392208,
         "northing_m": 6060132.010657248,
@@ -3902,7 +3902,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 29",
+        "id": "Farm Turbine 29",
         "id": "Farm Turbine 29",
         "easting_m": 4568693.157218879,
         "northing_m": 6059673.77206922,
@@ -3924,7 +3924,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 30",
+        "id": "Farm Turbine 30",
         "id": "Farm Turbine 30",
         "easting_m": 4567434.157045551,
         "northing_m": 6059215.533481193,
@@ -3946,7 +3946,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 31",
+        "id": "Farm Turbine 31",
         "id": "Farm Turbine 31",
         "easting_m": 4566175.156872221,
         "northing_m": 6058757.294893165,
@@ -3968,7 +3968,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 32",
+        "id": "Farm Turbine 32",
         "id": "Farm Turbine 32",
         "easting_m": 4572785.399335801,
         "northing_m": 6062224.985489724,
@@ -3990,7 +3990,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 33",
+        "id": "Farm Turbine 33",
         "id": "Farm Turbine 33",
         "easting_m": 4570267.398989143,
         "northing_m": 6061308.508313669,
@@ -4012,7 +4012,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 34",
+        "id": "Farm Turbine 34",
         "id": "Farm Turbine 34",
         "easting_m": 4569008.398815814,
         "northing_m": 6060850.269725641,
@@ -4034,7 +4034,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 35",
+        "id": "Farm Turbine 35",
         "id": "Farm Turbine 35",
         "easting_m": 4567749.398642485,
         "northing_m": 6060392.031137614,
@@ -4056,7 +4056,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 36",
+        "id": "Farm Turbine 36",
         "id": "Farm Turbine 36",
         "easting_m": 4566490.398469156,
         "northing_m": 6059933.792549585,
@@ -4078,7 +4078,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 37",
+        "id": "Farm Turbine 37",
         "id": "Farm Turbine 37",
         "easting_m": 4570582.640586078,
         "northing_m": 6062485.005970089,
@@ -4100,7 +4100,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 38",
+        "id": "Farm Turbine 38",
         "id": "Farm Turbine 38",
         "easting_m": 4569323.640412749,
         "northing_m": 6062026.767382061,
@@ -4122,7 +4122,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 39",
+        "id": "Farm Turbine 39",
         "id": "Farm Turbine 39",
         "easting_m": 4568064.64023942,
         "northing_m": 6061568.528794033,
@@ -4144,7 +4144,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 40",
+        "id": "Farm Turbine 40",
         "id": "Farm Turbine 40",
         "easting_m": 4566805.640066091,
         "northing_m": 6061110.290206006,
@@ -4166,7 +4166,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 41",
+        "id": "Farm Turbine 41",
         "id": "Farm Turbine 41",
         "easting_m": 4567120.881663026,
         "northing_m": 6062286.787862426,
@@ -4188,7 +4188,7 @@
         "isTarget": true
       },
       {
-        "locationDescription": "FINO_2 150m",
+        "id": "FINO_2 150m",
         "id": "FINO_2 150m",
         "easting_m": 4560506.7,
         "northing_m": 6052222.6,
@@ -4216,7 +4216,7 @@
     "calculateIdealYield": false,
     "calculateSensitivityCurve": false,
     "includeHysteresisEffect": true,
-    "includeTurbineManagement": true,
+    "includeCurtailmentRules": true,
     "turbineFlowAndPerformanceMatrixOutputSettings": {
       "outputMastToTurbineSpeedUp": false,
       "outputAmbientWindSpeed": false,

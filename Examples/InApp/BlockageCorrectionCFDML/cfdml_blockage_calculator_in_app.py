@@ -66,7 +66,7 @@
 		json_input["energyEfficienciesSettings"]["wakeModel"]["noWakeModel"]["useLargeWindFarmModel"] = False
 		json_input["energyEfficienciesSettings"]["calculateEfficiencies"] = False
 		json_input["energyEfficienciesSettings"]["includeHysteresisEffect"] = False
-		json_input["energyEfficienciesSettings"]["includeTurbineManagement"] = False
+		json_input["energyEfficienciesSettings"]["includeCurtailmentRules"] = False
 		json_input["energyEfficienciesSettings"]["calculateIdealYield"] = False
 		json_input["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"] = {}
 		

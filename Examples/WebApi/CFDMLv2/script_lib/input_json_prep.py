@@ -164,7 +164,7 @@ def set_model_settings(input_json, wake_model_choice, blockage_model_choice,
     # let's set the modeling options contained in the json
     input_json["energyEfficienciesSettings"]["calculateEfficiencies"] = calculate_efficiencies
     input_json["energyEfficienciesSettings"]["includeHysteresisEffect"] = False
-    input_json["energyEfficienciesSettings"]["includeTurbineManagement"] = False
+    input_json["energyEfficienciesSettings"]["includeCurtailmentRules"] = False
     input_json["energyEfficienciesSettings"]["calculateIdealYield"] = False
 
     input_json['energyEfficienciesSettings']['numberOfDirectionSectorsForWakeCalculation'] = number_of_direction_steps
@@ -314,6 +314,6 @@ def set_model_settings_for_blockage_only_runs(input_json):
     input_json["energyEfficienciesSettings"]["wakeModel"]["noWakeModel"]["useLargeWindFarmModel"] = False
     input_json["energyEfficienciesSettings"]["calculateEfficiencies"] = False
     input_json["energyEfficienciesSettings"]["includeHysteresisEffect"] = False
-    input_json["energyEfficienciesSettings"]["includeTurbineManagement"] = False
+    input_json["energyEfficienciesSettings"]["includeCurtailmentRules"] = False
     input_json["energyEfficienciesSettings"]["calculateIdealYield"] = False
     switch_off_fpm_export(input_json)
