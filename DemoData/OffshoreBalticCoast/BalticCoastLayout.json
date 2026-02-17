@@ -1,4 +1,9 @@
 {
+  "projectInfo": {
+    "projectId": "BalticCoast",
+    "siteLatitude": 54.54,
+    "siteLongitude": 12.82
+  },
   "windFarms": [
     {
       "name": "Farm",
@@ -11,9 +16,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4574986.1918711131,
-            "northing_m": 6057717.2129717069,
-            "terrainHeightAboveSeaLevel_m": 4.5615152004404962
+            "easting_m": 4574986.191871113,
+            "northing_m": 6057717.212971707,
+            "terrainHeightAboveSeaLevel_m": 4.561515200440496
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -26,9 +31,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4573727.1916977847,
-            "northing_m": 6057258.9743836792,
-            "terrainHeightAboveSeaLevel_m": 5.2303688910047272
+            "easting_m": 4573727.191697785,
+            "northing_m": 6057258.974383679,
+            "terrainHeightAboveSeaLevel_m": 5.230368891004727
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -41,8 +46,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4576560.4336413769,
-            "northing_m": 6059351.9492161544,
+            "easting_m": 4576560.433641377,
+            "northing_m": 6059351.949216154,
             "terrainHeightAboveSeaLevel_m": 4.2533801777077755
           },
           "curtailmentRules": [],
@@ -56,9 +61,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4575301.4334680485,
-            "northing_m": 6058893.7106281267,
-            "terrainHeightAboveSeaLevel_m": 4.3077444398642832
+            "easting_m": 4575301.433468048,
+            "northing_m": 6058893.710628127,
+            "terrainHeightAboveSeaLevel_m": 4.307744439864283
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -71,8 +76,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4574042.4332947191,
-            "northing_m": 6058435.4720400991,
+            "easting_m": 4574042.433294719,
+            "northing_m": 6058435.472040099,
             "terrainHeightAboveSeaLevel_m": 4.8479308633013956
           },
           "curtailmentRules": [],
@@ -86,8 +91,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4572783.4331213906,
-            "northing_m": 6057977.2334520714,
+            "easting_m": 4572783.433121391,
+            "northing_m": 6057977.233452071,
             "terrainHeightAboveSeaLevel_m": 5.246389396492888
           },
           "curtailmentRules": [],
@@ -101,9 +106,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4571524.4329480613,
-            "northing_m": 6057518.9948640438,
-            "terrainHeightAboveSeaLevel_m": 5.6004335896875324
+            "easting_m": 4571524.432948061,
+            "northing_m": 6057518.994864044,
+            "terrainHeightAboveSeaLevel_m": 5.600433589687532
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -116,9 +121,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4575616.6750649828,
-            "northing_m": 6060070.2082845466,
-            "terrainHeightAboveSeaLevel_m": 4.4877725795060712
+            "easting_m": 4575616.675064983,
+            "northing_m": 6060070.208284547,
+            "terrainHeightAboveSeaLevel_m": 4.487772579506071
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -131,9 +136,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4574357.6748916544,
+            "easting_m": 4574357.674891654,
             "northing_m": 6059611.969696519,
-            "terrainHeightAboveSeaLevel_m": 4.6254768844026941
+            "terrainHeightAboveSeaLevel_m": 4.625476884402694
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -147,8 +152,8 @@
           "confidenceWeighting": 0.0,
           "location": {
             "easting_m": 4573098.674718325,
-            "northing_m": 6059153.7311084913,
-            "terrainHeightAboveSeaLevel_m": 5.0430695859431367
+            "northing_m": 6059153.731108491,
+            "terrainHeightAboveSeaLevel_m": 5.043069585943137
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -161,8 +166,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4571839.6745449966,
-            "northing_m": 6058695.4925204637,
+            "easting_m": 4571839.674544997,
+            "northing_m": 6058695.492520464,
             "terrainHeightAboveSeaLevel_m": 5.4345378450035
           },
           "curtailmentRules": [],
@@ -176,7 +181,7 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4570580.6743716672,
+            "easting_m": 4570580.674371667,
             "northing_m": 6058237.253932436,
             "terrainHeightAboveSeaLevel_m": 5.35761275172941
           },
@@ -191,8 +196,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4569321.6741983388,
-            "northing_m": 6057779.0153444083,
+            "easting_m": 4569321.674198339,
+            "northing_m": 6057779.015344408,
             "terrainHeightAboveSeaLevel_m": 5.444465529505945
           },
           "curtailmentRules": [],
@@ -206,9 +211,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4568062.6740250094,
-            "northing_m": 6057320.7767563807,
-            "terrainHeightAboveSeaLevel_m": 5.4799853094560733
+            "easting_m": 4568062.674025009,
+            "northing_m": 6057320.776756381,
+            "terrainHeightAboveSeaLevel_m": 5.479985309456073
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -223,7 +228,7 @@
           "location": {
             "easting_m": 4566803.67385168,
             "northing_m": 6056862.538168353,
-            "terrainHeightAboveSeaLevel_m": 5.3412703827305634
+            "terrainHeightAboveSeaLevel_m": 5.341270382730563
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -236,9 +241,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4575931.9166619182,
-            "northing_m": 6061246.7059409674,
-            "terrainHeightAboveSeaLevel_m": 4.7798626239800068
+            "easting_m": 4575931.916661918,
+            "northing_m": 6061246.705940967,
+            "terrainHeightAboveSeaLevel_m": 4.779862623980007
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -251,7 +256,7 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4574672.9164885888,
+            "easting_m": 4574672.916488589,
             "northing_m": 6060788.46735294,
             "terrainHeightAboveSeaLevel_m": 4.6427291871204694
           },
@@ -267,8 +272,8 @@
           "confidenceWeighting": 0.0,
           "location": {
             "easting_m": 4573413.91631526,
-            "northing_m": 6060330.2287649112,
-            "terrainHeightAboveSeaLevel_m": 4.8190669047390129
+            "northing_m": 6060330.228764911,
+            "terrainHeightAboveSeaLevel_m": 4.819066904739013
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -283,7 +288,7 @@
           "location": {
             "easting_m": 4572154.916141931,
             "northing_m": 6059871.9901768835,
-            "terrainHeightAboveSeaLevel_m": 5.1066959148891549
+            "terrainHeightAboveSeaLevel_m": 5.106695914889155
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -297,8 +302,8 @@
           "confidenceWeighting": 0.0,
           "location": {
             "easting_m": 4570895.9159686025,
-            "northing_m": 6059413.7515888559,
-            "terrainHeightAboveSeaLevel_m": 5.2733577234120421
+            "northing_m": 6059413.751588856,
+            "terrainHeightAboveSeaLevel_m": 5.273357723412042
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -311,9 +316,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4569636.9157952731,
-            "northing_m": 6058955.5130008282,
-            "terrainHeightAboveSeaLevel_m": 5.3352734471462071
+            "easting_m": 4569636.915795273,
+            "northing_m": 6058955.513000828,
+            "terrainHeightAboveSeaLevel_m": 5.335273447146207
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -326,9 +331,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4568377.9156219447,
-            "northing_m": 6058497.2744128006,
-            "terrainHeightAboveSeaLevel_m": 5.7705036579770388
+            "easting_m": 4568377.915621945,
+            "northing_m": 6058497.274412801,
+            "terrainHeightAboveSeaLevel_m": 5.770503657977039
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -341,8 +346,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4567118.9154486153,
-            "northing_m": 6058039.0358247729,
+            "easting_m": 4567118.915448615,
+            "northing_m": 6058039.035824773,
             "terrainHeightAboveSeaLevel_m": 5.38384974978387
           },
           "curtailmentRules": [],
@@ -356,9 +361,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4574988.1580855241,
+            "easting_m": 4574988.158085524,
             "northing_m": 6061964.96500936,
-            "terrainHeightAboveSeaLevel_m": 4.8031475166544313
+            "terrainHeightAboveSeaLevel_m": 4.803147516654431
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -371,9 +376,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4573729.1579121947,
+            "easting_m": 4573729.157912195,
             "northing_m": 6061506.726421332,
-            "terrainHeightAboveSeaLevel_m": 4.7700954770745936
+            "terrainHeightAboveSeaLevel_m": 4.770095477074594
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -386,9 +391,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4572470.1577388663,
-            "northing_m": 6061048.4878333043,
-            "terrainHeightAboveSeaLevel_m": 4.9724517315612218
+            "easting_m": 4572470.157738866,
+            "northing_m": 6061048.487833304,
+            "terrainHeightAboveSeaLevel_m": 4.972451731561222
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -401,8 +406,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4571211.1575655369,
-            "northing_m": 6060590.2492452767,
+            "easting_m": 4571211.157565537,
+            "northing_m": 6060590.249245277,
             "terrainHeightAboveSeaLevel_m": 5.27680877454893
           },
           "curtailmentRules": [],
@@ -416,9 +421,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4569952.1573922085,
-            "northing_m": 6060132.0106572481,
-            "terrainHeightAboveSeaLevel_m": 5.2488982947358638
+            "easting_m": 4569952.157392208,
+            "northing_m": 6060132.010657248,
+            "terrainHeightAboveSeaLevel_m": 5.248898294735864
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -431,7 +436,7 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4568693.1572188791,
+            "easting_m": 4568693.157218879,
             "northing_m": 6059673.77206922,
             "terrainHeightAboveSeaLevel_m": 5.67061961843912
           },
@@ -446,9 +451,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4567434.1570455506,
-            "northing_m": 6059215.5334811928,
-            "terrainHeightAboveSeaLevel_m": 5.4926257223801276
+            "easting_m": 4567434.157045551,
+            "northing_m": 6059215.533481193,
+            "terrainHeightAboveSeaLevel_m": 5.492625722380128
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -461,9 +466,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4566175.1568722213,
-            "northing_m": 6058757.2948931651,
-            "terrainHeightAboveSeaLevel_m": 5.3094513592172454
+            "easting_m": 4566175.156872221,
+            "northing_m": 6058757.294893165,
+            "terrainHeightAboveSeaLevel_m": 5.309451359217245
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -476,9 +481,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4572785.3993358007,
-            "northing_m": 6062224.9854897242,
-            "terrainHeightAboveSeaLevel_m": 4.8851983990937846
+            "easting_m": 4572785.399335801,
+            "northing_m": 6062224.985489724,
+            "terrainHeightAboveSeaLevel_m": 4.885198399093785
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -491,9 +496,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4570267.3989891429,
-            "northing_m": 6061308.5083136689,
-            "terrainHeightAboveSeaLevel_m": 5.2874221206309153
+            "easting_m": 4570267.398989143,
+            "northing_m": 6061308.508313669,
+            "terrainHeightAboveSeaLevel_m": 5.287422120630915
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -506,9 +511,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4569008.3988158144,
-            "northing_m": 6060850.2697256412,
-            "terrainHeightAboveSeaLevel_m": 5.5300350961101783
+            "easting_m": 4569008.398815814,
+            "northing_m": 6060850.269725641,
+            "terrainHeightAboveSeaLevel_m": 5.530035096110178
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -522,7 +527,7 @@
           "confidenceWeighting": 0.0,
           "location": {
             "easting_m": 4567749.398642485,
-            "northing_m": 6060392.0311376136,
+            "northing_m": 6060392.031137614,
             "terrainHeightAboveSeaLevel_m": 5.5607722132654995
           },
           "curtailmentRules": [],
@@ -536,9 +541,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4566490.3984691557,
+            "easting_m": 4566490.398469156,
             "northing_m": 6059933.792549585,
-            "terrainHeightAboveSeaLevel_m": 5.3899880367530537
+            "terrainHeightAboveSeaLevel_m": 5.389988036753054
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -551,8 +556,8 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4570582.6405860782,
-            "northing_m": 6062485.0059700888,
+            "easting_m": 4570582.640586078,
+            "northing_m": 6062485.005970089,
             "terrainHeightAboveSeaLevel_m": 5.1109765716695055
           },
           "curtailmentRules": [],
@@ -566,9 +571,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4569323.6404127488,
-            "northing_m": 6062026.7673820611,
-            "terrainHeightAboveSeaLevel_m": 5.2438038750246259
+            "easting_m": 4569323.640412749,
+            "northing_m": 6062026.767382061,
+            "terrainHeightAboveSeaLevel_m": 5.243803875024626
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -582,8 +587,8 @@
           "confidenceWeighting": 0.0,
           "location": {
             "easting_m": 4568064.64023942,
-            "northing_m": 6061568.5287940335,
-            "terrainHeightAboveSeaLevel_m": 5.4614757167206287
+            "northing_m": 6061568.528794033,
+            "terrainHeightAboveSeaLevel_m": 5.461475716720629
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -597,8 +602,8 @@
           "confidenceWeighting": 0.0,
           "location": {
             "easting_m": 4566805.640066091,
-            "northing_m": 6061110.2902060058,
-            "terrainHeightAboveSeaLevel_m": 5.3765667599698492
+            "northing_m": 6061110.290206006,
+            "terrainHeightAboveSeaLevel_m": 5.376566759969849
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -611,9 +616,9 @@
           "productionYield": 0.0,
           "confidenceWeighting": 0.0,
           "location": {
-            "easting_m": 4567120.8816630263,
-            "northing_m": 6062286.7878624257,
-            "terrainHeightAboveSeaLevel_m": 5.2193807135358918
+            "easting_m": 4567120.881663026,
+            "northing_m": 6062286.787862426,
+            "terrainHeightAboveSeaLevel_m": 5.219380713535892
           },
           "curtailmentRules": [],
           "parkWakeDecayConstant": 0.0
@@ -636,7 +641,6 @@
           "adjustedLowSpeedCutIn_m_per_s": 2.0,
           "lowSpeedCutIn_m_per_s": 2.0,
           "highSpeedCutOut_m_per_s": 25.0,
-          "turbulenceIntensity_percentage": 0.1,
           "airDensity_kg_per_m3": 1.225,
           "performanceDataPoints": [
             {
@@ -670,14 +674,14 @@
             {
               "windSpeed_m_per_s": 4.0,
               "powerOutput_W": 60000.0,
-              "rotorSpeed_radians_per_s": 0.62831853071795862,
+              "rotorSpeed_radians_per_s": 0.6283185307179586,
               "thrustCoefficient": 0.97,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 5.0,
               "powerOutput_W": 200000.0,
-              "rotorSpeed_radians_per_s": 0.83775804095727813,
+              "rotorSpeed_radians_per_s": 0.8377580409572781,
               "thrustCoefficient": 0.99,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -838,7 +842,6 @@
           "adjustedLowSpeedCutIn_m_per_s": 3.0,
           "lowSpeedCutIn_m_per_s": 3.0,
           "highSpeedCutOut_m_per_s": 25.0,
-          "turbulenceIntensity_percentage": 10.0,
           "airDensity_kg_per_m3": 1.225,
           "performanceDataPoints": [
             {
@@ -865,133 +868,133 @@
             {
               "windSpeed_m_per_s": 3.0,
               "powerOutput_W": 39456.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.81672,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 3.5495,
               "powerOutput_W": 291550.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.79044,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 4.0679,
               "powerOutput_W": 609950.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.78393,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 4.5539,
               "powerOutput_W": 986480.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.78624,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 5.0064,
               "powerOutput_W": 1410400.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.78824,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 5.4244,
               "powerOutput_W": 1869300.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.78942,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 5.8069,
               "powerOutput_W": 2349300.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.78902,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 6.153,
               "powerOutput_W": 2835500.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.7874,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 6.4619,
               "powerOutput_W": 3312700.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.78503,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 6.733,
               "powerOutput_W": 3765700.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.78237,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 6.9655,
               "powerOutput_W": 4180200.0,
-              "rotorSpeed_radians_per_s": 0.52359877559829882,
+              "rotorSpeed_radians_per_s": 0.5235987755982988,
               "thrustCoefficient": 0.77955,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.1589,
               "powerOutput_W": 4547500.0,
-              "rotorSpeed_radians_per_s": 0.53261514651410158,
+              "rotorSpeed_radians_per_s": 0.5326151465141016,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.3128,
               "powerOutput_W": 4855700.0,
-              "rotorSpeed_radians_per_s": 0.54406101574868038,
+              "rotorSpeed_radians_per_s": 0.5440610157486804,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.4269,
               "powerOutput_W": 5091900.0,
-              "rotorSpeed_radians_per_s": 0.55255378788888476,
+              "rotorSpeed_radians_per_s": 0.5525537878888848,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.5009,
               "powerOutput_W": 5248900.0,
-              "rotorSpeed_radians_per_s": 0.55805157503266689,
+              "rotorSpeed_radians_per_s": 0.5580515750326669,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.5345,
               "powerOutput_W": 5321200.0,
-              "rotorSpeed_radians_per_s": 0.56055437718002676,
+              "rotorSpeed_radians_per_s": 0.5605543771800268,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.5412,
               "powerOutput_W": 5335800.0,
-              "rotorSpeed_radians_per_s": 0.56105703200460122,
+              "rotorSpeed_radians_per_s": 0.5610570320046012,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.5883,
               "powerOutput_W": 5438300.0,
-              "rotorSpeed_radians_per_s": 0.56456514380110978,
+              "rotorSpeed_radians_per_s": 0.5645651438011098,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.6757,
               "powerOutput_W": 5631700.0,
-              "rotorSpeed_radians_per_s": 0.57105776861852864,
+              "rotorSpeed_radians_per_s": 0.5710577686185286,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1005,49 +1008,49 @@
             {
               "windSpeed_m_per_s": 7.9702,
               "powerOutput_W": 6315600.0,
-              "rotorSpeed_radians_per_s": 0.59297561336507343,
+              "rotorSpeed_radians_per_s": 0.5929756133650734,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 8.1767,
               "powerOutput_W": 6825000.0,
-              "rotorSpeed_radians_per_s": 0.60833800144112748,
+              "rotorSpeed_radians_per_s": 0.6083380014411275,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 8.4221,
               "powerOutput_W": 7463400.0,
-              "rotorSpeed_radians_per_s": 0.62660112673399615,
+              "rotorSpeed_radians_per_s": 0.6266011267339961,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 8.7059,
               "powerOutput_W": 8239000.0,
-              "rotorSpeed_radians_per_s": 0.64770215739060766,
+              "rotorSpeed_radians_per_s": 0.6477021573906077,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 9.0273,
               "powerOutput_W": 9168700.0,
-              "rotorSpeed_radians_per_s": 0.67162014945993787,
+              "rotorSpeed_radians_per_s": 0.6716201494599379,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 9.3856,
               "powerOutput_W": 10286000.0,
-              "rotorSpeed_radians_per_s": 0.69828179911340327,
+              "rotorSpeed_radians_per_s": 0.6982817991134033,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 9.78,
               "powerOutput_W": 11618000.0,
-              "rotorSpeed_radians_per_s": 0.72762427449793188,
+              "rotorSpeed_radians_per_s": 0.7276242744979319,
               "thrustCoefficient": 0.77583,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1061,154 +1064,154 @@
             {
               "windSpeed_m_per_s": 10.659,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.76922,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 10.673,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.7427,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 11.17,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.55949,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 11.699,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.46163,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 12.259,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.38786,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 12.848,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.32901,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 13.465,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.28093,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 14.109,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.24114,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 14.778,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.20795,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 15.471,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.1801,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 16.185,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.15663,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 16.921,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.13679,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 17.674,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.11995,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 18.445,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.10562,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 19.231,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.093384,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 20.03,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.082908,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 20.841,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.07391,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 21.661,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.066159,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 22.489,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.059463,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 23.323,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.053662,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 24.16,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.048622,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 25.0,
               "powerOutput_W": 15000000.0,
-              "rotorSpeed_radians_per_s": 0.78531438759335248,
+              "rotorSpeed_radians_per_s": 0.7853143875933525,
               "thrustCoefficient": 0.04423,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             }
@@ -1229,7 +1232,6 @@
           "adjustedLowSpeedCutIn_m_per_s": 0.0,
           "lowSpeedCutIn_m_per_s": 0.0,
           "highSpeedCutOut_m_per_s": 25.0,
-          "turbulenceIntensity_percentage": 10.0,
           "airDensity_kg_per_m3": 1.225,
           "performanceDataPoints": [
             {
@@ -1263,49 +1265,49 @@
             {
               "windSpeed_m_per_s": 4.0,
               "powerOutput_W": 412406.666666667,
-              "rotorSpeed_radians_per_s": 0.52360033333333378,
+              "rotorSpeed_radians_per_s": 0.5236003333333338,
               "thrustCoefficient": 2.04122688359605,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 5.0,
               "powerOutput_W": 1190000.0,
-              "rotorSpeed_radians_per_s": 0.52360316666666651,
+              "rotorSpeed_radians_per_s": 0.5236031666666665,
               "thrustCoefficient": 1.54013628598249,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 6.0,
               "powerOutput_W": 2271666.66666667,
-              "rotorSpeed_radians_per_s": 0.52467250000000032,
+              "rotorSpeed_radians_per_s": 0.5246725000000003,
               "thrustCoefficient": 1.24194236286229,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.0,
               "powerOutput_W": 3655000.0,
-              "rotorSpeed_radians_per_s": 0.56797216666666672,
+              "rotorSpeed_radians_per_s": 0.5679721666666667,
               "thrustCoefficient": 1.08604201234511,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 8.0,
               "powerOutput_W": 5466666.66666667,
-              "rotorSpeed_radians_per_s": 0.64793600000000018,
+              "rotorSpeed_radians_per_s": 0.6479360000000002,
               "thrustCoefficient": 1.01493638851835,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 10.0,
               "powerOutput_W": 10516666.6666667,
-              "rotorSpeed_radians_per_s": 0.80518900000000027,
+              "rotorSpeed_radians_per_s": 0.8051890000000003,
               "thrustCoefficient": 0.905446281150919,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 10.5,
               "powerOutput_W": 12000000.0,
-              "rotorSpeed_radians_per_s": 0.83457883333333283,
+              "rotorSpeed_radians_per_s": 0.8345788333333328,
               "thrustCoefficient": 0.862712369119585,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1319,7 +1321,7 @@
             {
               "windSpeed_m_per_s": 11.5,
               "powerOutput_W": 13666666.6666667,
-              "rotorSpeed_radians_per_s": 0.85665233333333324,
+              "rotorSpeed_radians_per_s": 0.8566523333333332,
               "thrustCoefficient": 0.684115912973754,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1333,42 +1335,42 @@
             {
               "windSpeed_m_per_s": 14.0,
               "powerOutput_W": 13900000.0,
-              "rotorSpeed_radians_per_s": 0.85815650000000043,
+              "rotorSpeed_radians_per_s": 0.8581565000000004,
               "thrustCoefficient": 0.352569120916527,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 16.0,
               "powerOutput_W": 13900000.0,
-              "rotorSpeed_radians_per_s": 0.85818716666666617,
+              "rotorSpeed_radians_per_s": 0.8581871666666662,
               "thrustCoefficient": 0.237257857056238,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 18.0,
               "powerOutput_W": 13900000.0,
-              "rotorSpeed_radians_per_s": 0.85825783333333294,
+              "rotorSpeed_radians_per_s": 0.8582578333333329,
               "thrustCoefficient": 0.170973197403124,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 20.0,
               "powerOutput_W": 13900000.0,
-              "rotorSpeed_radians_per_s": 0.85851233333333365,
+              "rotorSpeed_radians_per_s": 0.8585123333333337,
               "thrustCoefficient": 0.128646482492716,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 22.0,
               "powerOutput_W": 13900000.0,
-              "rotorSpeed_radians_per_s": 0.85856350000000015,
+              "rotorSpeed_radians_per_s": 0.8585635000000001,
               "thrustCoefficient": 0.100073868081878,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 24.0,
               "powerOutput_W": 13900000.0,
-              "rotorSpeed_radians_per_s": 0.85859583333333356,
+              "rotorSpeed_radians_per_s": 0.8585958333333336,
               "thrustCoefficient": 0.0799402759114384,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             }
@@ -1389,7 +1391,6 @@
           "adjustedLowSpeedCutIn_m_per_s": 0.0,
           "lowSpeedCutIn_m_per_s": 0.0,
           "highSpeedCutOut_m_per_s": 25.0,
-          "turbulenceIntensity_percentage": 10.0,
           "airDensity_kg_per_m3": 1.225,
           "performanceDataPoints": [
             {
@@ -1423,49 +1424,49 @@
             {
               "windSpeed_m_per_s": 4.0,
               "powerOutput_W": 0.0,
-              "rotorSpeed_radians_per_s": 0.63093300000000008,
+              "rotorSpeed_radians_per_s": 0.6309330000000001,
               "thrustCoefficient": 2.28116070172341,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 5.0,
               "powerOutput_W": 301180.833333333,
-              "rotorSpeed_radians_per_s": 0.78571383333333367,
+              "rotorSpeed_radians_per_s": 0.7857138333333337,
               "thrustCoefficient": 1.88339364251452,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 6.0,
               "powerOutput_W": 1663833.33333333,
-              "rotorSpeed_radians_per_s": 0.79116200000000036,
+              "rotorSpeed_radians_per_s": 0.7911620000000004,
               "thrustCoefficient": 1.55870125147423,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.0,
               "powerOutput_W": 3554333.33333333,
-              "rotorSpeed_radians_per_s": 0.79116416666666678,
+              "rotorSpeed_radians_per_s": 0.7911641666666668,
               "thrustCoefficient": 1.33862792849979,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 8.0,
               "powerOutput_W": 6001833.33333333,
-              "rotorSpeed_radians_per_s": 0.79115366666666664,
+              "rotorSpeed_radians_per_s": 0.7911536666666666,
               "thrustCoefficient": 1.1783616050679,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 9.0,
               "powerOutput_W": 8984000.0,
-              "rotorSpeed_radians_per_s": 0.79129416666666608,
+              "rotorSpeed_radians_per_s": 0.7912941666666661,
               "thrustCoefficient": 1.05238928244746,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 9.5,
               "powerOutput_W": 10678333.3333333,
-              "rotorSpeed_radians_per_s": 0.79121916666666647,
+              "rotorSpeed_radians_per_s": 0.7912191666666665,
               "thrustCoefficient": 0.998444399411094,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1479,84 +1480,84 @@
             {
               "windSpeed_m_per_s": 10.5,
               "powerOutput_W": 14166666.6666667,
-              "rotorSpeed_radians_per_s": 0.79060216666666672,
+              "rotorSpeed_radians_per_s": 0.7906021666666667,
               "thrustCoefficient": 0.879679523934205,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 11.0,
               "powerOutput_W": 15298333.3333333,
-              "rotorSpeed_radians_per_s": 0.79030766666666707,
+              "rotorSpeed_radians_per_s": 0.7903076666666671,
               "thrustCoefficient": 0.779355458666671,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 11.5,
               "powerOutput_W": 15825000.0,
-              "rotorSpeed_radians_per_s": 0.79047016666666647,
+              "rotorSpeed_radians_per_s": 0.7904701666666665,
               "thrustCoefficient": 0.668304901872016,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 12.0,
               "powerOutput_W": 15871666.6666667,
-              "rotorSpeed_radians_per_s": 0.79053699999999993,
+              "rotorSpeed_radians_per_s": 0.7905369999999999,
               "thrustCoefficient": 0.570707878628266,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 12.5,
               "powerOutput_W": 15916666.6666667,
-              "rotorSpeed_radians_per_s": 0.79069933333333386,
+              "rotorSpeed_radians_per_s": 0.7906993333333339,
               "thrustCoefficient": 0.49293521905771,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 13.0,
               "powerOutput_W": 15920000.0,
-              "rotorSpeed_radians_per_s": 0.79074833333333383,
+              "rotorSpeed_radians_per_s": 0.7907483333333338,
               "thrustCoefficient": 0.432611988461312,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 14.0,
               "powerOutput_W": 15920000.0,
-              "rotorSpeed_radians_per_s": 0.79075766666666691,
+              "rotorSpeed_radians_per_s": 0.7907576666666669,
               "thrustCoefficient": 0.343525929198227,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 16.0,
               "powerOutput_W": 15916666.6666667,
-              "rotorSpeed_radians_per_s": 0.79061033333333275,
+              "rotorSpeed_radians_per_s": 0.7906103333333327,
               "thrustCoefficient": 0.231856602305193,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 18.0,
               "powerOutput_W": 15913333.3333333,
-              "rotorSpeed_radians_per_s": 0.79049866666666679,
+              "rotorSpeed_radians_per_s": 0.7904986666666668,
               "thrustCoefficient": 0.166747116408112,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 20.0,
               "powerOutput_W": 15920000.0,
-              "rotorSpeed_radians_per_s": 0.79096016666666635,
+              "rotorSpeed_radians_per_s": 0.7909601666666664,
               "thrustCoefficient": 0.12562173040341,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 22.0,
               "powerOutput_W": 15930000.0,
-              "rotorSpeed_radians_per_s": 0.79138883333333365,
+              "rotorSpeed_radians_per_s": 0.7913888333333337,
               "thrustCoefficient": 0.0978046858608672,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 24.0,
               "powerOutput_W": 15928333.3333333,
-              "rotorSpeed_radians_per_s": 0.79118250000000012,
+              "rotorSpeed_radians_per_s": 0.7911825000000001,
               "thrustCoefficient": 0.0781522682363673,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             }
@@ -1577,7 +1578,6 @@
           "adjustedLowSpeedCutIn_m_per_s": 0.0,
           "lowSpeedCutIn_m_per_s": 0.0,
           "highSpeedCutOut_m_per_s": 25.0,
-          "turbulenceIntensity_percentage": 10.0,
           "airDensity_kg_per_m3": 1.225,
           "performanceDataPoints": [
             {
@@ -1618,7 +1618,7 @@
             {
               "windSpeed_m_per_s": 5.0,
               "powerOutput_W": 1778833.33333333,
-              "rotorSpeed_radians_per_s": 0.45030166666666688,
+              "rotorSpeed_radians_per_s": 0.4503016666666669,
               "thrustCoefficient": 1.4279716221306,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1639,14 +1639,14 @@
             {
               "windSpeed_m_per_s": 8.0,
               "powerOutput_W": 7717666.66666667,
-              "rotorSpeed_radians_per_s": 0.56726883333333311,
+              "rotorSpeed_radians_per_s": 0.5672688333333331,
               "thrustCoefficient": 0.993034525521609,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 9.0,
               "powerOutput_W": 11008333.3333333,
-              "rotorSpeed_radians_per_s": 0.63838466666666616,
+              "rotorSpeed_radians_per_s": 0.6383846666666662,
               "thrustCoefficient": 0.956990174594958,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1660,21 +1660,21 @@
             {
               "windSpeed_m_per_s": 10.0,
               "powerOutput_W": 15071666.6666667,
-              "rotorSpeed_radians_per_s": 0.70802083333333343,
+              "rotorSpeed_radians_per_s": 0.7080208333333334,
               "thrustCoefficient": 0.925685169500981,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 10.5,
               "powerOutput_W": 17115000.0,
-              "rotorSpeed_radians_per_s": 0.73523433333333366,
+              "rotorSpeed_radians_per_s": 0.7352343333333337,
               "thrustCoefficient": 0.880703232864159,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 11.0,
               "powerOutput_W": 18438333.3333333,
-              "rotorSpeed_radians_per_s": 0.74918966666666642,
+              "rotorSpeed_radians_per_s": 0.7491896666666664,
               "thrustCoefficient": 0.782439256560579,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1688,14 +1688,14 @@
             {
               "windSpeed_m_per_s": 12.0,
               "powerOutput_W": 18943333.3333333,
-              "rotorSpeed_radians_per_s": 0.75351233333333367,
+              "rotorSpeed_radians_per_s": 0.7535123333333337,
               "thrustCoefficient": 0.56520176534113,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 12.5,
               "powerOutput_W": 18985000.0,
-              "rotorSpeed_radians_per_s": 0.75410900000000036,
+              "rotorSpeed_radians_per_s": 0.7541090000000004,
               "thrustCoefficient": 0.490862284967214,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1709,42 +1709,42 @@
             {
               "windSpeed_m_per_s": 14.0,
               "powerOutput_W": 18990000.0,
-              "rotorSpeed_radians_per_s": 0.75429933333333377,
+              "rotorSpeed_radians_per_s": 0.7542993333333338,
               "thrustCoefficient": 0.342757047714805,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 16.0,
               "powerOutput_W": 18993333.3333333,
-              "rotorSpeed_radians_per_s": 0.75447783333333329,
+              "rotorSpeed_radians_per_s": 0.7544778333333333,
               "thrustCoefficient": 0.232475071444014,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 18.0,
               "powerOutput_W": 18990000.0,
-              "rotorSpeed_radians_per_s": 0.75430300000000039,
+              "rotorSpeed_radians_per_s": 0.7543030000000004,
               "thrustCoefficient": 0.167056059150351,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 20.0,
               "powerOutput_W": 18986666.6666667,
-              "rotorSpeed_radians_per_s": 0.75415316666666665,
+              "rotorSpeed_radians_per_s": 0.7541531666666667,
               "thrustCoefficient": 0.125879961092669,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 22.0,
               "powerOutput_W": 18990000.0,
-              "rotorSpeed_radians_per_s": 0.75421433333333354,
+              "rotorSpeed_radians_per_s": 0.7542143333333335,
               "thrustCoefficient": 0.0983043797586011,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 24.0,
               "powerOutput_W": 18990000.0,
-              "rotorSpeed_radians_per_s": 0.75430866666666685,
+              "rotorSpeed_radians_per_s": 0.7543086666666668,
               "thrustCoefficient": 0.0786544191539006,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             }
@@ -1765,7 +1765,6 @@
           "adjustedLowSpeedCutIn_m_per_s": 0.0,
           "lowSpeedCutIn_m_per_s": 0.0,
           "highSpeedCutOut_m_per_s": 25.0,
-          "turbulenceIntensity_percentage": 10.0,
           "airDensity_kg_per_m3": 1.225,
           "performanceDataPoints": [
             {
@@ -1799,42 +1798,42 @@
             {
               "windSpeed_m_per_s": 4.0,
               "powerOutput_W": 297130.833333333,
-              "rotorSpeed_radians_per_s": 0.52321199999999957,
+              "rotorSpeed_radians_per_s": 0.5232119999999996,
               "thrustCoefficient": 1.89657936316691,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 5.0,
               "powerOutput_W": 623452.333333333,
-              "rotorSpeed_radians_per_s": 0.53858216666666647,
+              "rotorSpeed_radians_per_s": 0.5385821666666665,
               "thrustCoefficient": 1.40115039464773,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 6.0,
               "powerOutput_W": 1076666.66666667,
-              "rotorSpeed_radians_per_s": 0.62885283333333342,
+              "rotorSpeed_radians_per_s": 0.6288528333333334,
               "thrustCoefficient": 1.20182302160848,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 7.0,
               "powerOutput_W": 1713333.33333333,
-              "rotorSpeed_radians_per_s": 0.73317266666666669,
+              "rotorSpeed_radians_per_s": 0.7331726666666667,
               "thrustCoefficient": 1.09506785379238,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 8.0,
               "powerOutput_W": 2556666.66666667,
-              "rotorSpeed_radians_per_s": 0.83784883333333382,
+              "rotorSpeed_radians_per_s": 0.8378488333333338,
               "thrustCoefficient": 1.02507304342688,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
             {
               "windSpeed_m_per_s": 9.5,
               "powerOutput_W": 4256666.66666667,
-              "rotorSpeed_radians_per_s": 0.98168150000000021,
+              "rotorSpeed_radians_per_s": 0.9816815000000002,
               "thrustCoefficient": 0.940062562208019,
               "noiseDifferenceFromReferenceCurve_dB": 0.0
             },
@@ -1987,37 +1986,37 @@
       ],
       "probabilityDistribution": [
         [
-          6.3125589708859967E-05,
-          0.00092885795178246388,
+          6.312558970885997E-05,
+          0.0009288579517824639,
           0.001802935202314592,
           0.002851704383019352,
-          0.0036106886467475248,
-          0.0040371730959326132,
+          0.003610688646747525,
+          0.004037173095932613,
           0.00413740122898239,
-          0.0037791448169913091,
+          0.003779144816991309,
           0.0034911690990826476,
           0.00331149406108278,
           0.002942459966455212,
-          0.0027275622434669812,
+          0.002727562243466981,
           0.0022031199854499178,
           0.0018288998719911687,
           0.001542193525429071,
           0.0010975517407663506,
           0.000695717812970055,
-          0.00038901563866650308,
+          0.0003890156386665031,
           0.000169367469236748,
           0.00018773116950406729,
           0.00011740255660654128,
-          7.7936916331911574E-05,
+          7.793691633191157E-05,
           1.4642027816127466E-05,
           1.2016176489437222E-05,
-          6.3724490495461413E-07,
+          6.372449049546141E-07,
           0.0,
           0.0,
           0.0,
           0.0,
           0.0,
-          7.2517173250878041E-07,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2041,13 +2040,13 @@
         ],
         [
           6.600818906842351E-05,
-          0.00071916822831280254,
+          0.0007191682283128025,
           0.0014924781474641925,
           0.0024117819660550285,
           0.0029152525530413637,
-          0.0033009578843833788,
+          0.003300957884383379,
           0.0026757487561110105,
-          0.0029781988115347609,
+          0.002978198811534761,
           0.0021975444439756367,
           0.002083797405595238,
           0.0016987293536988206,
@@ -2055,22 +2054,22 @@
           0.0016650991919243024,
           0.0017002369613539007,
           0.0016437433767890982,
-          0.00099284545987897064,
+          0.0009928454598789706,
           0.00043672715355283395,
-          0.00034025084957732608,
+          0.0003402508495773261,
           0.00027104353039075313,
           0.00014081786924822936,
           2.9785008110647106E-05,
           3.3059792147167038E-06,
-          3.7126552791762272E-05,
+          3.712655279176227E-05,
           8.36480927348849E-06,
-          6.3724490495461413E-07,
+          6.372449049546141E-07,
           0.0,
           0.0,
           0.0,
           0.0,
           0.0,
-          7.2517173250878041E-07,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2093,37 +2092,37 @@
           0.0
         ],
         [
-          6.2341923248365337E-05,
+          6.234192324836534E-05,
           0.000625657561120886,
           0.0012960367620310869,
           0.0021692216323510624,
           0.0027814707517941233,
           0.0031714884416223594,
           0.0032764861877656285,
-          0.0035838223909217329,
+          0.003583822390921733,
           0.0035740657897314395,
-          0.0041110402958703038,
+          0.004111040295870304,
           0.003819689944289717,
           0.004098297734062663,
           0.0040491851798589275,
           0.003199034144121695,
-          0.0029499659747770392,
+          0.002949965974777039,
           0.0023792155344161776,
           0.0020031997266074923,
           0.0017016354968746117,
-          0.0014552720095983879,
+          0.001455272009598388,
           0.0013811638964554699,
           0.0010490441819520154,
-          0.00071681936504723576,
-          0.00059837338759070467,
-          0.00028290172414868428,
+          0.0007168193650472358,
+          0.0005983733875907047,
+          0.0002829017241486843,
           0.00021251409550408475,
           0.00013328380964640967,
-          9.3735583943812111E-05,
-          4.1479823099502233E-05,
+          9.373558394381211E-05,
+          4.147982309950223E-05,
           4.817212223094042E-06,
           0.0,
-          7.2517173250878041E-07,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2146,37 +2145,37 @@
           0.0
         ],
         [
-          4.8214110219554129E-05,
-          0.00071235746949043237,
+          4.821411021955413E-05,
+          0.0007123574694904324,
           0.0018273456350688321,
           0.0027441408382599766,
-          0.0028144065684726342,
+          0.002814406568472634,
           0.0039566972495190126,
           0.0045159579033161035,
-          0.0055424306198973974,
-          0.0065442932732557033,
+          0.005542430619897397,
+          0.006544293273255703,
           0.007304631588232015,
-          0.0074080178539210929,
-          0.0066313049121082893,
-          0.0073986270015605118,
-          0.0073717535450949553,
+          0.007408017853921093,
+          0.006631304912108289,
+          0.007398627001560512,
+          0.007371753545094955,
           0.0066778329833685,
-          0.0060799848568865236,
+          0.006079984856886524,
           0.0051165707765424995,
-          0.0039029970758826592,
-          0.0027699366105475741,
+          0.003902997075882659,
+          0.002769936610547574,
           0.0017292913204357886,
-          0.0010816833361218031,
-          0.00088015447064610864,
-          0.00071678523955327636,
-          0.00027852308501833821,
-          9.5864964678481291E-05,
-          8.2583524785321879E-05,
+          0.001081683336121803,
+          0.0008801544706461086,
+          0.0007167852395532764,
+          0.0002785230850183382,
+          9.586496467848129E-05,
+          8.258352478532188E-05,
           7.82797378195587E-05,
           1.7770713856701715E-05,
           0.0,
           0.0,
-          7.2517173250878041E-07,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2200,36 +2199,36 @@
         ],
         [
           5.811035107523484E-05,
-          0.00092835377230038774,
+          0.0009283537723003877,
           0.0018524746986217427,
-          0.0031645547511780421,
-          0.0042414177315037273,
-          0.0044202898773931347,
-          0.0053400985827317489,
+          0.003164554751178042,
+          0.004241417731503727,
+          0.004420289877393135,
+          0.005340098582731749,
           0.00609015378938585,
-          0.0065969437816100658,
+          0.006596943781610066,
           0.00783185308240017,
-          0.0072778843571952544,
-          0.0073043801091763182,
-          0.0075279636621082609,
-          0.0064207597358161691,
-          0.0057240246394875266,
-          0.0049412552946420133,
+          0.007277884357195254,
+          0.007304380109176318,
+          0.007527963662108261,
+          0.006420759735816169,
+          0.005724024639487527,
+          0.004941255294642013,
           0.0036927810415589395,
-          0.0024419079957420289,
+          0.002441907995742029,
           0.0016937023084887372,
           0.0011265325942864854,
-          0.00056334100307707524,
+          0.0005633410030770752,
           0.00023474362762686382,
           0.0001045092802943841,
-          5.6833229287766443E-05,
-          3.4978543351664452E-05,
+          5.683322928776644E-05,
+          3.497854335166445E-05,
           1.3736519378683936E-05,
           2.2894198964473226E-06,
           0.0,
           0.0,
           0.0,
-          7.2517173250878041E-07,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2252,37 +2251,37 @@
           0.0
         ],
         [
-          6.0431406558711262E-05,
+          6.043140655871126E-05,
           0.0009662231612682378,
           0.0017487063123426433,
-          0.0030919365354033878,
-          0.0043178088224849189,
-          0.0041227170086147007,
-          0.0041988946270589611,
-          0.0044547108085258814,
+          0.003091936535403388,
+          0.004317808822484919,
+          0.004122717008614701,
+          0.004198894627058961,
+          0.004454710808525881,
           0.0047604810229763764,
-          0.0057652149915696444,
-          0.0052999252418689594,
-          0.0051218344501458273,
+          0.005765214991569644,
+          0.005299925241868959,
+          0.005121834450145827,
           0.0043520125287867095,
-          0.0043710784859940172,
+          0.004371078485994017,
           0.0035182409779361727,
           0.0029203864916311183,
           0.0018275681649398594,
           0.0012889286166389345,
-          0.00065507827432327158,
+          0.0006550782743232716,
           0.00041807577200395817,
-          0.00027323011294983521,
-          9.5928870241953755E-05,
-          3.2302750929121582E-05,
+          0.0002732301129498352,
+          9.592887024195376E-05,
+          3.230275092912158E-05,
           1.0620748415910237E-06,
-          6.3724490495461413E-07,
+          6.372449049546141E-07,
           0.0,
           0.0,
           0.0,
           0.0,
           0.0,
-          7.2517173250878041E-07,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2305,37 +2304,37 @@
           0.0
         ],
         [
-          6.5756590697843665E-05,
+          6.575659069784366E-05,
           0.0010241596696695199,
-          0.0020002908627638682,
+          0.002000290862763868,
           0.003250402488579811,
           0.0036295659713052684,
           0.0040499106268356965,
-          0.0041798830881204741,
-          0.0046446343263870354,
-          0.0051431238345233934,
-          0.0051208632425621013,
+          0.004179883088120474,
+          0.004644634326387035,
+          0.005143123834523393,
+          0.005120863242562101,
           0.00437709925966257,
           0.0042285928714496605,
-          0.0043371605604654584,
+          0.004337160560465458,
           0.0040362226244573945,
           0.0034809510867278293,
           0.0031359902685734902,
           0.0023055597249038965,
           0.0013935774725228134,
           0.00074315620428356,
-          0.00057540339603999436,
-          0.00038154269246962278,
+          0.0005754033960399944,
+          0.0003815426924696228,
           0.00039573425483737745,
           0.000206650884270152,
-          8.4846840795735343E-05,
+          8.484684079573534E-05,
           3.33018444642875E-05,
           9.800475825138342E-06,
           0.0,
           0.0,
           0.0,
           0.0,
-          7.2517173250878041E-07,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2358,37 +2357,37 @@
           0.0
         ],
         [
-          6.7547639116669969E-05,
+          6.754763911666997E-05,
           0.0011417504477751266,
           0.0024779078509169867,
           0.0038461115355183915,
-          0.0041385916817263712,
-          0.0043144464383166126,
-          0.0047550095396882456,
+          0.004138591681726371,
+          0.004314446438316613,
+          0.004755009539688246,
           0.00601571154323316,
-          0.0064475039815070348,
-          0.0064218090783567071,
+          0.006447503981507035,
+          0.006421809078356707,
           0.006501784022561281,
-          0.0068967178041879542,
+          0.006896717804187954,
           0.0064066528469238476,
           0.0066333380489634235,
-          0.0065820859918690961,
-          0.0055787671274806312,
-          0.0045885322049292318,
-          0.0036470628588879169,
+          0.006582085991869096,
+          0.005578767127480631,
+          0.004588532204929232,
+          0.003647062858887917,
           0.0026360465873431463,
-          0.0016062581713615241,
+          0.001606258171361524,
           0.0009523694985056737,
-          0.00084596568524664757,
-          0.00039103396023684148,
+          0.0008459656852466476,
+          0.0003910339602368415,
           0.00024588799331995686,
           0.00016797349173230388,
-          6.9090956322678237E-05,
+          6.909095632267824E-05,
           2.3146536325318414E-05,
           7.738148323851483E-06,
           2.1478642735083377E-05,
           1.1571672100953733E-05,
-          7.6236747745418958E-06,
+          7.623674774541896E-06,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2414,38 +2413,38 @@
           7.06004036505736E-05,
           0.0012241910161759676,
           0.002641309662234297,
-          0.0039349848832272161,
-          0.0048861035651652247,
+          0.003934984883227216,
+          0.004886103565165225,
           0.006062806013942542,
           0.0070965341232201475,
-          0.0077236622453072442,
+          0.007723662245307244,
           0.008577234395383878,
-          0.010215849194043071,
+          0.01021584919404307,
           0.011387466850778934,
           0.01191636937880841,
           0.011604694538826737,
           0.011601871891530486,
           0.011329967024534175,
-          0.0099154001196639467,
-          0.0085541683913505952,
+          0.009915400119663947,
+          0.008554168391350595,
           0.0076509516784233475,
-          0.0060676724407905478,
+          0.006067672440790548,
           0.0043400789990338685,
-          0.0035087106606542522,
-          0.0025639422210616178,
-          0.0017033119520916411,
-          0.0011354746649362491,
+          0.003508710660654252,
+          0.002563942221061618,
+          0.001703311952091641,
+          0.001135474664936249,
           0.000618078003096252,
           0.0003641673379108616,
           0.00013950897967234568,
-          4.1625834319700257E-05,
-          3.6719027438076278E-05,
-          1.6009196382877511E-05,
+          4.162583431970026E-05,
+          3.671902743807628E-05,
+          1.600919638287751E-05,
           1.9199679918842108E-05,
-          1.3923154969357641E-05,
+          1.392315496935764E-05,
           2.4974531340085163E-06,
           2.0799797290667523E-05,
-          4.6231914983097688E-06,
+          4.623191498309769E-06,
           2.3070312974284475E-06,
           0.0,
           0.0,
@@ -2464,13 +2463,13 @@
           0.0
         ],
         [
-          5.1879467372339617E-05,
+          5.187946737233962E-05,
           0.0013093172521846498,
           0.00265361111049361,
-          0.0038414546861657711,
+          0.003841454686165771,
           0.005455533328164841,
-          0.0060583213499707054,
-          0.0076328204090651518,
+          0.006058321349970705,
+          0.007632820409065152,
           0.00877631321181755,
           0.010077210101212503,
           0.010821398550995651,
@@ -2478,25 +2477,25 @@
           0.0126545417414376,
           0.011964230576909892,
           0.01120738794619606,
-          0.0099719933966694457,
-          0.0085059103774384227,
+          0.009971993396669446,
+          0.008505910377438423,
           0.00728837207389381,
           0.00558274260461767,
-          0.0040642868549405379,
+          0.004064286854940538,
           0.003195399653919774,
           0.0022838013562016344,
           0.0017073442572856608,
           0.0011827199544195877,
-          0.00084681183153063823,
-          0.00057950850119879954,
-          0.00036091255709079821,
+          0.0008468118315306382,
+          0.0005795085011987995,
+          0.0003609125570907982,
           0.00018935043786008897,
           0.00011153286580399777,
           0.00011837831045492594,
-          9.6348289093089182E-05,
-          5.8029446027211641E-05,
-          3.2796384298821568E-05,
-          3.4923695946347017E-05,
+          9.634828909308918E-05,
+          5.802944602721164E-05,
+          3.279638429882157E-05,
+          3.492369594634702E-05,
           9.264640803525285E-06,
           0.0,
           0.0,
@@ -2517,38 +2516,38 @@
           0.0
         ],
         [
-          8.1752719603074068E-05,
+          8.175271960307407E-05,
           0.00102270029060046,
           0.0023982010270796592,
           0.0034220664716684765,
-          0.0047596808004652857,
-          0.0059941903061492361,
-          0.0066893045075974451,
-          0.0072814753012770588,
-          0.0076460780427582706,
-          0.0074601535205522781,
+          0.004759680800465286,
+          0.005994190306149236,
+          0.006689304507597445,
+          0.007281475301277059,
+          0.007646078042758271,
+          0.007460153520552278,
           0.00745175649185769,
-          0.0075443383381832317,
-          0.0072054483307391979,
-          0.0063538029848301822,
-          0.0061318062995001869,
+          0.007544338338183232,
+          0.007205448330739198,
+          0.006353802984830182,
+          0.006131806299500187,
           0.00503039054847808,
           0.003443141443121188,
-          0.0027943963673893952,
-          0.0022099093721891908,
+          0.002794396367389395,
+          0.002209909372189191,
           0.0018123288299590516,
           0.0011890386762288929,
-          0.00077829852763443221,
+          0.0007782985276344322,
           0.00045608693670047204,
           0.00040717521378829064,
           0.0002329689130109094,
           0.00018431195570755272,
           0.00016211435580872364,
           0.00011971147325108228,
-          5.1163794127944418E-05,
+          5.116379412794442E-05,
           1.387022090085393E-05,
-          1.6938293138678031E-05,
-          7.3186220891270326E-06,
+          1.693829313867803E-05,
+          7.318622089127033E-06,
           2.4974531340085163E-06,
           2.3161602008813213E-06,
           0.0,
@@ -2570,37 +2569,37 @@
           0.0
         ],
         [
-          8.6016965509922214E-05,
+          8.601696550992221E-05,
           0.001027429717540009,
           0.0019710605054805656,
           0.0029975025885698075,
           0.0038864568233224926,
           0.00514453597803666,
-          0.0053819534018108824,
-          0.0058137843328641562,
-          0.0054300319245256454,
-          0.0048367962536600253,
-          0.0042074661794048529,
+          0.005381953401810882,
+          0.005813784332864156,
+          0.005430031924525645,
+          0.004836796253660025,
+          0.004207466179404853,
           0.0033226306074676686,
           0.0030211467627270644,
-          0.0027246061214948611,
+          0.002724606121494861,
           0.0025332889626753542,
           0.002110040168900477,
-          0.0013474765992196229,
-          0.00095480253593270342,
-          0.00089229826642584723,
-          0.00061475624953999657,
+          0.001347476599219623,
+          0.0009548025359327034,
+          0.0008922982664258472,
+          0.0006147562495399966,
           0.00039734113226165703,
           0.00022004042385936534,
-          0.00013220141296831729,
+          0.0001322014129683173,
           9.9055164937506E-05,
-          6.5407436686882326E-05,
-          6.3813081741563259E-05,
-          3.2141185148303559E-05,
+          6.540743668688233E-05,
+          6.381308174156326E-05,
+          3.214118514830356E-05,
           2.3948293788599312E-05,
-          9.1344423296124411E-06,
-          4.6055800973286434E-06,
-          7.2517173250878041E-07,
+          9.134442329612441E-06,
+          4.605580097328643E-06,
+          7.251717325087804E-07,
           3.7014148648306786E-07,
           1.812929331271951E-07,
           0.0,
@@ -2628,7 +2627,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -2681,7 +2680,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -2734,7 +2733,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -2787,7 +2786,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -2840,7 +2839,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -2893,7 +2892,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -2946,7 +2945,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -2999,7 +2998,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -3052,7 +3051,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -3105,7 +3104,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -3158,7 +3157,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -3211,7 +3210,7 @@
           0.182553,
           0.182553,
           0.11043100000000002,
-          0.081949000000000008,
+          0.08194900000000001,
           0.07012800000000001,
           0.061822,
           0.054836,
@@ -3264,6 +3263,7 @@
     }
   ],
   "weibullWindClimates": null,
+  "atmosphericConditions": null,
   "referenceAirDensity": {
     "airDensity_kg_per_m3": 1.2074685102389866,
     "lapseRate_kg_per_m3_per_m": -0.000113,
@@ -3286,827 +3286,910 @@
     ],
     "speedsUps": [
       {
-        "locationDescription": "Farm Turbine 1",
-        "easting_m": 4574986.1918711131,
-        "northing_m": 6057717.2129717069,
+        "id": "Farm Turbine 1",
+        "id": "Farm Turbine 1",
+        "easting_m": 4574986.191871113,
+        "northing_m": 6057717.212971707,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          1.0000873842309606,
-          0.99996935316928548,
-          1.0005186789544049,
-          0.97496496688509393,
-          0.97489202712294443,
-          0.99388092720790733,
-          1.0060641803498971,
-          0.99900124539999624,
-          0.99835382051740273,
-          0.99953076868766588,
-          1.00000632412733,
-          1.0000167902534263
-        ]
+          1.0000873824412064,
+          0.9999693546070513,
+          1.0005186762844385,
+          0.9749649535261752,
+          0.9748920191546351,
+          0.993880911794773,
+          1.0060641815068574,
+          0.9990012599109992,
+          0.9983538105542162,
+          0.9995307680091031,
+          1.0000063230468377,
+          1.0000167914731364
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 2",
-        "easting_m": 4573727.1916977847,
-        "northing_m": 6057258.9743836792,
+        "id": "Farm Turbine 2",
+        "id": "Farm Turbine 2",
+        "easting_m": 4573727.191697785,
+        "northing_m": 6057258.974383679,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.9993800983267862,
-          0.9989928881193828,
-          1.0006871387018446,
-          0.978679361369572,
-          0.98277565719941828,
-          0.99579171751431883,
-          1.0014476966862809,
-          0.99887170673283976,
-          0.99862988862407176,
-          1.0002946153934533,
-          1.0004159466522096,
-          0.99949216878523572
-        ]
+          0.9993801317071589,
+          0.9989929000300389,
+          1.0006871334147494,
+          0.9786793765405621,
+          0.9827756665704778,
+          0.9957917362734976,
+          1.0014477056499038,
+          0.9988717150336549,
+          0.9986299187842446,
+          1.0002946093322977,
+          1.0004159600661873,
+          0.9994921487828359
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 3",
-        "easting_m": 4576560.4336413769,
-        "northing_m": 6059351.9492161544,
+        "id": "Farm Turbine 3",
+        "id": "Farm Turbine 3",
+        "easting_m": 4576560.433641377,
+        "northing_m": 6059351.949216154,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          1.0002934670847,
-          1.0005802236766961,
-          0.9986464826842909,
-          0.97645595718167177,
-          0.97220964011356958,
-          0.988568845291438,
-          1.0089048734022485,
-          0.999468121197058,
-          0.99802739442963251,
-          0.99897800832042338,
-          0.99937587116370008,
-          0.99999153208452407
-        ]
+          1.0002934792366478,
+          1.0005802500152932,
+          0.9986464814071324,
+          0.9764559791168603,
+          0.9722096491820701,
+          0.9885688348517034,
+          1.0089048459055536,
+          0.999468117373162,
+          0.998027436885593,
+          0.9989780169211399,
+          0.9993758539205072,
+          0.9999915015449072
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 4",
-        "easting_m": 4575301.4334680485,
-        "northing_m": 6058893.7106281267,
+        "id": "Farm Turbine 4",
+        "id": "Farm Turbine 4",
+        "easting_m": 4575301.433468048,
+        "northing_m": 6058893.710628127,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          1.0001167569266303,
-          1.0002930295083636,
-          0.99913015736462318,
-          0.97932184366574127,
-          0.97562393986848794,
-          0.9951609457244589,
-          1.0086267770863151,
-          0.99807706535139662,
-          0.99821475448348407,
-          0.99924001234983317,
-          0.9995397383968454,
-          0.9998459781789244
-        ]
+          1.0001167742208201,
+          1.0002930532435401,
+          0.9991301482170736,
+          0.9793218251166756,
+          0.9756239482415179,
+          0.9951609628762644,
+          1.0086267704818859,
+          0.9980770690713999,
+          0.9982147556701044,
+          0.9992400180387756,
+          0.9995397227819697,
+          0.9998459862408224
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 5",
-        "easting_m": 4574042.4332947191,
-        "northing_m": 6058435.4720400991,
+        "id": "Farm Turbine 5",
+        "id": "Farm Turbine 5",
+        "easting_m": 4574042.433294719,
+        "northing_m": 6058435.472040099,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99972960463913041,
-          0.999374916054943,
-          0.9994104157394732,
-          0.98303150494288893,
-          0.98082234489450515,
-          0.99840479437993745,
-          1.0061815373212597,
-          0.99679387735825675,
-          0.9983785664541307,
-          0.999913812870202,
-          1.0002083961242727,
-          0.999657636807844
-        ]
+          0.9997296038028622,
+          0.9993749121011833,
+          0.9994104017968656,
+          0.9830315065512283,
+          0.9808223479129002,
+          0.9984048049235029,
+          1.0061815508185747,
+          0.9967938678516519,
+          0.9983785785689749,
+          0.9999138121256225,
+          1.0002083834410969,
+          0.9996576579944746
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 6",
-        "easting_m": 4572783.4331213906,
-        "northing_m": 6057977.2334520714,
+        "id": "Farm Turbine 6",
+        "id": "Farm Turbine 6",
+        "easting_m": 4572783.433121391,
+        "northing_m": 6057977.233452071,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99931195846478471,
-          0.99921576202412632,
-          0.99965066346469511,
-          0.98636849552858852,
-          0.987668453483726,
-          0.99972132889154852,
-          1.0022273311353123,
-          0.99414426408329359,
-          0.9987402669804859,
-          1.0002370672057423,
-          1.0000346977667183,
-          0.99917008727995882
-        ]
+          0.9993119361572647,
+          0.999215777400331,
+          0.9996506558544094,
+          0.9863685200362127,
+          0.9876684548681902,
+          0.999721330824591,
+          1.0022273368164432,
+          0.9941442705751612,
+          0.9987402569186813,
+          1.000237078897123,
+          1.0000347005033947,
+          0.9991700891468499
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 7",
-        "easting_m": 4571524.4329480613,
-        "northing_m": 6057518.9948640438,
+        "id": "Farm Turbine 7",
+        "id": "Farm Turbine 7",
+        "easting_m": 4571524.432948061,
+        "northing_m": 6057518.994864044,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99935715286639515,
-          0.99953235476617008,
-          0.99987128000042946,
-          0.98909774208188328,
-          0.99227546206713224,
-          0.99865160617048321,
-          1.0057839226063974,
-          0.99324870939631271,
-          0.99904869965687082,
-          1.0000965887249151,
-          0.99960641394266825,
-          0.9988953910578876
-        ]
+          0.999357163332719,
+          0.9995323273327361,
+          0.999871266785983,
+          0.9890977523597122,
+          0.9922754572702437,
+          0.99865159373204,
+          1.0057839371004293,
+          0.9932487192359644,
+          0.9990487181665089,
+          1.0000965827275012,
+          0.9996064228078787,
+          0.9988953790517832
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 8",
-        "easting_m": 4575616.6750649828,
-        "northing_m": 6060070.2082845466,
+        "id": "Farm Turbine 8",
+        "id": "Farm Turbine 8",
+        "easting_m": 4575616.675064983,
+        "northing_m": 6060070.208284547,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          1.0003463165021194,
-          1.0006827180208659,
-          0.99842458299537173,
-          0.98536525110335826,
-          0.97829195840979322,
-          0.99594671885807562,
-          1.0107003646402781,
-          0.99805815142945664,
-          0.99761304099111225,
-          0.99910446330058822,
-          0.99938100779913774,
-          0.99993943699506715
-        ]
+          1.0003463381454105,
+          1.0006827024513074,
+          0.9984245664808484,
+          0.9853652547435986,
+          0.9782919722627522,
+          0.9959466969367274,
+          1.0107003600053353,
+          0.9980581569106681,
+          0.997613055203821,
+          0.9991044607113689,
+          0.9993809954040722,
+          0.9999394068920751
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 9",
-        "easting_m": 4574357.6748916544,
+        "id": "Farm Turbine 9",
+        "id": "Farm Turbine 9",
+        "easting_m": 4574357.674891654,
         "northing_m": 6059611.969696519,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99994649748240549,
-          1.0001241411470774,
-          0.99857154346896559,
-          0.98706992489410861,
-          0.98101194722482543,
-          0.99921084887087119,
-          1.0083444404748656,
-          0.99508520877016016,
-          0.99833801974809633,
-          0.99945366990634965,
-          0.99951999079456821,
-          0.99956150354782913
-        ]
+          0.9999464724458924,
+          1.000124123763012,
+          0.998571540904377,
+          0.9870699374018791,
+          0.9810119317388791,
+          0.9992108562936409,
+          1.0083444580318106,
+          0.9950852122235859,
+          0.9983380384410365,
+          0.9994536763365416,
+          0.9995199682237499,
+          0.9995614832647187
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 10",
+        "id": "Farm Turbine 10",
+        "id": "Farm Turbine 10",
         "easting_m": 4573098.674718325,
-        "northing_m": 6059153.7311084913,
+        "northing_m": 6059153.731108491,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99963195993703746,
-          0.9994459713865077,
-          0.99862129715819981,
-          0.98931680051946969,
-          0.98579014740374726,
-          1.001887060968518,
-          1.0049753772860488,
-          0.99271318259068431,
-          0.99842619968816249,
-          0.99989097038230845,
-          0.99994701048681789,
-          0.999373195010363
-        ]
+          0.9996319278276841,
+          0.9994459530686295,
+          0.998621287815272,
+          0.9893168107353607,
+          0.9857901380915584,
+          1.0018870265456898,
+          1.0049753940460695,
+          0.9927131797684039,
+          0.9984262124044375,
+          0.9998909685797056,
+          0.9999470244802935,
+          0.9993731915709471
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 11",
-        "easting_m": 4571839.6745449966,
-        "northing_m": 6058695.4925204637,
+        "id": "Farm Turbine 11",
+        "id": "Farm Turbine 11",
+        "easting_m": 4571839.674544997,
+        "northing_m": 6058695.492520464,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.9993137937885187,
-          0.999336315458217,
-          0.99884906099669546,
-          0.99207831963213267,
-          0.99201198477915165,
-          1.0012683447821591,
-          1.0054442476872709,
-          0.99179044862820942,
-          0.99874256293771191,
-          1.0002671214852323,
-          0.99994018380013172,
-          0.999078173586735
-        ]
+          0.9993137925250272,
+          0.9993362902604089,
+          0.9988490392742149,
+          0.9920783256267036,
+          0.9920119952115255,
+          1.0012683408028797,
+          1.005444244132678,
+          0.9917904543286024,
+          0.9987425750734285,
+          1.0002671207381415,
+          0.9999401864896456,
+          0.9990781589575423
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 12",
-        "easting_m": 4570580.6743716672,
+        "id": "Farm Turbine 12",
+        "id": "Farm Turbine 12",
+        "easting_m": 4570580.674371667,
         "northing_m": 6058237.253932436,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99944354854515061,
-          0.9996427944896934,
-          0.99904187192690375,
-          0.99406596400149383,
-          0.99582063106165353,
-          0.99918952188936871,
-          1.0064990278687467,
-          0.99244240149464091,
-          0.9989625763731661,
-          1.0000606306137723,
-          0.99958019278483323,
-          0.998908701938625
-        ]
+          0.9994435510857099,
+          0.9996428059815483,
+          0.9990418806922315,
+          0.9940659658036585,
+          0.9958206491173428,
+          0.999189518863127,
+          1.0064990105971923,
+          0.9924424213200291,
+          0.9989625616059788,
+          1.0000606211505827,
+          0.999580206320554,
+          0.9989086981170646
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 13",
-        "easting_m": 4569321.6741983388,
-        "northing_m": 6057779.0153444083,
+        "id": "Farm Turbine 13",
+        "id": "Farm Turbine 13",
+        "easting_m": 4569321.674198339,
+        "northing_m": 6057779.015344408,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99958597720328668,
-          0.99981968966782586,
-          0.99913888418021757,
-          0.995806657645497,
-          0.99846665661853429,
-          0.995444821713691,
-          1.0035074573513769,
-          0.99301021761080932,
-          0.99909088525612977,
-          0.99996747688160226,
-          0.99947116538624514,
-          0.99900308767213064
-        ]
+          0.9995859888525976,
+          0.9998196912903519,
+          0.9991388839309339,
+          0.9958066598980131,
+          0.9984666444973931,
+          0.9954448083041443,
+          1.0035074473102898,
+          0.9930102232347554,
+          0.9990908767826047,
+          0.9999674917846656,
+          0.9994711666232039,
+          0.999003071915107
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 14",
-        "easting_m": 4568062.6740250094,
-        "northing_m": 6057320.7767563807,
+        "id": "Farm Turbine 14",
+        "id": "Farm Turbine 14",
+        "easting_m": 4568062.674025009,
+        "northing_m": 6057320.776756381,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99974471483210481,
-          0.99997358388431035,
-          0.99910945042376043,
-          0.99724191003282781,
-          0.99811644188899884,
-          0.995007844837515,
-          0.99979849250672315,
-          0.99355191546424948,
-          0.99910774910140421,
-          0.99990872713902157,
-          0.99950012443781477,
-          0.99919965171630076
-        ]
+          0.9997447288240731,
+          0.9999735563566249,
+          0.999109457054446,
+          0.9972419003931098,
+          0.9981164323396515,
+          0.9950078600701473,
+          0.9997985007913603,
+          0.9935518936121924,
+          0.999107752926023,
+          0.9999087328035975,
+          0.9995001280080245,
+          0.9991996724241574
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 15",
+        "id": "Farm Turbine 15",
+        "id": "Farm Turbine 15",
         "easting_m": 4566803.67385168,
         "northing_m": 6056862.538168353,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.999856677220511,
-          1.0000722947546357,
-          0.999007148287509,
-          0.9983592209477079,
-          0.99645437826358008,
-          1.0001707663264952,
-          0.99699742500491828,
-          0.994142274781906,
-          0.99905910914047369,
-          0.99982807871147916,
-          0.99956452343172408,
-          0.99950154548429959
-        ]
+          0.9998566519621562,
+          1.0000722566480722,
+          0.999007162753484,
+          0.9983592395152,
+          0.9964543608754811,
+          1.000170770286479,
+          0.9969974176754114,
+          0.9941422682842213,
+          0.9990591084980088,
+          0.9998280793982225,
+          0.9995645232946406,
+          0.9995015687489125
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 16",
-        "easting_m": 4575931.9166619182,
-        "northing_m": 6061246.7059409674,
+        "id": "Farm Turbine 16",
+        "id": "Farm Turbine 16",
+        "easting_m": 4575931.916661918,
+        "northing_m": 6061246.705940967,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          1.000477213240929,
-          1.0010701596368892,
-          0.99863979461803809,
-          0.98943398689993423,
-          0.980355440358143,
-          0.995050335583537,
-          1.0107080799165447,
-          0.997520818581331,
-          0.997732607554477,
-          0.99895461413371289,
-          0.998960416561873,
-          0.99971682411964025
-        ]
+          1.0004772106763065,
+          1.0010701732552596,
+          0.998639782541658,
+          0.9894339816712016,
+          0.980355442479156,
+          0.99505033645998,
+          1.0107080541103548,
+          0.9975208038712129,
+          0.997732580894557,
+          0.9989546255869333,
+          0.998960397158081,
+          0.9997168201357741
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 17",
-        "easting_m": 4574672.9164885888,
+        "id": "Farm Turbine 17",
+        "id": "Farm Turbine 17",
+        "easting_m": 4574672.916488589,
         "northing_m": 6060788.46735294,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          1.0000214345149399,
-          1.0003073749929585,
-          0.99863069777558333,
-          0.990251678605812,
-          0.98241811283626546,
-          0.99969448098394231,
-          1.0099891755927524,
-          0.99419510014485191,
-          0.99780288858481148,
-          0.99936986156005747,
-          0.99936730355920311,
-          0.999518089105011
-        ]
+          1.000021431650439,
+          1.000307368379453,
+          0.9986306953321167,
+          0.9902516860643267,
+          0.9824180920829633,
+          0.9996944984481114,
+          1.0099891664060698,
+          0.9941950874149194,
+          0.9978028704956666,
+          0.9993698700780463,
+          0.9993672996895951,
+          0.9995181154852144
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 18",
+        "id": "Farm Turbine 18",
+        "id": "Farm Turbine 18",
         "easting_m": 4573413.91631526,
-        "northing_m": 6060330.2287649112,
+        "northing_m": 6060330.228764911,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99984697715743387,
-          0.999918232461434,
-          0.99860793286618776,
-          0.99142835325383682,
-          0.9859902127008906,
-          1.0018898750000376,
-          1.0085829015742811,
-          0.99167955582230549,
-          0.997809349383207,
-          0.99960344668194934,
-          0.99965701298066389,
-          0.99949071074179185
-        ]
+          0.9998469707173375,
+          0.9999182258247935,
+          0.9986079561703155,
+          0.9914283532317647,
+          0.9859902254521684,
+          1.0018898767605018,
+          1.0085828943610269,
+          0.9916795504073511,
+          0.9978093620970387,
+          0.9996034234997911,
+          0.9996570100071659,
+          0.999490711003103
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 19",
+        "id": "Farm Turbine 19",
+        "id": "Farm Turbine 19",
         "easting_m": 4572154.916141931,
         "northing_m": 6059871.9901768835,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99967700974503371,
-          0.99971650194022055,
-          0.99878107063701471,
-          0.9930667605989385,
-          0.99115294153509048,
-          1.0031888934217432,
-          1.0066872109669742,
-          0.99093892984529275,
-          0.99799283782752768,
-          0.99980625159737591,
-          0.99969132342829237,
-          0.99924140696058161
-        ]
+          0.9996769814803123,
+          0.9997165186219377,
+          0.9987810628320106,
+          0.9930667712151686,
+          0.9911529301076055,
+          1.0031889086285086,
+          1.0066872172615553,
+          0.990938921000093,
+          0.9979928667265584,
+          0.9998062421228827,
+          0.9996913452986276,
+          0.9992414259023049
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 20",
+        "id": "Farm Turbine 20",
+        "id": "Farm Turbine 20",
         "easting_m": 4570895.9159686025,
-        "northing_m": 6059413.7515888559,
+        "northing_m": 6059413.751588856,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.999603332541162,
-          0.99961287380613872,
-          0.998900057706257,
-          0.994840193886141,
-          0.99557047242859642,
-          1.0016112489725455,
-          1.0054249626465803,
-          0.99123030905876186,
-          0.998123262624148,
-          0.999955296476658,
-          0.99974285647337535,
-          0.99913017018139927
-        ]
+          0.9996033073933713,
+          0.9996128548651629,
+          0.998900059176381,
+          0.9948401990352265,
+          0.9955704796473697,
+          1.001611240134351,
+          1.0054249518181744,
+          0.991230301377988,
+          0.9981232742734472,
+          0.9999552961232956,
+          0.9997428404329526,
+          0.9991301971699041
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 21",
-        "easting_m": 4569636.9157952731,
-        "northing_m": 6058955.5130008282,
+        "id": "Farm Turbine 21",
+        "id": "Farm Turbine 21",
+        "easting_m": 4569636.915795273,
+        "northing_m": 6058955.513000828,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99957494844436756,
-          0.99971119820780074,
-          0.999029989519289,
-          0.99605344680616847,
-          0.99785126149973058,
-          0.99984122872800141,
-          1.0031089641956523,
-          0.99169962404839385,
-          0.998267334130052,
-          0.99998112248909832,
-          0.99961096089104573,
-          0.99908645225251091
-        ]
+          0.9995749511560065,
+          0.9997112116507221,
+          0.999029994047783,
+          0.9960534334713841,
+          0.997851272506317,
+          0.9998412384008157,
+          1.0031089707978538,
+          0.99169962681077,
+          0.9982673556446345,
+          0.9999811197239804,
+          0.9996109554561945,
+          0.9990864657592978
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 22",
-        "easting_m": 4568377.9156219447,
-        "northing_m": 6058497.2744128006,
+        "id": "Farm Turbine 22",
+        "id": "Farm Turbine 22",
+        "easting_m": 4568377.915621945,
+        "northing_m": 6058497.274412801,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99963033240683152,
-          0.99974304412739512,
-          0.99904621626944989,
-          0.99697301912068326,
-          0.99958803813346508,
-          0.99787063759029127,
-          0.99886244943284908,
-          0.99212602230868363,
-          0.99887725784114378,
-          1.0000166931104524,
-          0.99967645991160992,
-          0.999187232629935
-        ]
+          0.9996303569962033,
+          0.9997430448686417,
+          0.9990462219658625,
+          0.996973005586659,
+          0.999588027885954,
+          0.9978706524478499,
+          0.9988624471088406,
+          0.9921260298864524,
+          0.9988772455825855,
+          1.0000167090765275,
+          0.999676459446991,
+          0.9991872514541618
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 23",
-        "easting_m": 4567118.9154486153,
-        "northing_m": 6058039.0358247729,
+        "id": "Farm Turbine 23",
+        "id": "Farm Turbine 23",
+        "easting_m": 4567118.915448615,
+        "northing_m": 6058039.035824773,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.999763379197745,
-          0.99998513181166071,
-          0.99902171626478131,
-          0.997613887870343,
-          0.99864837564460185,
-          0.9993675299837782,
-          0.995835727710292,
-          0.99271688918343926,
-          0.99887568380492653,
-          0.99983615467924869,
-          0.99951796330984077,
-          0.99927778640625153
-        ]
+          0.999763350568434,
+          0.9999851310291632,
+          0.9990217228824085,
+          0.997613895970393,
+          0.9986483757631245,
+          0.9993675214246833,
+          0.995835739470655,
+          0.9927168856390548,
+          0.9988756762282615,
+          0.9998361527877699,
+          0.9995179767061463,
+          0.9992777947663524
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 24",
-        "easting_m": 4574988.1580855241,
+        "id": "Farm Turbine 24",
+        "id": "Farm Turbine 24",
+        "easting_m": 4574988.158085524,
         "northing_m": 6061964.96500936,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          1.0002020894003165,
-          1.0006375170315327,
-          0.99871437139054342,
-          0.99203444675679819,
-          0.98467074768411234,
-          0.99910530482569448,
-          1.0100593583782804,
-          0.99316913831256182,
-          0.99782560441448276,
-          0.99924206314713448,
-          0.99918270418096256,
-          0.99953731525160538
-        ]
+          1.000202083086918,
+          1.00063754304422,
+          0.9987143698767686,
+          0.9920344408472062,
+          0.9846707480632563,
+          0.9991053098286716,
+          1.0100593426347213,
+          0.993169150209902,
+          0.9978255946295767,
+          0.9992420665234931,
+          0.9991827042290832,
+          0.99953730416078
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 25",
-        "easting_m": 4573729.1579121947,
+        "id": "Farm Turbine 25",
+        "id": "Farm Turbine 25",
+        "easting_m": 4573729.157912195,
         "northing_m": 6061506.726421332,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99974894416116655,
-          0.99999719315195,
-          0.99879057177446484,
-          0.99330766922655278,
-          0.98730170284410246,
-          1.0015475668932736,
-          1.0097450103466168,
-          0.99054231648391255,
-          0.99795327314948246,
-          0.99957141350414025,
-          0.99934415758677375,
-          0.99916153027000143
-        ]
+          0.9997489114863084,
+          0.999997196347022,
+          0.9987905640263195,
+          0.9933076781238919,
+          0.987301696562846,
+          1.001547594340288,
+          1.0097450354158084,
+          0.9905423275595515,
+          0.997953234507852,
+          0.9995714233424268,
+          0.9993441482720068,
+          0.999161518108508
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 26",
-        "easting_m": 4572470.1577388663,
-        "northing_m": 6061048.4878333043,
+        "id": "Farm Turbine 26",
+        "id": "Farm Turbine 26",
+        "easting_m": 4572470.157738866,
+        "northing_m": 6061048.487833304,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.999722711714758,
-          0.99990986573761187,
-          0.99882380201836851,
-          0.99419378377133349,
-          0.99138427805735274,
-          1.0029914519226846,
-          1.0082870210843993,
-          0.98999605387274514,
-          0.99800369232775155,
-          0.99968350847066756,
-          0.99946978616048943,
-          0.99917893074618147
-        ]
+          0.9997227404531449,
+          0.9999098942514343,
+          0.9988238189144379,
+          0.9941937907758732,
+          0.9913842917645267,
+          1.0029914386135919,
+          1.0082870231347614,
+          0.9899960355946241,
+          0.9980036715748835,
+          0.9996834995647857,
+          0.9994698032257364,
+          0.9991789526626185
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 27",
-        "easting_m": 4571211.1575655369,
-        "northing_m": 6060590.2492452767,
+        "id": "Farm Turbine 27",
+        "id": "Farm Turbine 27",
+        "easting_m": 4571211.157565537,
+        "northing_m": 6060590.249245277,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99958165740813532,
-          0.999664458838059,
-          0.99890833881929464,
-          0.99499185135762913,
-          0.99499152959099757,
-          1.0029829177624225,
-          1.0056369672258934,
-          0.99016652494044011,
-          0.9981003075720144,
-          0.99988088138317111,
-          0.99962432873415474,
-          0.99905107466221665
-        ]
+          0.9995816859382746,
+          0.9996644476058737,
+          0.9989083446921624,
+          0.9949918329119316,
+          0.9949915366194143,
+          1.0029829425284655,
+          1.0056369481225846,
+          0.9901665093188264,
+          0.9981003103140291,
+          0.9998808674530003,
+          0.9996243156561362,
+          0.9990510418195078
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 28",
-        "easting_m": 4569952.1573922085,
-        "northing_m": 6060132.0106572481,
+        "id": "Farm Turbine 28",
+        "id": "Farm Turbine 28",
+        "easting_m": 4569952.157392208,
+        "northing_m": 6060132.010657248,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99962480094948714,
-          0.99979017749853,
-          0.9989696201816497,
-          0.99573518073815692,
-          0.99736868122663047,
-          1.0022312180777724,
-          1.0034296676502312,
-          0.99060245604760844,
-          0.998165044400012,
-          0.9998488267198159,
-          0.99954204852603823,
-          0.999028390448184
-        ]
+          0.9996248053162686,
+          0.9997901861550667,
+          0.9989696211593684,
+          0.9957351761810872,
+          0.9973686805279836,
+          1.002231227558424,
+          1.0034296665227072,
+          0.9906024594965531,
+          0.9981650604436778,
+          0.9998488362083015,
+          0.9995420588501543,
+          0.9990283856144783
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 29",
-        "easting_m": 4568693.1572188791,
+        "id": "Farm Turbine 29",
+        "id": "Farm Turbine 29",
+        "easting_m": 4568693.157218879,
         "northing_m": 6059673.77206922,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99956635819961659,
-          0.99972972384028114,
-          0.99906855589311372,
-          0.99655008580967952,
-          0.998726065487262,
-          1.0008531884125458,
-          0.998845017421011,
-          0.99095770526990234,
-          0.99827851245523713,
-          1.0000219316443677,
-          0.99963310996841293,
-          0.99909158376359963
-        ]
+          0.9995663518987118,
+          0.9997296906872427,
+          0.9990685471511112,
+          0.9965500702686686,
+          0.9987260688633003,
+          1.0008531983838838,
+          0.9988450230984558,
+          0.9909576962506935,
+          0.9982785209277758,
+          1.0000219244642867,
+          0.9996331133176266,
+          0.9990915840636265
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 30",
-        "easting_m": 4567434.1570455506,
-        "northing_m": 6059215.5334811928,
+        "id": "Farm Turbine 30",
+        "id": "Farm Turbine 30",
+        "easting_m": 4567434.157045551,
+        "northing_m": 6059215.533481193,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99968849679686667,
-          0.99980646529302908,
-          0.99902174130226784,
-          0.99709933618504254,
-          0.999687835207149,
-          1.0005638206363023,
-          0.99446095077978525,
-          0.99139876735427679,
-          0.99823190712910259,
-          0.99995958341150226,
-          0.99968580825221709,
-          0.99925861408303007
-        ]
+          0.9996885152643868,
+          0.9998064734405578,
+          0.999021726517441,
+          0.9970993509616056,
+          0.9996878415964577,
+          1.0005638319280066,
+          0.9944609551997741,
+          0.9913987630889594,
+          0.99823187901682,
+          0.9999595841299708,
+          0.9996858116662762,
+          0.9992586137054303
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 31",
-        "easting_m": 4566175.1568722213,
-        "northing_m": 6058757.2948931651,
+        "id": "Farm Turbine 31",
+        "id": "Farm Turbine 31",
+        "easting_m": 4566175.156872221,
+        "northing_m": 6058757.294893165,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99979368614145447,
-          0.99992767434484631,
-          0.99897326614982229,
-          0.9974898084321413,
-          0.99914145162821144,
-          1.0021269667933592,
-          0.99258906065308483,
-          0.99187628339156886,
-          0.998191204128128,
-          0.9998982214726827,
-          0.9997062235931814,
-          0.99942516290852768
-        ]
+          0.9997937142686977,
+          0.9999276975883498,
+          0.9989732573456562,
+          0.9974898023083413,
+          0.9991414505572311,
+          1.0021269583164847,
+          0.9925890454231926,
+          0.9918762675377548,
+          0.9981911763496479,
+          0.9998982510806308,
+          0.9997062037728488,
+          0.9994251676689383
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 32",
-        "easting_m": 4572785.3993358007,
-        "northing_m": 6062224.9854897242,
+        "id": "Farm Turbine 32",
+        "id": "Farm Turbine 32",
+        "easting_m": 4572785.399335801,
+        "northing_m": 6062224.985489724,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99982639312872712,
-          1.0000593345133768,
-          0.99880075369442456,
-          0.9940289806302518,
-          0.99216641395516991,
-          1.0029871972985114,
-          1.0079197137696421,
-          0.98915018650455866,
-          0.99794895337449485,
-          0.999607736902571,
-          0.999454606899181,
-          0.99927910645115658
-        ]
+          0.9998263869877806,
+          1.0000593222428913,
+          0.9988007434265508,
+          0.9940290015544547,
+          0.9921664056879778,
+          1.0029872053545004,
+          1.007919734708127,
+          0.9891501899887157,
+          0.9979489614689143,
+          0.9996077367599668,
+          0.9994546262761197,
+          0.9992791026437499
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 33",
-        "easting_m": 4570267.3989891429,
-        "northing_m": 6061308.5083136689,
+        "id": "Farm Turbine 33",
+        "id": "Farm Turbine 33",
+        "easting_m": 4570267.398989143,
+        "northing_m": 6061308.508313669,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99967401317142457,
-          0.99981332546212431,
-          0.99894972881857491,
-          0.99546275450643151,
-          0.99688236182990575,
-          1.0029715942985258,
-          1.0027421648772277,
-          0.98961167784416959,
-          0.99811567991380734,
-          0.99986746749141575,
-          0.99963369514768341,
-          0.99912194964654033
-        ]
+          0.9996739994028875,
+          0.9998133609573338,
+          0.9989497079743621,
+          0.9954627384995814,
+          0.9968823557063331,
+          1.0029715916119615,
+          1.0027421820734008,
+          0.9896116746695873,
+          0.9981156495026242,
+          0.9998674866338325,
+          0.9996336812325739,
+          0.9991219567042917
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 34",
-        "easting_m": 4569008.3988158144,
-        "northing_m": 6060850.2697256412,
+        "id": "Farm Turbine 34",
+        "id": "Farm Turbine 34",
+        "easting_m": 4569008.398815814,
+        "northing_m": 6060850.269725641,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99963451194460851,
-          0.99977009728984811,
-          0.99902142791484838,
-          0.99604432934289644,
-          0.998255758346977,
-          1.0027135018623969,
-          0.99901049521981145,
-          0.98994594966343719,
-          0.9981942120874866,
-          0.99993843983216668,
-          0.99964876164977545,
-          0.99905224571645967
-        ]
+          0.9996345305051785,
+          0.9997700993009995,
+          0.999021429902356,
+          0.9960443380270869,
+          0.9982557615278486,
+          1.0027135256678341,
+          0.9990104741607289,
+          0.9899459580898085,
+          0.9981942057861,
+          0.9999384190569668,
+          0.9996487691195113,
+          0.9990522576682069
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 35",
+        "id": "Farm Turbine 35",
+        "id": "Farm Turbine 35",
         "easting_m": 4567749.398642485,
-        "northing_m": 6060392.0311376136,
+        "northing_m": 6060392.031137614,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99973552692854883,
-          0.99997018894378675,
-          0.999024791956941,
-          0.996152720461037,
-          0.99871531844147832,
-          1.0024383732932258,
-          0.994210247106902,
-          0.99043503079724171,
-          0.99819226257476079,
-          0.9998211298343026,
-          0.9995243087885427,
-          0.99920636239594485
-        ]
+          0.9997355236915012,
+          0.9999701710623377,
+          0.9990248051185545,
+          0.9961527113963826,
+          0.9987153039211797,
+          1.002438355497661,
+          0.9942102364270058,
+          0.9904350435284521,
+          0.9981922837346598,
+          0.9998211148282974,
+          0.9995243101684536,
+          0.9992063616107154
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 36",
-        "easting_m": 4566490.3984691557,
+        "id": "Farm Turbine 36",
+        "id": "Farm Turbine 36",
+        "easting_m": 4566490.398469156,
         "northing_m": 6059933.792549585,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.999697521687601,
-          0.99985155285211091,
-          0.99901937058158208,
-          0.99674319353116347,
-          0.99915369981890667,
-          1.0024370611448308,
-          0.991161634413258,
-          0.9907567210115501,
-          0.99820624979747785,
-          0.99992091951897,
-          0.99965910528761315,
-          0.99926763933832219
-        ]
+          0.9996975062210095,
+          0.999851577846507,
+          0.9990193752976203,
+          0.9967431778032468,
+          0.9991537050628093,
+          1.0024370535396696,
+          0.9911616296778903,
+          0.990756722057726,
+          0.9982062621633144,
+          0.9999209260799442,
+          0.999659123521301,
+          0.9992676475398071
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 37",
-        "easting_m": 4570582.6405860782,
-        "northing_m": 6062485.0059700888,
+        "id": "Farm Turbine 37",
+        "id": "Farm Turbine 37",
+        "easting_m": 4570582.640586078,
+        "northing_m": 6062485.005970089,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99955627726606244,
-          0.99975880215807245,
-          0.99902093587562524,
-          0.99474940589686833,
-          0.99633461354934438,
-          1.0023294703315415,
-          1.0020636622834047,
-          0.98871171548332781,
-          0.99816306593046178,
-          0.99986455995277945,
-          0.99946314472653808,
-          0.99890202633474434
-        ]
+          0.9995562678164763,
+          0.9997588124687533,
+          0.999020936270386,
+          0.9947494115558368,
+          0.9963346074634859,
+          1.0023294661419564,
+          1.0020636610427027,
+          0.9887117162833107,
+          0.9981630306152365,
+          0.9998645426128373,
+          0.9994631477669238,
+          0.9989020170894737
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 38",
-        "easting_m": 4569323.6404127488,
-        "northing_m": 6062026.7673820611,
+        "id": "Farm Turbine 38",
+        "id": "Farm Turbine 38",
+        "easting_m": 4569323.640412749,
+        "northing_m": 6062026.767382061,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99968072208455627,
-          0.9998063555288631,
-          0.99893029329477789,
-          0.99503734382136488,
-          0.99756447772329471,
-          1.0027134915668061,
-          0.99845524868128421,
-          0.98901635541850608,
-          0.99808063981346984,
-          0.99986480727508464,
-          0.99968172042857717,
-          0.99914429261383075
-        ]
+          0.9996807442207277,
+          0.9998063498836757,
+          0.9989302838591517,
+          0.9950373424890254,
+          0.9975644614351658,
+          1.0027135035667143,
+          0.9984552311608681,
+          0.9890163486465824,
+          0.9980806504703176,
+          0.99986482622805,
+          0.9996817184472444,
+          0.9991443190361433
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 39",
+        "id": "Farm Turbine 39",
+        "id": "Farm Turbine 39",
         "easting_m": 4568064.64023942,
-        "northing_m": 6061568.5287940335,
+        "northing_m": 6061568.528794033,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99969156960653449,
-          0.99990445951944351,
-          0.99899342453750373,
-          0.9952312350307555,
-          0.99794307345480415,
-          1.0030309433710567,
-          0.99382301343535406,
-          0.98942281092693363,
-          0.99814386669268562,
-          0.99982597962319375,
-          0.99956380460431327,
-          0.99906841072281738
-        ]
+          0.9996915495387524,
+          0.999904481651052,
+          0.998993407529664,
+          0.9952312282597121,
+          0.997943083845877,
+          1.003030932023266,
+          0.9938229959538591,
+          0.989422811366568,
+          0.998143822241469,
+          0.9998259626770784,
+          0.9995638303104392,
+          0.9990684458922651
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 40",
+        "id": "Farm Turbine 40",
+        "id": "Farm Turbine 40",
         "easting_m": 4566805.640066091,
-        "northing_m": 6061110.2902060058,
+        "northing_m": 6061110.290206006,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99972401229465657,
-          0.99989679425670341,
-          0.9989835792827515,
-          0.99581236180183119,
-          0.99831001898918426,
-          1.0028844269740247,
-          0.99029886997109862,
-          0.98977319478268855,
-          0.99814474196845382,
-          0.99987126411633476,
-          0.99966214786403818,
-          0.99929055263397193
-        ]
+          0.9997240339644815,
+          0.9998968164555696,
+          0.9989835895697882,
+          0.9958123764495357,
+          0.9983100009313266,
+          1.0028844061407782,
+          0.9902988511041464,
+          0.9897732192381962,
+          0.9981447341989488,
+          0.9998712449116425,
+          0.9996621763972102,
+          0.9992905389238402
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "Farm Turbine 41",
-        "easting_m": 4567120.8816630263,
-        "northing_m": 6062286.7878624257,
+        "id": "Farm Turbine 41",
+        "id": "Farm Turbine 41",
+        "easting_m": 4567120.881663026,
+        "northing_m": 6062286.787862426,
         "heightAboveGround_m": 150.0,
         "speedUps": [
-          0.99971285583148151,
-          0.9998536621671853,
-          0.998960293749832,
-          0.99485833794033329,
-          0.99739869519099256,
-          1.0025284572084017,
-          0.989474706054807,
-          0.98884884847491761,
-          0.99809181183147955,
-          0.99988396273928493,
-          0.999976253545231,
-          0.99916765036955835
-        ]
+          0.9997128556198639,
+          0.9998536677296921,
+          0.9989602965963673,
+          0.9948583561664848,
+          0.9973986834310097,
+          1.0025284627084738,
+          0.9894746883061751,
+          0.9888488472904394,
+          0.9980917938623957,
+          0.9998839447165844,
+          0.9999762440326531,
+          0.9991676678204436
+        ],
+        "isTarget": true
       },
       {
-        "locationDescription": "FINO_2 150m",
+        "id": "FINO_2 150m",
+        "id": "FINO_2 150m",
         "easting_m": 4560506.7,
         "northing_m": 6052222.6,
         "heightAboveGround_m": 150.0,
@@ -4123,15 +4206,17 @@
           1.0,
           1.0,
           1.0
-        ]
+        ],
+        "isTarget": false
       }
     ]
   },
   "energyEfficienciesSettings": {
     "calculateEfficiencies": false,
     "calculateIdealYield": false,
+    "calculateSensitivityCurve": false,
     "includeHysteresisEffect": true,
-    "includeTurbineManagement": true,
+    "includeCurtailmentRules": true,
     "turbineFlowAndPerformanceMatrixOutputSettings": {
       "outputMastToTurbineSpeedUp": false,
       "outputAmbientWindSpeed": false,
@@ -4178,7 +4263,9 @@
         "wakeExpansion": 0.04
       },
       "cfdml": {
-        "gnnType": "Offshore"
+        "gnnType": "Offshore",
+        "gnnVersion": "1.1",
+        "extrapolationModel": "BasicFlat"
       },
       "noWakeModel": {
         "useLargeWindFarmModel": true,
@@ -4195,14 +4282,17 @@
       "blockageModelType": "BEET",
       "beet": {
         "significantAtmosphericStability": false,
+        "includeIntermediateResults": false,
         "inclusionOfNeighborsBufferZoneInMeters": 1000.0,
         "blockageCorrectionApplicationMethod": "OnEnergy"
       },
       "cfdml": {
         "cfdmlSettings": {
           "gnnType": "Offshore",
-          "gnnStabilityClass": "UnstableNeutral"
+          "gnnVersion": "1.1",
+          "extrapolationModel": "BasicFlat"
         },
+        "includeIntermediateResults": false,
         "blockageCorrectionApplicationMethod": "OnEnergy"
       }
     }

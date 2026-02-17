@@ -23,8 +23,8 @@ import matplotlib.pyplot as plt
 # 
 # The token should be passed as an Authorization header. We also need to set the `Content-Type` to let the API know that we're sending JSON data.
 
-api_url = 'https://windfarmer.dnv.com/api/v2/'
-auth_token = auth_token = os.environ['WINDFARMER_ACCESS_KEY']
+api_url = 'https://windfarmer.dnv.com/api/v3/'
+auth_token = os.environ['WINDFARMER_ACCESS_KEY']
 
 headers = {
     'Authorization': f'Bearer {auth_token}',

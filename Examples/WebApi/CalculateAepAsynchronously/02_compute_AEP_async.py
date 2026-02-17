@@ -7,7 +7,7 @@ import os
 import json
 
 # API connection settings
-BASE_URL = 'https://windfarmer.dnv.com/api/v2/'
+BASE_URL = 'https://windfarmer.dnv.com/api/v3/'
 BEARER_TOKEN = os.environ['WINDFARMER_ACCESS_KEY']
 
 headers = {

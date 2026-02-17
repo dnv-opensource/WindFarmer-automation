@@ -1,0 +1,7 @@
+c71a5e9	2025-11-07	Simplified cfdml atmos conditions from file (#22)
+b2df769	2025-07-30	Removed active x controls from excel blockage calculator tool (#13)
+4f40067	2025-07-10	Fixed expection thrown when initializing SDK twice
+d97366b	2025-01-03	Update README.md (#9)
+8322cf4	2025-01-03	Update README.md
+d405139	2025-01-03	Update README.md
+76d7d4a	2025-01-03	Simplify read mes (#8)
