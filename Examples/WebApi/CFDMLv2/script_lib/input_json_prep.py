@@ -129,7 +129,7 @@ def configure_fpm_export(input_json):
     input_json : dict
         The input JSON configuration dictionary
     """
-    input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAmbientWindSpeed"] = True
+    #input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAmbientWindSpeed"] = True
     input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAtmosphericAwareWakedWindSpeed"] = True
     #input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAtmosphericAwarePowerOutput"] = True
 
