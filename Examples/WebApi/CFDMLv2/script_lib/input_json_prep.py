@@ -177,6 +177,7 @@ def set_model_settings(input_json, wake_model_choice, blockage_model_choice,
         extrapolation_model = wake_models["CFDML"]["model_settings"]["extrapolationModel"]
         if extrapolation_model != "BasicFlat":
             input_json["energyEfficienciesSettings"]["wakeModel"][wake_models[extrapolation_model]["model_key"]] = wake_models[extrapolation_model]["model_settings"]
+        input_json["energyEfficienciesSettings"]["wakeModel"]["eddyViscosity"]["useLargeWindFarmModel"] = False
     
     input_json["energyEfficienciesSettings"]["blockageModel"]["blockageModelType"] = blockage_model_choice
     input_json["energyEfficienciesSettings"]["blockageModel"][blockage_models[blockage_model_choice]["model_key"]] = blockage_models[blockage_model_choice]["model_settings"]
