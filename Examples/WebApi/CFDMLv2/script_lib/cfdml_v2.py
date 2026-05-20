@@ -146,7 +146,7 @@ def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution
         readable = ' '.join(readable.split())  # Remove extra spaces
         return readable
 
-    def get_color_for_class(class_id):
+    def get_color_for_class(class_id, class_index):
         """Assign colors based on offshore/onshore and stable/unstable"""
         class_lower = class_id.lower()
         
@@ -165,12 +165,13 @@ def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution
         # Color scheme: Blue for offshore, Orange/Brown for onshore
         # Darker/more saturated for stable, lighter for unstable
         if is_offshore:
-            return '#0066cc' if is_stable else '#66b3ff'  # Deep blue for stable, light blue for unstable
+            return "#0066cc" if is_stable else '#66b3ff'  # Deep blue for stable, light blue for unstable
         elif is_onshore:
             return '#cc6600' if is_stable else '#ffaa66'  # Deep orange for stable, light orange for unstable
         else:
             # Fallback for unclassified conditions (gray scale)
-            return '#555555' if is_stable else '#999999'  # Dark gray for stable, light gray for unstable
+            paired_colour_map = plt.get_cmap('tab20')
+            return paired_colour_map(class_index % 20)
 
     # Get all distinct atmospheric condition classes
     all_atmos_classes = []
@@ -223,9 +224,11 @@ def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution
     # A4 is 8.27 x 11.69 inches, so 1/4 page is approximately 4 x 3 inches
     fig, ax = plt.subplots(figsize=(5, 4), subplot_kw={'projection':'polar','theta_offset': np.pi / 2, 'theta_direction': -1})
 
+    i = 0
     for key in all_atmos_classes:
         group = df_for_stability_rose_plot[df_for_stability_rose_plot['atmosphericConditionClassIds']==key]
-        color = get_color_for_class(key)
+        color = get_color_for_class(key, i)
+        i += 1
         label = format_class_name(key)
         
         ax.bar(group['angular_bin_center'], 
