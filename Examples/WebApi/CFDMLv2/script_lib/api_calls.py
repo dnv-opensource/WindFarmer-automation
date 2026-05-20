@@ -54,7 +54,7 @@ class WindFarmerAPI:
         response = requests.get(self.api_url + 'AtmosphericConditions', headers = self._get_call_header(), params={
             "lat": lat,
             "lon": lon,
-            "radiusKm": radiusKm,
+            "radius": radiusKm,
             "landFractionThreshold": landFractionThreshold
         })
         site_classification = response.json()
