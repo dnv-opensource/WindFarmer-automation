@@ -18,7 +18,7 @@ default_lwf_parameters = {
 }
 
 
-def get_wake_models(lwf_paramters, cfdml_version="2.6.0", ):
+def get_wake_models(lwf_paramters, cfdml_version="2.6.0"):
     """
     Get wake model configurations.
     

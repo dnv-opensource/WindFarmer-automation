@@ -165,7 +165,7 @@ def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution
         # Color scheme: Blue for offshore, Orange/Brown for onshore
         # Darker/more saturated for stable, lighter for unstable
         if is_offshore:
-            return "#0066cc" if is_stable else '#66b3ff'  # Deep blue for stable, light blue for unstable
+            return '#0066cc' if is_stable else '#66b3ff'  # Deep blue for stable, light blue for unstable
         elif is_onshore:
             return '#cc6600' if is_stable else '#ffaa66'  # Deep orange for stable, light orange for unstable
         else:
