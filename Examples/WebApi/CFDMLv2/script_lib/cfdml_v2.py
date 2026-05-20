@@ -169,7 +169,7 @@ def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution
         elif is_onshore:
             return '#cc6600' if is_stable else '#ffaa66'  # Deep orange for stable, light orange for unstable
         else:
-            # Fallback for unclassified conditions (gray scale)
+            # For unclassified conditions use paired colors
             paired_colour_map = plt.get_cmap('tab20')
             return paired_colour_map(class_index % 20)
 
