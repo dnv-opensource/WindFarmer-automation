@@ -6093,18 +6093,19 @@
         "includeCurtailmentRules": false,
         "turbineFlowAndPerformanceMatrixOutputSettings": {
             "outputMastToTurbineSpeedUp": false,
-            "outputAmbientWindSpeed": true,
+            "outputAmbientWindSpeed": false,
             "outputAmbientTurbulenceIntensity": false,
             "outputDominantWakeCenterLineWindSpeed": false,
             "outputDominantWakeOffset": false,
             "outputDominantWakeWidth": false,
-            "outputWakedWindSpeed": true,
+            "outputWakedWindSpeed": false,
             "outputWakedTurbulenceIntensity": false,
             "outputPowerOutput": false,
             "outputProbabilityDistribution": false,
             "outputUpstreamTurbineCausingWake": false,
             "outputOperationalMode": false,
-            "localTurbineWindSpeedsOutputSettings": null
+            "localTurbineWindSpeedsOutputSettings": null,
+            "outputAtmosphericAwareWakedWindSpeed": true
         },
         "numberOfDirectionSectorsForWakeCalculation": 180,
         "maximumWindSpeedForEvaluation_m_per_s": 0.0,
@@ -6112,7 +6113,7 @@
         "wakeModel": {
             "wakeModelType": "CFDML",
             "eddyViscosity": {
-                "useLargeWindFarmModel": true,
+                "useLargeWindFarmModel": false,
                 "largeWindFarmCorrectionParameters": {
                     "baseRoughnessZ01": 0.0004,
                     "increasedRoughnessZ02": 0.0192,
