@@ -238,7 +238,7 @@ def plot_atmospheric_conditions_rose(atmosphericConditionProbabilityDistribution
             color=color)
 
     ax.set_ylim([0, 1.0])
-    ax.set_title("Atmospheric Conditions at an exemplary North Sea site off the UK coast", fontsize=11, pad=15)
+    ax.set_title("Atmospheric Conditions class frequency rose", fontsize=11, pad=15)
 
     # Position legend outside plot area to avoid overlap
     ax.legend(loc='upper left', bbox_to_anchor=(1.15, 1.0), frameon=True, fontsize=9)
