@@ -9,7 +9,7 @@ and various calculation configurations.
 import numpy as np
 
 # Large wind farm correction parameters (default offshore settings)
-lwf_paramters = {
+default_lwf_parameters = {
     "baseRoughnessZ01": 0.0004,
     "increasedRoughnessZ02": 0.0192,
     "geometricWidthDiameters": 1.0,
@@ -18,7 +18,7 @@ lwf_paramters = {
 }
 
 
-def get_wake_models(cfdml_version="2.6.0"):
+def get_wake_models(lwf_paramters, cfdml_version="2.6.0"):
     """
     Get wake model configurations.
     
@@ -136,7 +136,8 @@ def configure_fpm_export(input_json):
 
 def set_model_settings(input_json, wake_model_choice, blockage_model_choice, 
                       calculate_efficiencies, number_of_direction_steps,
-                      cfdml_version="2.6.0", blockage_application_method="OnWindSpeed"):
+                      cfdml_version="2.6.0", blockage_application_method="OnWindSpeed", 
+                      lwf_parameters=None, lwf_used_in_wind_speed_extrapolation=False):
     """
     Set model settings for wake and blockage calculations.
     
@@ -156,9 +157,15 @@ def set_model_settings(input_json, wake_model_choice, blockage_model_choice,
         Version of CFDML to use (default: "2.6.0")
     blockage_application_method : str, optional
         Method for applying blockage correction (default: "OnWindSpeed")
+    lwf_parameters : dict, optional
+        Parameters for large wind farm correction if used (default: predefined offshore settings)
+    lwf_used_in_wind_speed_extrapolation : bool, optional
+        Whether to use large wind farm correction in extrapolation of CFDML TILF over wind speeds  (default: False)
     """
     # Get model configurations with current parameters
-    wake_models = get_wake_models(cfdml_version)
+    if lwf_parameters is None:
+        lwf_parameters = default_lwf_parameters
+    wake_models = get_wake_models(lwf_parameters, cfdml_version)
     blockage_models = get_blockage_models(cfdml_version, blockage_application_method)
     
     # let's set the modeling options contained in the json
@@ -177,7 +184,7 @@ def set_model_settings(input_json, wake_model_choice, blockage_model_choice,
         extrapolation_model = wake_models["CFDML"]["model_settings"]["extrapolationModel"]
         if extrapolation_model != "BasicFlat":
             input_json["energyEfficienciesSettings"]["wakeModel"][wake_models[extrapolation_model]["model_key"]] = wake_models[extrapolation_model]["model_settings"]
-        input_json["energyEfficienciesSettings"]["wakeModel"]["eddyViscosity"]["useLargeWindFarmModel"] = False
+        input_json["energyEfficienciesSettings"]["wakeModel"]["eddyViscosity"]["useLargeWindFarmModel"] = lwf_used_in_wind_speed_extrapolation
     
     input_json["energyEfficienciesSettings"]["blockageModel"]["blockageModelType"] = blockage_model_choice
     input_json["energyEfficienciesSettings"]["blockageModel"][blockage_models[blockage_model_choice]["model_key"]] = blockage_models[blockage_model_choice]["model_settings"]
