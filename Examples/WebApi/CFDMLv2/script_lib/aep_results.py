@@ -6,21 +6,13 @@ class AEPResultsProcessor:
     to provide methods to compute the efficiencies and yields over the subject farms.
     and to summarise the results in a dataframe.
     """
-    def __init__(self, aep_api_inputs: dict, aep_api_results_all_farms: dict, aep_api_results_subject_farms: dict):
+    def __init__(self, aep_api_inputs: dict, aep_api_results: dict):
         """
         Initialize the AEPResultsProcessor class.
         :param aep_api_inputs: The input data for the AEP API call.
-        :param aep_api_results_all_farms: The results from the AEP API call considering both subject and neighbour wind farms.
-        :param aep_api_results_subject_farms: The results from an AEP API call including only the subject farms. Required for CFD.ML calculations to allow delineation of internal and external blockage impacts.
+        :param aep_api_results_all_farms: The results from the AEP API call.
         """
-        if aep_api_results_subject_farms is None:
-            neighbour_farms = [w for w in aep_api_inputs["windFarms"] if w["isNeighbor"] == True]
-            if len(neighbour_farms) > 0 and aep_api_inputs["modelSettings"]["wakeModelType"] == "CFDML":
-                raise ValueError("To get a turbine interaction efficiency breakdown, separate AEP results from a calculation only including subject farms are required when running CFD.ML calculations.")
-            self.subject_results_dict = aep_api_results_all_farms
-        else:
-            self.subject_results_dict = aep_api_results_subject_farms
-        self.full_results_dict = aep_api_results_all_farms
+        self.full_results_dict = aep_api_results
         self._blockage_model_type = str(aep_api_inputs["energyEfficienciesSettings"]["blockageModel"]["blockageModelType"])
         self._wake_model_type = str(aep_api_inputs["energyEfficienciesSettings"]["wakeModel"]["wakeModelType"])
         self._blockage_correction_efficiency_method = aep_api_inputs["energyEfficienciesSettings"]["blockageModel"][(self._blockage_model_type).lower()]["blockageCorrectionApplicationMethod"]
@@ -48,7 +40,7 @@ class AEPResultsProcessor:
         """Get the total blockage efficiency considering subject and neighbour blockage impacts on subject farms.
         :return: Total blockage efficiency factor.
         """
-        return self._get_blockage_efficiency(self.full_results_dict)
+        return self._get_external_blockage_efficiency(self.full_results_dict) * self._get_internal_blockage_efficiency(self.full_results_dict)
 
     def get_total_wake_efficiency(self):
         """Get the total wake efficiency considering subject and neighbour wake impacts on subject farms.
@@ -56,8 +48,8 @@ class AEPResultsProcessor:
         """
         return self.get_external_wake_efficiency() * self.get_internal_wake_efficiency()
 
-    def _get_blockage_efficiency(self, results_dict):
-        """Get the blockage efficiency over all farms in the specified results dict.
+    def _get_internal_blockage_efficiency(self, results_dict):
+        """Get the blockage efficiency over the subject wind farms.
         :return: Blockage efficiency factor."""
         blockage_correction_efficiency = -1
         if self._blockage_correction_efficiency_method == "OnEnergy":
@@ -66,9 +58,27 @@ class AEPResultsProcessor:
             if self._calculated_efficiencies == False:
                 print("Efficiencies were not calculated in the API call, but the OnWindSpeed option was selected. We can't quantify blockege correction efficiency")
                 return 1.0
-            blockage_on_aep_MWh_per_year = sum([float(x['blockageOnAnnualEnergyYield_MWh_per_year']) for x in results_dict["windFarmAepOutputs"]])
+            internal_blockage_on_aep_MWh_per_year = sum([float(x['internalBlockageOnAnnualEnergyYield_MWh_per_year']) for x in results_dict["windFarmAepOutputs"]])
             gross_aep_MWh_per_year = sum([float(x['grossAnnualEnergyYield_MWh_per_year']) for x in results_dict["windFarmAepOutputs"]])
-            blockage_correction_efficiency = blockage_on_aep_MWh_per_year / gross_aep_MWh_per_year
+            blockage_correction_efficiency = internal_blockage_on_aep_MWh_per_year / gross_aep_MWh_per_year
+        else:
+            print("blockage_correction_application_method not recognised")
+        return blockage_correction_efficiency   
+    
+    def _get_external_blockage_efficiency(self, results_dict):
+        """Get the blockage efficiency over the neighbor wind farms
+        :return: Blockage efficiency factor."""
+        blockage_correction_efficiency = 1.0
+        if self._blockage_correction_efficiency_method == "OnEnergy":
+            # OnEnergy does not distinguish external blockage
+            return blockage_correction_efficiency
+        elif self._blockage_correction_efficiency_method == "OnWindSpeed":
+            if self._calculated_efficiencies == False:
+                print("Efficiencies were not calculated in the API call, but the OnWindSpeed option was selected. We can't quantify blockege correction efficiency")
+                return 1.0
+            blockage_on_aep_MWh_per_year = sum([float(x['blockageOnAnnualEnergyYield_MWh_per_year']) for x in results_dict["windFarmAepOutputs"]])
+            internal_blockage_on_aep_MWh_per_year = sum([float(x['internalBlockageOnAnnualEnergyYield_MWh_per_year']) for x in results_dict["windFarmAepOutputs"]])
+            blockage_correction_efficiency = blockage_on_aep_MWh_per_year / internal_blockage_on_aep_MWh_per_year
         else:
             print("blockage_correction_application_method not recognised")
         return blockage_correction_efficiency   
@@ -80,7 +90,7 @@ class AEPResultsProcessor:
 
         :return: Internal blockage efficiency.
         """
-        return self._get_blockage_efficiency(self.subject_results_dict)
+        return self._get_internal_blockage_efficiency(self.full_results_dict)
 
     def get_internal_turbine_interaction_efficiency(self):
         """Get the internal wake turbine interaction efficiency considering only subject farms.
@@ -95,14 +105,14 @@ class AEPResultsProcessor:
 
         :return: Internal wake efficiency factor.
         """
-        intWakesOnAnnualEnergyYield_MWh_per_year = sum([float(x['internalWakesOnAnnualEnergyYield_MWh_per_year']) for x in self.subject_results_dict["windFarmAepOutputs"]])
-        intBlockageOnAnnualEnergyYield_MWh_per_year = sum([float(x['blockageOnAnnualEnergyYield_MWh_per_year']) for x in self.subject_results_dict["windFarmAepOutputs"]])
+        intWakesOnAnnualEnergyYield_MWh_per_year = sum([float(x['internalWakesOnAnnualEnergyYield_MWh_per_year']) for x in self.full_results_dict["windFarmAepOutputs"]])
+        intBlockageOnAnnualEnergyYield_MWh_per_year = sum([float(x['internalBlockageOnAnnualEnergyYield_MWh_per_year']) for x in self.full_results_dict["windFarmAepOutputs"]])
         
         if self._wake_model_type != "CFDML":
             # internal LWF impacts non-zero. 
             # Due to ordering, of calculation we need to factor out a possible hysteresis adjustment efficiency
-            intLwfCorrectionOnAnnualEnergyYield_MWh_per_year = sum([float(x['largeWindFarmCorrectionOnAnnualEnergyYield_MWh_per_year']) for x in self.subject_results_dict["windFarmAepOutputs"]])
-            intHysteresisAdjustmentOnAnnualEnergyYield_MWh_per_year = sum([float(x['hysteresisAdjustmentOnAnnualEnergyYield_MWh_per_year']) for x in self.subject_results_dict["windFarmAepOutputs"]])
+            intLwfCorrectionOnAnnualEnergyYield_MWh_per_year = sum([float(x['largeWindFarmCorrectionOnAnnualEnergyYield_MWh_per_year']) for x in self.full_results_dict["windFarmAepOutputs"]])
+            intHysteresisAdjustmentOnAnnualEnergyYield_MWh_per_year = sum([float(x['hysteresisAdjustmentOnAnnualEnergyYield_MWh_per_year']) for x in self.full_results_dict["windFarmAepOutputs"]])
             internal_lwf_correction_efficiency = intLwfCorrectionOnAnnualEnergyYield_MWh_per_year / intHysteresisAdjustmentOnAnnualEnergyYield_MWh_per_year
         else:
             internal_lwf_correction_efficiency = 1.0
@@ -130,9 +140,7 @@ class AEPResultsProcessor:
         """Get the external blockage efficiency, the extra blockage impact on subject farms due to adding neighbouring wind farms
         :return: External blockage efficiency.
         """
-        blockageOnAnnualEnergyYield_MWh_per_year_all_farms = sum([float(x['blockageOnAnnualEnergyYield_MWh_per_year']) for x in self.full_results_dict["windFarmAepOutputs"]])
-        blockageOnAnnualEnergyYield_MWh_per_year_subject_farms = sum([float(x['blockageOnAnnualEnergyYield_MWh_per_year']) for x in self.subject_results_dict["windFarmAepOutputs"]])
-        return blockageOnAnnualEnergyYield_MWh_per_year_all_farms / blockageOnAnnualEnergyYield_MWh_per_year_subject_farms
+        return self._get_external_blockage_efficiency(self.full_results_dict)
     
     def get_external_wake_efficiency(self):
         """Get the external wake efficiency, the extra wake impact on subject farms due to adding neighbouring wind farms
