@@ -40,7 +40,7 @@ class AEPResultsProcessor:
         """Get the total blockage efficiency considering subject and neighbour blockage impacts on subject farms.
         :return: Total blockage efficiency factor.
         """
-        return self.get_external_blockage_efficiency(self.full_results_dict) * self.get_internal_blockage_efficiency(self.full_results_dict)
+        return self.get_external_blockage_efficiency() * self.get_internal_blockage_efficiency()
 
     def get_total_wake_efficiency(self):
         """Get the total wake efficiency considering subject and neighbour wake impacts on subject farms.
