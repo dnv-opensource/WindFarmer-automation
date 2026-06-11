@@ -61,8 +61,8 @@ class WindFarmerAPI:
 
         print(f'Response from AtmosphericConditions: {response.status_code}')
         if response.status_code == 200:
-            print("Site Classification Results:")
-            print(json.dumps(site_classification, indent=2))
+            print("Site Classification metadata:")
+            print(json.dumps(site_classification["metadata"], indent=2))
             return site_classification
         else:
             print(response.status_code)

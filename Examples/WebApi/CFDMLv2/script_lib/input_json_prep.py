@@ -120,7 +120,7 @@ def switch_off_fpm_export(input_json):
             input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"][fpm] = None
 
 
-def configure_fpm_export(input_json):
+def configure_fpm_export(input_json, wake_model_choice):
     """
     Configure FPM export settings to output wind speed data.
     
@@ -129,10 +129,13 @@ def configure_fpm_export(input_json):
     input_json : dict
         The input JSON configuration dictionary
     """
+    if str(wake_model_choice).lower() == "cfdml":
+        input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAtmosphericAwareWakedWindSpeed"] = True
+    else:
+        input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputWakedWindSpeed"] = True
+    # Other likely useful FPMs if we want to normalize out ambient flow or look at PoP by direction etc.:
     #input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAmbientWindSpeed"] = True
-    input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAtmosphericAwareWakedWindSpeed"] = True
-    #input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputAtmosphericAwarePowerOutput"] = True
-
+    #input_json["energyEfficienciesSettings"]["turbineFlowAndPerformanceMatrixOutputSettings"]["outputPowerOutput"] = True
 
 def set_model_settings(input_json, wake_model_choice, blockage_model_choice, 
                       calculate_efficiencies, number_of_direction_steps,
