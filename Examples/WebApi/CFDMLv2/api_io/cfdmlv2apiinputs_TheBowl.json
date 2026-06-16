@@ -6137,7 +6137,7 @@
             },
             "cfdml": {
                 "gnnType": "Offshore",
-                "gnnVersion": "2.6.0",
+                "gnnVersion": "2.10.4",
                 "extrapolationModel": "EddyViscosity"
             },
             "noWakeModel": {
@@ -6162,7 +6162,7 @@
             "cfdml": {
                 "cfdmlSettings": {
                     "gnnType": "Offshore",
-                    "gnnVersion": "2.6.0"
+                    "gnnVersion": "2.10.4"
                 },
                 "blockageCorrectionApplicationMethod": "OnWindSpeed",
                 "cfdmlBlockageWindSpeedDependency": "FromBlockageExtrapolationCurve"

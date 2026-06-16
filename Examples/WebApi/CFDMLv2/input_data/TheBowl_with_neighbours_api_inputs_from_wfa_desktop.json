@@ -5409,7 +5409,7 @@
             },
             "cfdml": {
                 "gnnType": "Offshore",
-                "gnnVersion": "1.1",
+                "gnnVersion": "2.10.4",
                 "extrapolationModel": "BasicFlat"
             },
             "noWakeModel": {
@@ -5434,7 +5434,7 @@
             "cfdml": {
                 "cfdmlSettings": {
                     "gnnType": "Offshore",
-                    "gnnVersion": "1.1",
+                    "gnnVersion": "2.10.4",
                     "extrapolationModel": "BasicFlat"
                 },
                 "includeIntermediateResults": false,

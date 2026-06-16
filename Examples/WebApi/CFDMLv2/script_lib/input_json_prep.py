@@ -18,14 +18,14 @@ default_lwf_parameters = {
 }
 
 
-def get_wake_models(lwf_paramters, cfdml_version="2.6.0"):
+def get_wake_models(lwf_paramters, cfdml_version="2.10.4"):
     """
     Get wake model configurations.
     
     Parameters:
     -----------
     cfdml_version : str, optional
-        Version of CFDML to use (default: "2.6.0")
+        Version of CFDML to use (default: "2.10.4")
         
     Returns:
     --------
@@ -64,14 +64,14 @@ def get_wake_models(lwf_paramters, cfdml_version="2.6.0"):
     }
 
 
-def get_blockage_models(cfdml_version="2.6.0", blockage_application_method="OnWindSpeed"):
+def get_blockage_models(cfdml_version="2.10.4", blockage_application_method="OnWindSpeed"):
     """
     Get blockage model configurations.
     
     Parameters:
     -----------
     cfdml_version : str, optional
-        Version of CFDML to use (default: "2.6.0")
+        Version of CFDML to use (default: "2.10.4")
     blockage_application_method : str, optional
         Method for applying blockage correction (default: "OnWindSpeed")
         
@@ -139,7 +139,7 @@ def configure_fpm_export(input_json, wake_model_choice):
 
 def set_model_settings(input_json, wake_model_choice, blockage_model_choice, 
                       calculate_efficiencies, number_of_direction_steps,
-                      cfdml_version="2.6.0", blockage_application_method="OnWindSpeed", 
+                      cfdml_version="2.10.4", blockage_application_method="OnWindSpeed", 
                       lwf_parameters=None, lwf_used_in_wind_speed_extrapolation=False):
     """
     Set model settings for wake and blockage calculations.
@@ -157,7 +157,7 @@ def set_model_settings(input_json, wake_model_choice, blockage_model_choice,
     number_of_direction_steps : int
         Number of direction steps for wake calculation
     cfdml_version : str, optional
-        Version of CFDML to use (default: "2.6.0")
+        Version of CFDML to use (default: "2.10.4")
     blockage_application_method : str, optional
         Method for applying blockage correction (default: "OnWindSpeed")
     lwf_parameters : dict, optional

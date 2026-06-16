@@ -5614,7 +5614,7 @@
       },
       "cfdml": {
 		  "gnnType": "Onshore",
-		  "gnnVersion": "1.1"
+		  "gnnVersion": "2.10.4"
 	  },
       "noWakeModel": {
         "useLargeWindFarmModel": true,
