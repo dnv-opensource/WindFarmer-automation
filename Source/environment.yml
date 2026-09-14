@@ -2,19 +2,24 @@ name: wf_auto
 channels:
   - conda-forge
 dependencies:
-  - python 3.9.*
+  - python 3.10.* # pythonnet 3.1 requires python 3.10
   - pip 
-  # for some examples
+  # for automation examples
   - numpy
   - pandas
   - matplotlib  
-  # For using the web API
+  # for using the web API
   - requests
   - aiohttp
   # for editing in VS code as jupyter notebooks
   - ipython
   - ipykernel 
+  # for windfarmer sdk
+  - pydantic>=2.11
+  - progressbar2>=4.6.0
   - pip:
-    # to use the SDK
-    - pythonnet == 3.0.*
-    
+    # to use the desktop SDK
+    - pythonnet == 3.1.*
+    # the sdk to the web API
+    - dnv_windfarmer_sdk
+      
