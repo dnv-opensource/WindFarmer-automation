@@ -105,3 +105,7 @@ venv.bak/
 
 # vscode folder
 .vscode/
+
+# ERA5
+era5_time_series/
+*preset_atmospheric_conditions.json

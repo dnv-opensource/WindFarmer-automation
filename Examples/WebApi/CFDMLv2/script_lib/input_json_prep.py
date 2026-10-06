@@ -7,6 +7,8 @@ and various calculation configurations.
 """
 
 import numpy as np
+import pandas as pd
+import json
 
 # Large wind farm correction parameters (default offshore settings)
 default_lwf_parameters = {
@@ -328,3 +330,84 @@ def set_model_settings_for_blockage_only_runs(input_json):
     input_json["energyEfficienciesSettings"]["includeCurtailmentRules"] = False
     input_json["energyEfficienciesSettings"]["calculateIdealYield"] = False
     switch_off_fpm_export(input_json)
+
+def read_stable_weights(stable_weights_file_path):
+    stable_weights_df = pd.read_csv(stable_weights_file_path, sep='\t', engine='python', index_col=[0])
+    stable_weights_df.index.name = "bin_centre"
+    stable_weights_df.columns = ["stable_weight"]
+    number_of_equal_sectors = stable_weights_df.shape[0] # assumes stable weight bins are equally spaced.
+    bin_width = 360 / number_of_equal_sectors
+    
+    stable_weights_df["fromDirection_degrees"] = stable_weights_df.index.map(lambda x: (x - bin_width/2) % 360)
+    stable_weights_df["toDirection_degrees"] = stable_weights_df.index.map(lambda x: (x + bin_width/2) % 360)
+    return stable_weights_df
+
+def parse_stable_weights_to_atmos_condition_prob_dist(stable_weights_file_path, stable_atmos_condition_class_name, unstable_atmos_condition_class_name):
+    
+    if stable_weights_file_path is not None:
+        stable_weights_df = read_stable_weights(stable_weights_file_path)
+    else:
+        raise ValueError(f"attempting to set up atmos condtion probability dict with multiple classes but no stable weights file available!")
+    stable_weights_df["probabilityForClasses"] = stable_weights_df["stable_weight"].map(lambda x: [x, 1-x])
+    stable_weights_df["atmosphericConditionClassIds"] = stable_weights_df.index.map(lambda x: [stable_atmos_condition_class_name, unstable_atmos_condition_class_name])
+    stable_weights_df = stable_weights_df.drop("stable_weight", axis=1)
+    atmos_condition_prob_dist = [sector for sector in stable_weights_df.T.to_dict().values()]
+    return atmos_condition_prob_dist
+
+def build_condition_class(atmospheric_conditions_presets, condition_class):
+    # Map preset property names to API property names; keys not listed are copied unchanged
+    key_renames = {
+        "heightInversionLayer_m": "thicknessInversionLayer_m",
+        "z": "heightsAboveSurface_m",
+        "ti": "turbulenceIntensityProfile",
+        "dvdz": "windSpeedVerticalGradientProfile_per_s_m",
+    }
+    keys_to_drop = {"vmag"}
+
+    result = {"id": condition_class}
+    for key, value in atmospheric_conditions_presets[condition_class].items():
+        if key in keys_to_drop:
+            continue
+        result[key_renames.get(key, key)] = value
+    return result
+
+def create_atmospheric_conditions_from_files(atmospheric_conditions_file_path, stable_weights_file_path, stable_atmos_condition_class_name, unstable_atmos_condition_class_name):
+    """ Generate the AtmosphericConditions json to be used in the WebApi. 
+    
+    Args:
+    -----
+    atmospheric_conditions_file_path : str
+        Path to the JSON file containing atmospheric conditions presets.
+    stable_weights_file_path : str
+        Path to the CSV file containing stable weights.
+    stable_atmos_condition_class_name : str
+        Name of the stable atmospheric condition class.
+    unstable_atmos_condition_class_name : str
+        Name of the unstable atmospheric condition class.
+
+    Returns:
+    --------
+    dict: 
+        AtmosphericConditions JSON structure ready for the WebApi.
+    """
+    # Parse stable weights file to create probability distribution
+    atmos_condition_prob_dist = parse_stable_weights_to_atmos_condition_prob_dist(stable_weights_file_path, stable_atmos_condition_class_name, unstable_atmos_condition_class_name)
+
+    # Parse the atmospheric conditions presets file for the profiles
+    with open(atmospheric_conditions_file_path) as f:
+        atmospheric_conditions_presets = json.load(f)
+
+    # Check both condition classes exist in the presets
+    for condition_class in (stable_atmos_condition_class_name, unstable_atmos_condition_class_name):
+        if condition_class not in atmospheric_conditions_presets:
+            raise KeyError(f"'{condition_class}' not found in {atmospheric_conditions_file_path}")
+
+    # Build the atmospheric_conditions dict, moving the class name into an 'id' property
+    atmospheric_conditions = {
+        "atmosphericConditionClasses": [
+            build_condition_class(atmospheric_conditions_presets, stable_atmos_condition_class_name),
+            build_condition_class(atmospheric_conditions_presets, unstable_atmos_condition_class_name),
+        ]
+    }
+    atmospheric_conditions["atmosphericConditionProbabilityDistribution"] = atmos_condition_prob_dist
+    return atmospheric_conditions
